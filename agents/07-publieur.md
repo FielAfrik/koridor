@@ -1,0 +1,29 @@
+# Agent 7 — Publieur
+
+## Mission
+
+Préparer la publication. Il ne publie jamais directement en ligne : il ouvre une pull
+request que le rédacteur en chef fusionne.
+
+## Étapes
+
+1. `python3 scripts/validate.py` puis `python3 site/build.py`. Les deux doivent réussir.
+2. Préparer `work/AAAA-MM-JJ/linkedin.md` : 3 brouillons de posts (un carrousel « 5
+   projets de la semaine », un post sur le deal, un post sur le décryptage), en français,
+   avec le lien vers la page concernée du site.
+3. Commettre les changements de `data/` et `reports/` sur la branche `veille/AAAA-MM-JJ`.
+   Ne pas commettre `dist/` ni `work/`.
+4. Ouvrir la pull request vers `main`, titrée « Veille du AAAA-MM-JJ — N projets mis à
+   jour », avec pour description le rapport du Rapporteur.
+5. Si un contrôle a échoué, ouvrir la pull request en brouillon (draft).
+
+## Après la fusion
+
+La fusion déclenche le workflow `.github/workflows/deploy.yml`, qui construit le site et
+le publie sur GitHub Pages. Aucune autre action n'est nécessaire.
+
+## Newsletter
+
+Quand un service d'envoi sera choisi (Buttondown, Brevo ou Substack), le Publieur
+préparera le Brief dans son format et le programmera pour le lundi 7 h (heure de Paris),
+après la fusion seulement.

@@ -1,0 +1,20 @@
+{
+  "DZ": ["Algérie", "Algeria"], "AO": ["Angola", "Angola"], "BJ": ["Bénin", "Benin"],
+  "BW": ["Botswana", "Botswana"], "BF": ["Burkina Faso", "Burkina Faso"], "BI": ["Burundi", "Burundi"],
+  "CV": ["Cap-Vert", "Cabo Verde"], "CM": ["Cameroun", "Cameroon"], "CF": ["Centrafrique", "Central African Republic"],
+  "TD": ["Tchad", "Chad"], "KM": ["Comores", "Comoros"], "CG": ["Congo", "Congo"],
+  "CD": ["RDC", "DRC"], "CI": ["Côte d'Ivoire", "Côte d'Ivoire"], "DJ": ["Djibouti", "Djibouti"],
+  "EG": ["Égypte", "Egypt"], "GQ": ["Guinée équatoriale", "Equatorial Guinea"], "ER": ["Érythrée", "Eritrea"],
+  "SZ": ["Eswatini", "Eswatini"], "ET": ["Éthiopie", "Ethiopia"], "GA": ["Gabon", "Gabon"],
+  "GM": ["Gambie", "The Gambia"], "GH": ["Ghana", "Ghana"], "GN": ["Guinée", "Guinea"],
+  "GW": ["Guinée-Bissau", "Guinea-Bissau"], "KE": ["Kenya", "Kenya"], "LS": ["Lesotho", "Lesotho"],
+  "LR": ["Liberia", "Liberia"], "LY": ["Libye", "Libya"], "MG": ["Madagascar", "Madagascar"],
+  "MW": ["Malawi", "Malawi"], "ML": ["Mali", "Mali"], "MR": ["Mauritanie", "Mauritania"],
+  "MU": ["Maurice", "Mauritius"], "MA": ["Maroc", "Morocco"], "MZ": ["Mozambique", "Mozambique"],
+  "NA": ["Namibie", "Namibia"], "NE": ["Niger", "Niger"], "NG": ["Nigeria", "Nigeria"],
+  "RW": ["Rwanda", "Rwanda"], "ST": ["Sao Tomé-et-Principe", "São Tomé and Príncipe"], "SN": ["Sénégal", "Senegal"],
+  "SC": ["Seychelles", "Seychelles"], "SL": ["Sierra Leone", "Sierra Leone"], "SO": ["Somalie", "Somalia"],
+  "ZA": ["Afrique du Sud", "South Africa"], "SS": ["Soudan du Sud", "South Sudan"], "SD": ["Soudan", "Sudan"],
+  "TZ": ["Tanzanie", "Tanzania"], "TG": ["Togo", "Togo"], "TN": ["Tunisie", "Tunisia"],
+  "UG": ["Ouganda", "Uganda"], "ZM": ["Zambie", "Zambia"], "ZW": ["Zimbabwe", "Zimbabwe"]
+}

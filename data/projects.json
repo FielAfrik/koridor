@@ -1,0 +1,317 @@
+[
+  {
+    "id": "metro-kinshasa",
+    "name": {"fr": "Métro de Kinshasa", "en": "Kinshasa Metro"},
+    "country": "CD",
+    "sector": "transport",
+    "stage": 2,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Projet de métro pour la capitale de la RDC. Un financement de 877 millions a été annoncé en octobre 2026 ; la devise, les prêteurs et les conditions restent à confirmer.",
+      "en": "A metro project for the capital of the DRC. Financing of 877 million was announced in October 2026; the currency, lenders and terms are still to be confirmed."
+    },
+    "capacity": null,
+    "cost": {"amount": 877, "currency": null, "unit": "millions", "note": {"fr": "Financement annoncé, devise à confirmer", "en": "Announced financing, currency to be confirmed"}},
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-14",
+        "type": "financement",
+        "text": {"fr": "Annonce d'un financement de 877 millions pour le projet.", "en": "Financing of 877 million announced for the project."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa", "publisher": "Agence Ecofin", "title": "La RDC obtient un financement de 877 millions pour le projet de métro de Kinshasa", "published": "2026-10-14", "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "reseau-gazier-senegal",
+    "name": {"fr": "Extension du réseau de gazoducs", "en": "Gas pipeline network expansion"},
+    "country": "SN",
+    "sector": "energie",
+    "stage": 3,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Le Sénégal étend son réseau de gazoducs. Des travaux ont démarré sur un gazoduc, et l'État cherche à mobiliser près de 600 millions pour l'extension du réseau.",
+      "en": "Senegal is expanding its gas pipeline network. Work has started on one pipeline, and the state is seeking to raise close to 600 million for the network expansion."
+    },
+    "capacity": null,
+    "cost": {"amount": 600, "currency": null, "unit": "millions", "note": {"fr": "Montant recherché (« près de »), devise à confirmer", "en": "Amount sought (\"close to\"), currency to be confirmed"}},
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-18",
+        "type": "financement",
+        "text": {"fr": "L'État veut mobiliser près de 600 millions pour étendre son réseau gazier.", "en": "The state aims to raise close to 600 million to expand its gas network."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.agenceecofin.com/actualites/1810-142520-le-senegal-veut-mobiliser-pres-de-600-millions-pour-etendre-son-reseau-gazier", "publisher": "Agence Ecofin", "title": "Le Sénégal veut mobiliser près de 600 millions pour étendre son réseau gazier", "published": "2026-10-18", "tier": "B"}]
+      },
+      {
+        "date": "2026-10",
+        "type": "travaux",
+        "text": {"fr": "Démarrage des travaux d'un gazoduc.", "en": "Construction starts on a gas pipeline."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/senegal-works-starts-gas-pipeline", "publisher": "African Energy", "title": "Senegal: Works starts on gas pipeline", "published": null, "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "centrale-gaz-togo",
+    "name": {"fr": "Grande centrale à gaz", "en": "Large gas-fired power plant"},
+    "country": "TG",
+    "sector": "energie",
+    "stage": 1,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Le Togo prépare la procédure d'achat d'une grande centrale électrique au gaz. Capacité, site et calendrier restent à confirmer.",
+      "en": "Togo is preparing the procurement of a large gas-fired power plant. Capacity, site and timetable are still to be confirmed."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "appel-d-offres",
+        "text": {"fr": "Préparation de la procédure d'achat de la centrale.", "en": "Procurement for the plant is being prepared."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/togo-prepares-large-gas-power-plant-procurement", "publisher": "African Energy", "title": "Togo prepares large gas power plant procurement", "published": null, "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "step-tubatse",
+    "name": {"fr": "STEP de Tubatse", "en": "Tubatse pumped storage scheme"},
+    "country": "ZA",
+    "sector": "energie",
+    "stage": 1,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Station de transfert d'énergie par pompage (stockage hydraulique) en Afrique du Sud. La procédure d'appel d'offres a démarré.",
+      "en": "A pumped hydro storage scheme in South Africa. The tender process has started."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "appel-d-offres",
+        "text": {"fr": "Lancement de la procédure d'appel d'offres.", "en": "Tender process launched."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/south-africa-tubatse-pumped-hydro-storage-tender-process-starts", "publisher": "African Energy", "title": "South Africa: Tubatse pumped hydro storage tender process starts", "published": null, "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "solaire-kafue",
+    "name": {"fr": "Centrale solaire de Kafue", "en": "Kafue solar plant"},
+    "country": "ZM",
+    "sector": "energie",
+    "stage": 1,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Projet solaire de Globeleq en Zambie. Le contrat EPC a été attribué à Solarcentury Africa et Alensy.",
+      "en": "A Globeleq solar project in Zambia. The EPC contract has been awarded to Solarcentury Africa and Alensy."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": ["Globeleq"],
+    "lenders": [],
+    "contractors": ["Solarcentury Africa", "Alensy"],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "attribution",
+        "text": {"fr": "Attribution du contrat EPC à Solarcentury Africa et Alensy.", "en": "EPC contract awarded to Solarcentury Africa and Alensy."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.africa-energy.com/live-data/article/zambia-solarcentury-africa-and-alensy-win-epc-deal-globeleqs-kafue", "publisher": "African Energy", "title": "Zambia: Solarcentury Africa and Alensy win EPC deal for Globeleq's Kafue", "published": null, "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "transguineen",
+    "name": {"fr": "Transguinéen", "en": "Trans-Guinean railway"},
+    "country": "GN",
+    "sector": "transport",
+    "stage": 3,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Ligne ferroviaire guinéenne. Le voyage inaugural a eu lieu ; plusieurs étapes restent à franchir avant l'ouverture commerciale.",
+      "en": "A Guinean railway line. The inaugural journey has taken place; several steps remain before commercial opening."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-14",
+        "type": "travaux",
+        "text": {"fr": "Voyage inaugural effectué ; l'ouverture commerciale reste à venir.", "en": "Inaugural journey completed; commercial opening still to come."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142391-apres-le-voyage-inaugural-le-transguineen-doit-encore-franchir-des-etapes-avant-louverture-commerciale", "publisher": "Agence Ecofin", "title": "Après le voyage inaugural, le Transguinéen doit encore franchir des étapes avant l'ouverture commerciale", "published": "2026-10-14", "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "port-maputo-dragage",
+    "name": {"fr": "Dragage du chenal du port de Maputo", "en": "Maputo port channel dredging"},
+    "country": "MZ",
+    "sector": "transport",
+    "stage": 3,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Le port de Maputo fait draguer son chenal d'accès pour accueillir des navires plus larges.",
+      "en": "Maputo port is dredging its access channel to take wider vessels."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-14",
+        "type": "travaux",
+        "text": {"fr": "Travaux de dragage du chenal d'accès.", "en": "Access channel dredging under way."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142395-le-port-de-maputo-fait-draguer-son-chenal-dacces-pour-accueillir-des-navires-plus-larges", "publisher": "Agence Ecofin", "title": "Le port de Maputo fait draguer son chenal d'accès pour accueillir des navires plus larges", "published": "2026-10-14", "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "barrage-kariba",
+    "name": {"fr": "Réhabilitation du barrage de Kariba", "en": "Kariba dam rehabilitation"},
+    "country": "ZM,ZW",
+    "sector": "energie",
+    "stage": 3,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Réhabilitation du barrage de Kariba, partagé par la Zambie et le Zimbabwe. Les travaux approchent de leur fin.",
+      "en": "Rehabilitation of the Kariba dam, shared by Zambia and Zimbabwe. Works are nearing completion."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "travaux",
+        "text": {"fr": "Les travaux de réhabilitation approchent de leur fin.", "en": "Rehabilitation works are nearing completion."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/zambiazimbabwe-kariba-dam-rehabilitation-nearing-completion", "publisher": "African Energy", "title": "Zambia/Zimbabwe: Kariba dam rehabilitation nearing completion", "published": null, "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "eolien-ipp-egypte",
+    "name": {"fr": "Parc éolien IPP de plusieurs centaines de MW", "en": "Multi-hundred-megawatt wind IPP"},
+    "country": "EG",
+    "sector": "energie",
+    "stage": 3,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Parc éolien d'un producteur indépendant en Égypte, d'une capacité de plusieurs centaines de mégawatts. La construction a commencé.",
+      "en": "An independent power producer's wind farm in Egypt, with a capacity of several hundred megawatts. Construction has started."
+    },
+    "capacity": "plusieurs centaines de MW",
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "travaux",
+        "text": {"fr": "Début de la construction.", "en": "Construction starts."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.africa-energy.com/live-data/article/egypt-construction-starts-multi-hundred-megawatt-wind-ipp", "publisher": "African Energy", "title": "Egypt: Construction starts on multi-hundred-megawatt wind IPP", "published": null, "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "dessalement-egypte",
+    "name": {"fr": "Programme de dessalement", "en": "Desalination programme"},
+    "country": "EG",
+    "sector": "eau",
+    "stage": 1,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "L'Égypte accélère ses projets d'usines de dessalement d'eau de mer.",
+      "en": "Egypt is speeding up its seawater desalination plant projects."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-06",
+        "type": "annonce",
+        "text": {"fr": "Le Caire accélère ses projets de dessalement.", "en": "Cairo speeds up its desalination projects."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.africaintelligence.fr/afrique-du-nord/2026/10/06/le-caire-accelere-ses-projets-de-dessalement,110890669-art", "publisher": "Africa Intelligence", "title": "Le Caire accélère ses projets de dessalement", "published": "2026-10-06", "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  },
+  {
+    "id": "fibre-optique-nigeria",
+    "name": {"fr": "Déploiement de la fibre optique", "en": "Fibre-optic roll-out"},
+    "country": "NG",
+    "sector": "numerique",
+    "stage": 2,
+    "status": "à vérifier",
+    "summary": {
+      "fr": "Déploiement de la fibre optique au Nigeria. L'Union européenne y apporte une subvention de 14 millions d'euros.",
+      "en": "Fibre-optic roll-out in Nigeria. The European Union is providing a 14 million euro grant."
+    },
+    "capacity": null,
+    "cost": {"amount": 14, "currency": "EUR", "unit": "millions", "note": {"fr": "Subvention de l'UE", "en": "EU grant"}},
+    "owner": [],
+    "lenders": ["Union européenne"],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-16",
+        "type": "financement",
+        "text": {"fr": "Subvention de 14 millions d'euros de l'UE pour le déploiement.", "en": "EU grant of 14 million euros for the roll-out."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://www.agenceecofin.com/actualites-numerique/1610-142492-nigeria-l-ue-appuie-le-deploiement-de-la-fibre-optique-avec-une-subvention-de-14-millions-d-euros", "publisher": "Agence Ecofin", "title": "Nigeria : l'UE appuie le déploiement de la fibre optique avec une subvention de 14 millions d'euros", "published": "2026-10-16", "tier": "B"}]
+      }
+    ],
+    "updated": "2026-10-18"
+  }
+]
