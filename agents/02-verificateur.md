@@ -28,6 +28,14 @@ périmètre.
 4. Vérifier le nom exact du projet, des entreprises et des bailleurs.
 5. Chercher une source primaire (rang A) quand seule une source B existe. L'ajouter si
    elle est trouvée.
+6. Pour une source X ou LinkedIn : vérifier que le compte figure dans `data/sources.json`
+   (sinon elle est de rang C et ne confirme rien), que le post contient lui-même le fait,
+   et qu'aucune page officielle ne le dit déjà (dans ce cas, citer la page et passer le
+   post en `signal_only`). Un post d'intention (« nous explorons », « nous saluons ») ne
+   confirme pas un engagement.
+7. Une base de données officielle (fiche projet Banque mondiale, BAD MapAfrica, BEI…)
+   confirme un montant ou une date d'approbation ; elle ne confirme pas à elle seule une
+   signature ou un début de travaux.
 
 ## Sortie : `work/AAAA-MM-JJ/02-verifies.json`
 
