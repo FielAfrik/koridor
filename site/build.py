@@ -77,7 +77,7 @@ T = {
         "moved": "Les projets qui ont bougé", "deal": "Le deal de la semaine", "analysis": "Le décryptage",
         "analysis_tag": "Analyse",
         "method_title": "Notre méthode",
-        "about_title": "Pourquoi Koridor",
+        "about_title": "À propos de Koridor", "about_sub": "Comprendre les projets qui transforment l’Afrique",
         "footer": "Média indépendant sur les infrastructures, l'énergie et le développement durable en Afrique.",
         "lang_switch": "English",
         "projects_slug": "projets", "brief_slug": "brief", "method_slug": "methode", "about_slug": "a-propos",
@@ -136,7 +136,7 @@ T = {
         "moved": "Projects that moved", "deal": "Deal of the week", "analysis": "The analysis",
         "analysis_tag": "Analysis",
         "method_title": "Our method",
-        "about_title": "Why Koridor",
+        "about_title": "About Koridor", "about_sub": "Understanding the projects transforming Africa",
         "footer": "Independent outlet on infrastructure, energy and sustainable development in Africa.",
         "lang_switch": "Français",
         "projects_slug": "projects", "brief_slug": "brief", "method_slug": "method", "about_slug": "about",
@@ -155,34 +155,28 @@ MONTHS = {
 
 ABOUT = {
     "fr": """
-<p class="lead">Koridor suit, projet par projet, les infrastructures qui transforment l'Afrique : corridors logistiques, transport, énergie, eau, villes, industrialisation et leur financement.</p>
-<h2>Un corridor, c'est un lien</h2>
-<p>Une voie de circulation, un axe stratégique entre des territoires, des économies et des populations. C'est aussi ce que nous voulons faire : relier les projets locaux aux grands enjeux mondiaux, et les acteurs entre eux.</p>
-<p>Le nom s'écrit avec le <em>kori</em> sahélien, ce lit de rivière sec une grande partie de l'année qui se remplit à l'hivernage. Un chemin creusé dans le territoire, par où les flux passent quand les conditions sont réunies : l'image même d'un projet qui attend son bouclage financier.</p>
-<h2>Ce qui nous guide</h2>
-<ul class="principles">
-<li><strong>Connexion.</strong> Relier les projets, les territoires, les acteurs et les idées.</li>
-<li><strong>Mouvement.</strong> Montrer une Afrique qui construit, investit et se transforme.</li>
-<li><strong>Crédibilité.</strong> Des faits datés et sourcés, des chiffres tels qu'annoncés, des corrections visibles.</li>
-<li><strong>Durabilité.</strong> La transition énergétique et le développement responsable comme fil conducteur, sans réduire l'Afrique à l'écologie.</li>
-</ul>
-<h2>Pour qui</h2>
-<p>Pour les professionnels, investisseurs et décideurs qui ont besoin d'une information précise sur l'avancement des projets. Et pour les étudiants et citoyens qui veulent comprendre ce qui se construit près de chez eux.</p>
+<p class="lead">Koridor est un média consacré aux infrastructures, à l’énergie et au développement durable en Afrique. Son nom vient des grands axes de développement, des corridors, ces axes qui relient les territoires, portent les échanges et dessinent l’économie du continent.</p>
+<h2>Ce que nous faisons</h2>
+<p>Nous suivons les projets un par un : centrales, réseaux électriques, corridors de transport, ports, eau, numérique. Pour chacun, une fiche indique où il en est, de l’identification à la mise en service, qui le porte, qui le finance et qui le construit. Chaque semaine, le Brief du lundi résume ce qui a bougé, et nos décryptages éclairent les enjeux techniques, économiques et environnementaux.</p>
+<h2>Pour qui ?</h2>
+<p>Pour celles et ceux qui financent, conçoivent, construisent ou décident : investisseurs, bailleurs, entreprises, administrations. Et pour tous ceux qui veulent comprendre comment se construit l’Afrique de demain.</p>
+<h2>Notre méthode</h2>
+<p>Chaque information est datée et rattachée à sa source. Un fait n’est confirmé que s’il émane du porteur du projet, d’un bailleur ou d’une autorité publique, ou de deux médias indépendants. Les chiffres sont repris tels qu’annoncés, et toute erreur est corrigée visiblement. Notre veille s’appuie sur des outils d’intelligence artificielle ; chaque contenu est vérifié et validé par la rédaction avant publication.</p>
+<h2>Notre conviction</h2>
+<p>Comprendre les infrastructures, c’est comprendre les choix qui façonnent l’avenir de nos sociétés. Un ouvrage ne vaut que par son utilité, sa durabilité et sa capacité à améliorer concrètement la vie des populations. C’est à cette aune que nous regardons chaque projet.</p>
+<p class="closing"><strong>Koridor, les infrastructures qui transforment l’Afrique.</strong></p>
 """,
     "en": """
-<p class="lead">Koridor tracks, project by project, the infrastructure transforming Africa: logistics corridors, transport, energy, water, cities, industrialisation and how they are financed.</p>
-<h2>A corridor is a link</h2>
-<p>A route, a strategic axis between territories, economies and people. That is what we set out to do: connect local projects to global stakes, and the people behind them to each other.</p>
-<p>The name is spelled with the Sahelian <em>kori</em>, a riverbed that stays dry most of the year and fills in the rainy season. A path carved into the land, through which flows pass once conditions are right: much like a project waiting for financial close.</p>
-<h2>What guides us</h2>
-<ul class="principles">
-<li><strong>Connection.</strong> Linking projects, territories, players and ideas.</li>
-<li><strong>Movement.</strong> Showing an Africa that builds, invests and transforms.</li>
-<li><strong>Credibility.</strong> Dated, sourced facts, figures as announced, visible corrections.</li>
-<li><strong>Sustainability.</strong> Energy transition and responsible development as a common thread, without reducing Africa to ecology.</li>
-</ul>
-<h2>Who it is for</h2>
-<p>Professionals, investors and decision-makers who need precise information on project progress. And students and citizens who want to understand what is being built near them.</p>
+<p class="lead">Koridor is a media outlet covering infrastructure, energy and sustainable development in Africa. Its name comes from the great development axes, the corridors: the routes that link territories, carry trade and shape the continent’s economy.</p>
+<h2>What we do</h2>
+<p>We track projects one by one: power plants, electricity grids, transport corridors, ports, water, digital. For each one, a profile shows where it stands, from identification to commissioning, who owns it, who funds it and who builds it. Every week, the Monday Brief sums up what moved, and our analyses shed light on the technical, economic and environmental stakes.</p>
+<h2>Who is it for?</h2>
+<p>For those who finance, design, build or decide: investors, lenders, companies, public administrations. And for anyone who wants to understand how tomorrow’s Africa is being built.</p>
+<h2>Our method</h2>
+<p>Every piece of information is dated and linked to its source. A fact is confirmed only when it comes from the project owner, a lender or a public authority, or from two independent media outlets. Figures are given as announced, and any error is visibly corrected. Our monitoring relies on artificial intelligence tools; every piece of content is checked and approved by the editorial team before publication.</p>
+<h2>Our conviction</h2>
+<p>Understanding infrastructure means understanding the choices that shape the future of our societies. A structure is only worth its usefulness, its durability and its ability to make a tangible difference to people’s lives. That is the yardstick we apply to every project.</p>
+<p class="closing"><strong>Koridor, the infrastructure transforming Africa.</strong></p>
 """,
 }
 
@@ -733,7 +727,7 @@ def build_method(lang):
 def build_about(lang):
     t = T[lang]
     body = (f'<div class="wrap narrow prose"><h1>{e(t["about_title"])}</h1>'
-            f'<p class="signature">{e(t["signature"])}</p>{ABOUT[lang]}</div>')
+            f'<p class="signature">{e(t["about_sub"])}</p>{ABOUT[lang]}</div>')
     return page(lang, t["about_title"], body, [t["about_slug"]], current="nav_about")
 
 

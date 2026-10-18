@@ -232,6 +232,7 @@ time{font-variant-numeric:tabular-nums}
 .prose .lead{font-size:21px;color:var(--ink-2)}
 .prose .back{margin-bottom:8px}
 .signature{font:italic 23px/1.4 var(--read)!important;color:var(--green-d)!important;margin-bottom:24px}
+.prose .closing{margin-top:40px;padding-top:20px;border-top:1px solid var(--line, #D9DDD8)}
 .principles,.stages-def{padding-left:22px}
 .principles li,.stages-def li{margin-bottom:10px}
 .signup-box{margin-top:28px}
