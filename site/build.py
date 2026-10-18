@@ -352,8 +352,7 @@ def page(lang, title, body, path_parts, description="", current=""):
             body = body.replace(a, b)
     full_title = f"{title} | {NAME}" if title != NAME else f"{NAME} | {t['signature'].rstrip('.')}"
     nav = []
-    for key, slug in (("nav_projects", ""), ("nav_brief", t["brief_slug"]), ("nav_method", t["method_slug"]),
-                      ("nav_about", t["about_slug"])):
+    for key, slug in (("nav_projects", ""), ("nav_brief", t["brief_slug"]), ("nav_about", t["about_slug"])):
         cur = ' aria-current="page"' if current == key else ""
         nav.append(f'<a href="{url(lang, slug)}"{cur}>{e(t[key])}</a>')
     return f"""<!doctype html>
@@ -761,9 +760,8 @@ def main():
         t = T[lang]
         write(lang, build_home(lang, projects, briefs, updated))
         write(f"{lang}/{t['brief_slug']}", build_brief_index(lang, briefs))
-        write(f"{lang}/{t['method_slug']}", build_method(lang))
         write(f"{lang}/{t['about_slug']}", build_about(lang))
-        pages += 4
+        pages += 3
         for p in visible(projects):
             write(f"{lang}/{t['projects_slug']}/{p['id']}", build_project(lang, p, projects))
             pages += 1
