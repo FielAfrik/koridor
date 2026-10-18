@@ -2,7 +2,7 @@
 
 Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`. Ne pas le modifier à la main : modifier le registre, puis relancer le script.
 
-**147 sources**, dont 137 actives : 136 sites, 78 comptes X, 69 pages LinkedIn. Priorité 1 : collecte hebdomadaire sur tous les canaux ; 2 : site et X chaque semaine ; 3 : une fois par mois. Les règles sont dans `editorial/sources.md`.
+**155 sources**, dont 146 actives : 145 sites, 78 comptes X, 69 pages LinkedIn. Priorité 1 : collecte hebdomadaire sur tous les canaux ; 2 : site et X chaque semaine ; 3 : une fois par mois. Les règles sont dans `editorial/sources.md`.
 
 ## Banques multilatérales et institutions de financement (22)
 
@@ -83,7 +83,7 @@ Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`.
 | Infrastructure Consortium for Africa (ICA) | AF | 3 | [site](https://www.icafrica.org/en/news-events/) | — | — | ✅ actif |  |
 | Sustainable Energy for All | INT | 3 | [site](https://www.seforall.org/our-impact/news-centre) | [@SEforALLorg](https://x.com/SEforALLorg) | [page](https://www.linkedin.com/company/seforall) | ✅ actif |  |
 
-## États : gouvernements et ministères (11)
+## États : gouvernements et ministères (19)
 
 | Source | Pays | Prio. | Site | X | LinkedIn | Statut | Remarque |
 |---|---|---|---|---|---|---|---|
@@ -93,11 +93,19 @@ Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`.
 | Ministère de l'Énergie, du Pétrole et des Mines (Sénégal) | SN | 1 | [site](https://www.energie.gouv.sn/) | — | — | ✅ actif |  |
 | Primature du Sénégal | SN | 1 | [site](https://primature.sn/) | [@Primature_sn](https://x.com/Primature_sn) | — | ✅ actif |  |
 | Présidence de la République du Sénégal | SN | 1 | [site](https://www.presidence.sn/) | [@pr_senegal](https://x.com/pr_senegal) | — | ✅ actif |  |
+| Ministère de l'Investissement (Togo) | TG | 1 | [site](https://investissement.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
 | Ministère des Mines et des Énergies (Togo) | TG | 1 | [site](https://energie.gouv.tg/) | [@MpenTG](https://x.com/MpenTG) | [page](https://www.linkedin.com/company/mpentg) | ✅ actif | Lien constaté sur energie.gouv.tg (redirection depuis mines.gouv.tg). Un ancien compte @memppc y figure aussi. Aucun post X ni LinkedIn entre le 12 et le 18 octobre 2026. |
+| Ministère des Transports (Togo) | TG | 1 | [site](https://transports.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
 | Présidence de la République togolaise | TG | 1 | [site](https://presidence.gouv.tg/) | — | — | ✅ actif |  |
-| République togolaise (portail officiel) | TG | 1 | [site](https://www.republicoftogo.com/) | [@republicoftogo](https://x.com/republicoftogo) | — | ⚠️ à vérifier | Portail d'information sur le Togo : son statut officiel reste à confirmer avant de le traiter en rang A. |
+| Présidence du Conseil des ministres (Togo) | TG | 1 | [site](https://presidenceduconseil.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
+| République togolaise – Togo Officiel | TG | 1 | [site](https://www.republiquetogolaise.tg/) | — | — | ✅ actif | Actualité gouvernementale officielle (rubriques énergies, transports, communiqués, comptes rendus du Conseil des ministres). Le seul compte X lié est le compte personnel du chef de l'exécutif : non retenu. |
 | Ministry of Energy and Green Transition (Ghana) | GH | 2 | [site](https://energymin.gov.gh/) | — | — | ✅ actif |  |
 | Federal Ministry of Power (Nigeria) | NG | 2 | [site](https://power.gov.ng/) | [@federal_power](https://x.com/federal_power) | — | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. |
+| Journal officiel de la République togolaise | TG | 2 | [site](https://jo.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
+| Ministère de l'Eau (Togo) | TG | 2 | [site](https://eau.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
+| Ministère de l'Économie maritime (Togo) | TG | 2 | [site](https://maritime.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
+| Ministère de l'Économie numérique (Togo) | TG | 2 | [site](https://numerique.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
+| Portail officiel du gouvernement togolais | TG | 2 | [site](https://togo.gouv.tg/) | — | — | ✅ actif | Annuaire officiel des ministères et institutions : sert à vérifier l'adresse d'un site public togolais. |
 
 ## Régulateurs (13)
 

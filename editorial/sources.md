@@ -56,7 +56,7 @@ Familles de sources, détaillées dans `data/sources.json` :
 - **Institutions continentales et régionales** : Union africaine, AUDA-NEPAD et PIDA,
   CEDEAO, UEMOA, CEEAC, EAC, SADC, pools énergétiques (EEEOA/WAPP, EAPP, SAPP, PEAC),
   organismes de bassin (OMVS, OMVG), CEB.
-- **États** : présidences, primatures et gouvernements, ministères de l'énergie, des
+- **États** : présidences, primatures et gouvernements (pour le Togo : togo.gouv.tg et republiquetogolaise.tg), ministères de l'énergie, des
   infrastructures et des transports, unités PPP, agences de promotion des investissements.
 - **Régulateurs et sociétés publiques** : régulateurs de l'électricité (ARSE, ANARE-CI,
   CRSE, ANRE, NERC, EPRA, NERSA…), sociétés d'électricité (CEET, CIE, CI-Énergies,

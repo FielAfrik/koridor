@@ -67,7 +67,7 @@ Dans le dépôt GitHub : Settings → Pages → Source : **GitHub Actions**.
 
 Koridor s'appuie d'abord sur les émetteurs officiels : banques multilatérales, bailleurs,
 institutions régionales, États, régulateurs et sociétés publiques. Le registre
-(`data/sources.json`, lisible dans `editorial/registre.md`) recense 147 sources, avec leur
+(`data/sources.json`, lisible dans `editorial/registre.md`) recense 155 sources, avec leur
 site, leur compte X et leur page LinkedIn officiels, relevés sur leur propre site. Chaque
 semaine, le Veilleur collecte ces trois canaux avec Apify ; le budget maximal est d'environ
 1 $ par semaine (1,40 $ la semaine où s'ajoutent les sources mensuelles).
