@@ -36,10 +36,10 @@ n'est publié sans la validation du rédacteur en chef.
 
 ```
 agents/       consignes de chaque agent
-editorial/    charte éditoriale et liste des sources (rangs A, B, C)
-data/         base projets (projects.json), Briefs, format des données
+editorial/    charte éditoriale, règles des sources (sources.md) et registre lisible (registre.md)
+data/         base projets (projects.json), registre des sources (sources.json), Briefs, format des données
 site/         générateur du site, styles, configuration
-scripts/      contrôle des données
+scripts/      contrôle des données, plan et fusion de la collecte, registre lisible
 reports/      un rapport par semaine
 .github/      contrôle des pull requests et publication sur GitHub Pages
 ```
@@ -47,7 +47,8 @@ reports/      un rapport par semaine
 ## Commandes
 
 ```
-python3 scripts/validate.py   # contrôle les données
+python3 scripts/validate.py   # contrôle les données et le registre des sources
+python3 scripts/registre_md.py # régénère editorial/registre.md après une modification du registre
 python3 site/build.py         # génère le site dans dist/
 ```
 
@@ -61,3 +62,15 @@ python3 site/build.py         # génère le site dans dist/
 ## Mise en ligne (une seule fois)
 
 Dans le dépôt GitHub : Settings → Pages → Source : **GitHub Actions**.
+
+## Les sources
+
+Koridor s'appuie d'abord sur les émetteurs officiels : banques multilatérales, bailleurs,
+institutions régionales, États, régulateurs et sociétés publiques. Le registre
+(`data/sources.json`, lisible dans `editorial/registre.md`) recense 147 sources, avec leur
+site, leur compte X et leur page LinkedIn officiels, relevés sur leur propre site. Chaque
+semaine, le Veilleur collecte ces trois canaux avec Apify ; le budget maximal est d'environ
+1 $ par semaine (1,40 $ la semaine où s'ajoutent les sources mensuelles).
+
+Pour ajouter une source, demandez-le simplement : elle sera vérifiée (lien constaté sur le
+site officiel) puis proposée dans une pull request.

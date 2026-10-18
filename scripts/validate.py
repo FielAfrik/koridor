@@ -142,16 +142,77 @@ def check_briefs(projects):
             bilingual(f"{w}, décryptage texte", b["analysis"].get("body"))
 
 
+SOURCE_STATUSES = {"actif", "à vérifier", "référence"}
+WEB_CHECKS = {"ok", "à confirmer", "injoignable"}
+X_HANDLE_RE = re.compile(r"^[A-Za-z0-9_]{1,15}$")
+LINKEDIN_RE = re.compile(r"^https://www\.linkedin\.com/(company|school|showcase|in)/[^/\s]+$")
+
+
+def check_sources(countries):
+    """Contrôle le registre des sources officielles (data/sources.json)."""
+    path = ROOT / "data" / "sources.json"
+    try:
+        sources = json.loads(path.read_text(encoding="utf-8"))
+    except FileNotFoundError:
+        err("data/sources.json", "fichier manquant")
+        return []
+    except json.JSONDecodeError as e:
+        err("data/sources.json", f"JSON invalide ({e})")
+        return []
+    seen_ids, seen_x = set(), {}
+    extra_codes = {"AF", "INT", "EU", "US", "GB", "FR", "DE", "NL", "NO", "JP", "AE", "SA", "KW"}
+    for i, s in enumerate(sources):
+        sid = s.get("id") or f"#{i}"
+        w = f"source {sid}"
+        if not ID_RE.match(str(s.get("id") or "")):
+            err(w, "identifiant invalide (minuscules et tirets)")
+        if sid in seen_ids:
+            err(w, "identifiant en double")
+        seen_ids.add(sid)
+        if not s.get("name"):
+            err(w, "nom manquant")
+        for code in str(s.get("country") or "").split(","):
+            if code.strip() not in countries and code.strip() not in extra_codes:
+                err(w, f"code pays inconnu « {code} »")
+        if s.get("tier") != "A":
+            err(w, "le registre ne contient que des sources de rang A")
+        if s.get("priority") not in (1, 2, 3):
+            err(w, "priorité 1, 2 ou 3 attendue")
+        if s.get("status") not in SOURCE_STATUSES:
+            err(w, f"statut inconnu « {s.get('status')} »")
+        if s.get("web") and not str(s["web"]).startswith("https://"):
+            err(w, "adresse web en https:// attendue")
+        if s.get("web_check") is not None and s.get("web_check") not in WEB_CHECKS:
+            err(w, f"état du site inconnu « {s.get('web_check')} »")
+        x = s.get("x")
+        if x:
+            if not X_HANDLE_RE.match(x):
+                err(w, f"identifiant X invalide « {x} » (sans @ ni lien)")
+            if x.lower() in seen_x:
+                err(w, f"compte X déjà attribué à {seen_x[x.lower()]}")
+            seen_x[x.lower()] = sid
+        if s.get("linkedin") and not LINKEDIN_RE.match(s["linkedin"]):
+            err(w, "page LinkedIn au format https://www.linkedin.com/company/… attendue")
+        if (x or s.get("linkedin")) and not s.get("social_check"):
+            err(w, "compte social sans trace de vérification (social_check)")
+        if s.get("status") == "actif" and not (s.get("web") or x or s.get("linkedin") or s.get("data")):
+            err(w, "source active sans aucun canal de collecte")
+        if s.get("data") and not str(s["data"].get("url") or "").startswith("https://"):
+            err(w, "adresse de la base de données invalide")
+    return sources
+
+
 def main():
     countries = json.loads((ROOT / "site" / "countries.json").read_text(encoding="utf-8"))
     projects = check_projects(countries)
     check_briefs(projects)
+    sources = check_sources(countries)
     if errors:
         print(f"{len(errors)} erreur(s) :")
         for e in errors:
             print(" -", e)
         sys.exit(1)
-    print(f"OK : {len(projects)} projets valides.")
+    print(f"OK : {len(projects)} projets valides, {len(sources)} sources au registre.")
 
 
 if __name__ == "__main__":

@@ -25,7 +25,7 @@ fichier de sortie du précédent existe et n'est pas vide.
 
 | # | Agent | Lit | Écrit |
 |---|-------|-----|-------|
-| 1 | Veilleur (`01-veilleur.md`) | `editorial/sources.md`, `data/projects.json` | `work/…/01-candidats.json` |
+| 1 | Veilleur (`01-veilleur.md`) | `editorial/sources.md`, `data/sources.json`, `data/projects.json` | `work/…/00-flux.json`, `work/…/01-candidats.json`, `work/…/01-collecte.md` |
 | 2 | Vérificateur (`02-verificateur.md`) | `01-candidats.json` | `work/…/02-verifies.json` |
 | 3 | Documentaliste (`03-documentaliste.md`) | `02-verifies.json`, `data/projects.json` | `data/projects.json`, `work/…/03-changements.json` |
 | 4 | Rédacteur (`04-redacteur.md`) | `03-changements.json`, `data/projects.json` | textes FR dans `data/projects.json`, `data/briefs/AAAA-MM-JJ.json` |
@@ -47,6 +47,10 @@ synthèse en soit la description.
   les erreurs en tête.
 - Si une source est inaccessible, on ne la contourne pas (pas de miroir ni de cache) :
   l'information reste « à confirmer ».
+- Si la collecte Apify échoue (crédit épuisé, acteur indisponible), le Veilleur continue
+  avec la recherche web et le rapport le signale en tête.
+- Le Publieur commet aussi `data/veille/pages-vues.json` (mémoire des liens déjà vus sur
+  les sites officiels) ; sans lui, la semaine suivante repartirait de zéro.
 
 ## Fin du cycle
 
