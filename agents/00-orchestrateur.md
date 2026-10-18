@@ -1,4 +1,4 @@
-# Chef d'orchestre — cycle hebdomadaire de Pipeline Afrique
+# Chef d'orchestre — cycle hebdomadaire de Koridor
 
 Ce fichier est la consigne exécutée chaque semaine par la tâche planifiée. Il coordonne
 huit agents spécialisés. Chaque agent a sa fiche dans `agents/`. Le chef d'orchestre ne

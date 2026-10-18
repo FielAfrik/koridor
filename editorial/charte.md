@@ -1,4 +1,4 @@
-# Charte éditoriale — Pipeline Afrique
+# Charte éditoriale — Koridor
 
 ## Promesse
 

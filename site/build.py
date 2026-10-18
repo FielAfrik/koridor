@@ -1,4 +1,4 @@
-"""Générateur du site Pipeline Afrique.
+"""Générateur du site Koridor.
 
 Lit data/projects.json et data/briefs/*.json, écrit le site statique bilingue dans dist/.
 Usage : python3 site/build.py        (BASE_PATH=/nom-du-depot pour GitHub Pages)

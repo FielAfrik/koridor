@@ -1,4 +1,4 @@
-# Pipeline Afrique
+# Koridor
 
 Média bilingue (FR/EN) qui suit, projet par projet, les infrastructures et l'énergie en
 Afrique. Le contenu est produit chaque semaine par une équipe de huit agents IA. Rien
