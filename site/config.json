@@ -1,7 +1,7 @@
 {
   "site_name": "Koridor",
   "base_path": "",
-  "show_unverified": true,
+  "show_unverified": false,
   "newsletter_signup_url": "",
   "contact_email": ""
 }

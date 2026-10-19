@@ -67,7 +67,7 @@ T = {
         "same_sector": "Dans le même secteur",
         "brief_title": "Le Brief du lundi",
         "brief_pitch": "Les projets d'infrastructure et d'énergie qui ont bougé en Afrique cette semaine, lus par un ingénieur. Cinq minutes, chaque lundi matin.",
-        "brief_side": "Dix projets qui ont bougé, un deal, un décryptage. Chaque lundi, gratuit.",
+        "brief_side": "Jusqu'à dix projets qui ont bougé, un deal, un décryptage. Chaque lundi, gratuit.",
         "subscribe": "Recevoir le Brief",
         "subscribe_soon": "Les inscriptions ouvrent très bientôt.",
         "email": "Adresse e-mail professionnelle",
@@ -126,7 +126,7 @@ T = {
         "same_sector": "In the same sector",
         "brief_title": "The Monday Brief",
         "brief_pitch": "The African infrastructure and energy projects that moved this week, read by an engineer. Five minutes, every Monday morning.",
-        "brief_side": "Ten projects that moved, one deal, one analysis. Every Monday, free.",
+        "brief_side": "Up to ten projects that moved, one deal, one analysis. Every Monday, free.",
         "subscribe": "Get the Brief",
         "subscribe_soon": "Sign-up opens very soon.",
         "email": "Work email address",
@@ -642,7 +642,7 @@ def build_project(lang, p, projects):
         ms_html.append(
             f'<li class="{"ok" if ok else "tbc"}"><div class="tl-meta"><time datetime="{e(m["date"])}">{e(fmt_date(m["date"], lang))}</time>'
             f'<span class="conf">{e(conf)}</span></div>'
-            f'<p>{e(m["text"][lang])}</p><p class="src">{e(t["sources"])} : {srcs}</p></li>')
+            f'<p>{e(m["text"][lang])}</p><p class="src">{e(t["sources"])}{" :" if lang == "fr" else ":"} {srcs}</p></li>')
     related = [r for r in visible(projects) if r["sector"] == p["sector"] and r["id"] != p["id"]][:4]
     rel_html = "".join(
         f'<li><a href="{url(lang, t["projects_slug"], r["id"])}"><strong>{e(r["name"][lang])}</strong>'

@@ -4,7 +4,7 @@
     "name": {"fr": "Métro de Kinshasa", "en": "Kinshasa Metro"},
     "country": "CD",
     "sector": "transport",
-    "stage": 2,
+    "stage": 1,
     "status": "à vérifier",
     "summary": {
       "fr": "Projet de métro pour la capitale de la RDC. Un financement de 877 millions a été annoncé en octobre 2026 ; la devise, les prêteurs et les conditions restent à confirmer.",
@@ -25,11 +25,11 @@
         "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa", "publisher": "Agence Ecofin", "title": "La RDC obtient un financement de 877 millions pour le projet de métro de Kinshasa", "published": "2026-10-14", "tier": "B"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "reseau-gazier-senegal",
-    "name": {"fr": "Extension du réseau de gazoducs", "en": "Gas pipeline network expansion"},
+    "name": {"fr": "Extension du réseau de gazoducs du Sénégal", "en": "Senegal gas pipeline network expansion"},
     "country": "SN",
     "sector": "energie",
     "stage": 3,
@@ -165,14 +165,14 @@
     "target_date": null,
     "milestones": [
       {
-        "date": "2026-10-14",
+        "date": "2026-10-12",
         "type": "travaux",
         "text": {"fr": "Voyage inaugural effectué ; l'ouverture commerciale reste à venir.", "en": "Inaugural journey completed; commercial opening still to come."},
         "confidence": "à confirmer",
         "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142391-apres-le-voyage-inaugural-le-transguineen-doit-encore-franchir-des-etapes-avant-louverture-commerciale", "publisher": "Agence Ecofin", "title": "Après le voyage inaugural, le Transguinéen doit encore franchir des étapes avant l'ouverture commerciale", "published": "2026-10-14", "tier": "B"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "port-maputo-dragage",
@@ -193,14 +193,14 @@
     "target_date": null,
     "milestones": [
       {
-        "date": "2026-10-14",
+        "date": "2026-10-11",
         "type": "travaux",
         "text": {"fr": "Travaux de dragage du chenal d'accès.", "en": "Access channel dredging under way."},
         "confidence": "à confirmer",
         "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142395-le-port-de-maputo-fait-draguer-son-chenal-dacces-pour-accueillir-des-navires-plus-larges", "publisher": "Agence Ecofin", "title": "Le port de Maputo fait draguer son chenal d'accès pour accueillir des navires plus larges", "published": "2026-10-14", "tier": "B"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "barrage-kariba",
@@ -298,7 +298,7 @@
     "name": {"fr": "Déploiement de la fibre optique", "en": "Fibre-optic roll-out"},
     "country": "NG",
     "sector": "numerique",
-    "stage": 2,
+    "stage": 1,
     "status": "à vérifier",
     "summary": {
       "fr": "Déploiement de la fibre optique au Nigeria. L'Union européenne y apporte une subvention de 14 millions d'euros.",
@@ -307,19 +307,19 @@
     "capacity": null,
     "cost": {"amount": 14, "currency": "EUR", "unit": "millions", "note": {"fr": "Subvention de l'UE", "en": "EU grant"}},
     "owner": [],
-    "lenders": ["Union européenne"],
+    "lenders": ["Union européenne", "BERD"],
     "contractors": [],
     "target_date": null,
     "milestones": [
       {
-        "date": "2026-10-16",
+        "date": "2026-10-14",
         "type": "financement",
         "text": {"fr": "Subvention de 14 millions d'euros de l'UE pour le déploiement.", "en": "€14 million EU grant for the roll-out."},
         "confidence": "à confirmer",
         "sources": [{"url": "https://www.agenceecofin.com/actualites-numerique/1610-142492-nigeria-l-ue-appuie-le-deploiement-de-la-fibre-optique-avec-une-subvention-de-14-millions-d-euros", "publisher": "Agence Ecofin", "title": "Nigeria : l'UE appuie le déploiement de la fibre optique avec une subvention de 14 millions d'euros", "published": "2026-10-16", "tier": "B"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "route-douala-bafoussam",
