@@ -14,7 +14,13 @@ Rien n'est publié sans validation humaine. Le cycle se termine par une demande 
 
 1. Cloner le dépôt et créer la branche `veille/AAAA-MM-JJ` (date du lundi qui suit).
 2. Créer le dossier de travail `work/AAAA-MM-JJ/`. Tous les fichiers intermédiaires y vont.
-3. Lire `editorial/charte.md`, `editorial/sources.md` et `data/schema.md`. Les transmettre
+3. Récupérer le bilan d'audience de la semaine, rangé par le workflow « Bilan d'audience »
+   sur la branche `audience` : `git fetch --depth 1 origin audience` puis
+   `git show FETCH_HEAD:audience/AAAA-MM-JJ.md > work/AAAA-MM-JJ/07-audience.md` (et de même
+   pour le `.json`). Si la branche ou le fichier manque, noter la raison pour le Rapporteur
+   (mesure pas encore configurée, workflow en échec) et continuer : l'audience n'arrête
+   jamais le cycle. Ne jamais commettre ces fichiers sur la branche de veille.
+4. Lire `editorial/charte.md`, `editorial/sources.md` et `data/schema.md`. Les transmettre
    à chaque agent avec sa fiche.
 
 ## Ordre des agents
@@ -32,7 +38,7 @@ fichier de sortie du précédent existe et n'est pas vide.
 | 5 | Traducteur (`05-traducteur.md`) | les textes FR | champs `en` des mêmes fichiers |
 | 6 | Éditeur (`06-editeur.md`) | tout ce qui a changé | corrections + `work/…/06-relecture.md` |
 | 7 | Publieur (`07-publieur.md`) | le dépôt | build, contrôles, pull request, brouillons LinkedIn |
-| 8 | Rapporteur (`08-rapporteur.md`) | tout `work/…/` | `reports/AAAA-MM-JJ.md` + description de la pull request |
+| 8 | Rapporteur (`08-rapporteur.md`) | tout `work/…/`, dont `07-audience.md` | `reports/AAAA-MM-JJ.md` + description de la pull request |
 
 Les agents 4 et 5 peuvent se succéder rapidement, mais jamais en parallèle sur le même
 fichier. Le Rapporteur passe avant que le Publieur n'ouvre la pull request, afin que sa
@@ -57,4 +63,5 @@ synthèse en soit la description.
 Envoyer au rédacteur en chef un message court contenant :
 - le lien de la pull request ;
 - le nombre de projets ajoutés, mis à jour ou écartés ;
-- les points qui demandent sa décision.
+- les points qui demandent sa décision ;
+- une ligne d'audience : visiteurs de la semaine et évolution, fiche la plus lue.

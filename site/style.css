@@ -249,6 +249,7 @@ time{font-variant-numeric:tabular-nums}
 .foot{background:var(--ink);color:var(--on-ink-2)}
 .foot-in{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:24px;padding-top:36px;padding-bottom:40px}
 .foot-brand p{margin-top:12px;font:15px/1.5 var(--read);max-width:46ch}
+.foot-brand p.fine{font:13px/1.5 var(--head);color:var(--on-ink);margin-top:10px}
 .foot nav{display:flex;flex-wrap:wrap;gap:4px 18px}
 .foot nav a{color:var(--on-ink);text-decoration:none;min-height:44px;display:inline-flex;align-items:center}
 .foot nav a:hover{color:#fff;text-decoration:underline}
