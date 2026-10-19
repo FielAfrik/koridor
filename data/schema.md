@@ -16,14 +16,19 @@ Une liste d'objets :
 | `stage` | entier 0–4 | oui | Voir la charte éditoriale |
 | `status` | texte | oui | `brouillon`, `à vérifier` ou `publié` |
 | `summary` | `{fr, en}` | si publié | 2 à 4 phrases |
-| `capacity` | texte ou null | non | Telle qu'annoncée : `"500 MW"`, `"650 km"` |
+| `capacity` | texte, `{fr, en}` ou null | non | Telle qu'annoncée : `"500 MW"`, `"650 km"`. Objet `{fr, en}` dès qu'elle contient des mots à traduire |
 | `cost` | objet ou null | non | `{amount, currency, unit, note: {fr, en}}` |
-| `owner` | liste de textes | non | Maître d'ouvrage, sponsors |
-| `lenders` | liste de textes | non | Bailleurs |
-| `contractors` | liste de textes | non | EPC, entreprises |
+| `owner` | liste | non | Maître d'ouvrage, sponsors (voir ci-dessous) |
+| `lenders` | liste | non | Bailleurs (voir ci-dessous) |
+| `contractors` | liste | non | EPC, entreprises (voir ci-dessous) |
 | `target_date` | texte ou null | non | Mise en service visée, telle qu'annoncée |
 | `milestones` | liste | oui (au moins 1) | Voir ci-dessous, du plus récent au plus ancien |
 | `updated` | date | oui | `AAAA-MM-JJ` |
+
+Dans `owner`, `lenders` et `contractors`, chaque élément est soit un texte neutre (nom propre
+identique dans les deux langues : `"Globeleq"`, `"Eskom Holdings"`), soit un objet `{fr, en}`
+quand le nom se traduit : `{"fr": "Banque mondiale", "en": "World Bank"}`. Il en va de même pour
+le `publisher` d'une source.
 
 Un jalon :
 

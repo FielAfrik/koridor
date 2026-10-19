@@ -243,6 +243,13 @@ FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox
            "%3Cpath d='M9 15l15 9' stroke='%232BB383' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E")
 
 
+def lx(v, lang):
+    """Valeur de champ factuel : texte neutre (nom propre, chiffre) ou objet {fr, en}."""
+    if isinstance(v, dict):
+        return v.get(lang) or v.get("fr")
+    return v
+
+
 def e(s):
     return html.escape(str(s), quote=True)
 
@@ -402,8 +409,9 @@ def card(p, lang):
     latest = p["milestones"][0]
     link = url(lang, t["projects_slug"], p["id"])
     search_text = " ".join([p["name"][lang], country_name(p["country"], lang), t["sectors"][p["sector"]],
-                            " ".join(p.get("owner") or []), " ".join(p.get("lenders") or []),
-                            " ".join(p.get("contractors") or [])]).lower()
+                            " ".join(lx(x, lang) for x in p.get("owner") or []),
+                            " ".join(lx(x, lang) for x in p.get("lenders") or []),
+                            " ".join(lx(x, lang) for x in p.get("contractors") or [])]).lower()
     amount = fmt_amount(p.get("cost"), lang)
     amount_html = ""
     if amount:
@@ -478,7 +486,7 @@ def build_home(lang, projects, briefs, updated):
     f_text = feat["summary"][lang]
     f_facts = [(t["f_stage"], e(t["stages"][feat["stage"]]))]
     if feat.get("capacity"):
-        f_facts.append((t["f_capacity"], e(feat["capacity"])))
+        f_facts.append((t["f_capacity"], e(lx(feat["capacity"], lang))))
     if feat.get("cost"):
         note = cost_note(feat["cost"], lang)
         f_facts.append((t["f_cost"], e(fmt_amount(feat["cost"], lang)) + (f"<small>{e(note)}</small>" if note else "")))
@@ -612,10 +620,10 @@ def build_home(lang, projects, briefs, updated):
 
 def build_project(lang, p, projects):
     t = T[lang]
-    joined = lambda xs: ", ".join(xs) if xs else None
+    joined = lambda xs: ", ".join(lx(x, lang) for x in xs) if xs else None
     rows = [
         (t["f_cost"], fmt_amount(p.get("cost"), lang)),
-        (t["f_capacity"], p.get("capacity")),
+        (t["f_capacity"], lx(p.get("capacity"), lang)),
         (t["f_owner"], joined(p.get("owner"))),
         (t["f_lenders"], joined(p.get("lenders"))),
         (t["f_contractors"], joined(p.get("contractors"))),
@@ -636,7 +644,7 @@ def build_project(lang, p, projects):
     ms_html = []
     for m in p["milestones"]:
         srcs = ", ".join(
-            f'<a href="{e(s["url"])}" rel="noopener" target="_blank">{e(s["publisher"])}</a>' for s in m["sources"])
+            f'<a href="{e(s["url"])}" rel="noopener" target="_blank">{e(lx(s["publisher"], lang))}</a>' for s in m["sources"])
         ok = m["confidence"] == "confirmé"
         conf = t["confirmed"] if ok else t["unverified"]
         ms_html.append(

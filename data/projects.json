@@ -38,7 +38,7 @@
       "fr": "Réseau gazier du Sénégal (RGS) construit le tronçon nord de 85 km de son réseau de gazoducs. La première canalisation a été posée à Gandon le 10 septembre 2026. Le 12 octobre 2026, RGS a présenté un besoin de 530 millions d'euros pour trois autres tronçons, longs de 255 km au total. Ce financement n'est pas acquis.",
       "en": "Réseau gazier du Sénégal (RGS) is building the 85 km northern section of its gas pipeline network. The first pipe was laid at Gandon on 10 September 2026. On 12 October 2026, RGS set out a €530 million financing requirement for three further sections totalling 255 km. This financing has not been secured."
     },
-    "capacity": "Tronçon nord : 85 km ; trois tronçons à financer : 255 km",
+    "capacity": {"fr": "Tronçon nord : 85 km ; trois tronçons à financer : 255 km", "en": "Northern section: 85 km; three sections to be financed: 255 km"},
     "cost": {"amount": 530, "currency": "EUR", "unit": "millions", "note": {"fr": "Financement recherché pour trois tronçons (255 km), non acquis", "en": "Financing sought for three sections (255 km), not secured"}},
     "owner": ["Réseau gazier du Sénégal (RGS)"],
     "lenders": [],
@@ -76,16 +76,16 @@
     "capacity": "120 MW",
     "cost": null,
     "owner": [],
-    "lenders": ["Banque mondiale"],
+    "lenders": [{"fr": "Banque mondiale", "en": "World Bank"}],
     "contractors": [],
     "target_date": null,
     "milestones": [
       {
         "date": "2026-09-18",
-        "type": "appel-d-offres",
+        "type": "etude",
         "text": {"fr": "Le ministère des Mines et des Énergies réunit les acteurs du marché avant de lancer la procédure de sélection.", "en": "The Ministry of Mines and Energy convenes market players ahead of launching the selection process."},
         "confidence": "confirmé",
-        "sources": [{"url": "https://energie.gouv.tg/centrale-thermique-bifuel-de-120-mw-a-lome-le-ministere-consulte-les-acteurs-du-marche/", "publisher": "Ministère des Mines et des Énergies (Togo)", "title": "Centrale thermique bifuel de 120 MW à Lomé : Le Ministère consulte les acteurs du marché avant le lancement de la procédure de sélection", "published": "2026-09-22", "tier": "A"}]
+        "sources": [{"url": "https://energie.gouv.tg/centrale-thermique-bifuel-de-120-mw-a-lome-le-ministere-consulte-les-acteurs-du-marche/", "publisher": {"fr": "Ministère des Mines et des Énergies (Togo)", "en": "Ministry of Mines and Energy (Togo)"}, "title": "Centrale thermique bifuel de 120 MW à Lomé : Le Ministère consulte les acteurs du marché avant le lancement de la procédure de sélection", "published": "2026-09-22", "tier": "A"}]
       }
     ],
     "updated": "2026-10-19"
@@ -101,9 +101,9 @@
       "fr": "La STEP de Tubatse, dans le Limpopo en Afrique du Sud, doit offrir jusqu'à 1,5 GW de puissance et 21 GWh de stockage. Eskom a lancé le 13 octobre 2026 un appel à qualification pour choisir un partenaire stratégique. Les réponses sont attendues le 30 novembre 2026 ; les candidats qualifiés recevront ensuite une demande de propositions.",
       "en": "The Tubatse pumped storage scheme, in Limpopo, South Africa, is designed to provide up to 1.5 GW of capacity and 21 GWh of storage. On 13 October 2026 Eskom issued a request for qualification to select a strategic partner. Responses are due by 30 November 2026; qualified bidders will then receive a request for proposals."
     },
-    "capacity": "jusqu'à 1,5 GW / 21 GWh",
+    "capacity": {"fr": "jusqu'à 1,5 GW / 21 GWh", "en": "up to 1.5 GW / 21 GWh"},
     "cost": null,
-    "owner": ["Eskom Holdings (Eskom Green en cours de constitution)"],
+    "owner": [{"fr": "Eskom Holdings (Eskom Green en cours de constitution)", "en": "Eskom Holdings (Eskom Green being set up)"}],
     "lenders": [],
     "contractors": [],
     "target_date": null,
@@ -238,62 +238,6 @@
     "updated": "2026-10-19"
   },
   {
-    "id": "eolien-ipp-egypte",
-    "name": {"fr": "Parc éolien IPP de plusieurs centaines de MW", "en": "Multi-hundred-megawatt wind IPP"},
-    "country": "EG",
-    "sector": "energie",
-    "stage": 3,
-    "status": "à vérifier",
-    "summary": {
-      "fr": "Parc éolien d'un producteur indépendant en Égypte, d'une capacité de plusieurs centaines de mégawatts. La construction a commencé.",
-      "en": "An independent power producer's wind farm in Egypt, with a capacity of several hundred megawatts. Construction has started."
-    },
-    "capacity": "plusieurs centaines de MW",
-    "cost": null,
-    "owner": [],
-    "lenders": [],
-    "contractors": [],
-    "target_date": null,
-    "milestones": [
-      {
-        "date": "2026-10",
-        "type": "travaux",
-        "text": {"fr": "Début de la construction.", "en": "Construction starts."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.africa-energy.com/live-data/article/egypt-construction-starts-multi-hundred-megawatt-wind-ipp", "publisher": "African Energy", "title": "Egypt: Construction starts on multi-hundred-megawatt wind IPP", "published": null, "tier": "B"}]
-      }
-    ],
-    "updated": "2026-10-18"
-  },
-  {
-    "id": "dessalement-egypte",
-    "name": {"fr": "Programme de dessalement", "en": "Desalination programme"},
-    "country": "EG",
-    "sector": "eau",
-    "stage": 1,
-    "status": "à vérifier",
-    "summary": {
-      "fr": "L'Égypte accélère ses projets d'usines de dessalement d'eau de mer.",
-      "en": "Egypt is speeding up its seawater desalination plant projects."
-    },
-    "capacity": null,
-    "cost": null,
-    "owner": [],
-    "lenders": [],
-    "contractors": [],
-    "target_date": null,
-    "milestones": [
-      {
-        "date": "2026-10-06",
-        "type": "annonce",
-        "text": {"fr": "Le Caire accélère ses projets de dessalement.", "en": "Cairo speeds up its desalination projects."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.africaintelligence.fr/afrique-du-nord/2026/10/06/le-caire-accelere-ses-projets-de-dessalement,110890669-art", "publisher": "Africa Intelligence", "title": "Le Caire accélère ses projets de dessalement", "published": "2026-10-06", "tier": "B"}]
-      }
-    ],
-    "updated": "2026-10-18"
-  },
-  {
     "id": "fibre-optique-nigeria",
     "name": {"fr": "Déploiement de la fibre optique", "en": "Fibre-optic roll-out"},
     "country": "NG",
@@ -307,7 +251,7 @@
     "capacity": null,
     "cost": {"amount": 14, "currency": "EUR", "unit": "millions", "note": {"fr": "Subvention de l'UE", "en": "EU grant"}},
     "owner": [],
-    "lenders": ["Union européenne", "BERD"],
+    "lenders": [{"fr": "Union européenne", "en": "European Union"}, {"fr": "BERD", "en": "EBRD"}],
     "contractors": [],
     "target_date": null,
     "milestones": [
@@ -332,10 +276,10 @@
       "fr": "Le Cameroun réhabilite le corridor routier entre Douala et Bafoussam. Le projet porte sur 218 km de routes nationales et 108 km de pistes. La Banque islamique de développement a signé le 13 octobre 2026 un accord de financement de 212,35 millions d'euros. Son communiqué ne donne pas le coût total du projet.",
       "en": "Cameroon is rehabilitating the road corridor between Douala and Bafoussam. The project covers 218 km of national roads and 108 km of rural tracks. On 13 October 2026 the Islamic Development Bank signed a €212.35 million financing agreement. Its press release does not give the total project cost."
     },
-    "capacity": "218 km de routes nationales et 108 km de pistes",
+    "capacity": {"fr": "218 km de routes nationales et 108 km de pistes", "en": "218 km of national roads and 108 km of rural tracks"},
     "cost": {"amount": 212.35, "currency": "EUR", "unit": "millions", "note": {"fr": "Montant du financement de la BID, pas le coût total du projet", "en": "IsDB financing amount, not the total project cost"}},
     "owner": [],
-    "lenders": ["Banque islamique de développement"],
+    "lenders": [{"fr": "Banque islamique de développement", "en": "Islamic Development Bank"}],
     "contractors": [],
     "target_date": null,
     "milestones": [
@@ -344,7 +288,7 @@
         "type": "financement",
         "text": {"fr": "À Bangkok, la BID et le Cameroun signent un accord de financement de 212,35 millions d'euros pour réhabiliter le corridor.", "en": "In Bangkok, the IsDB and Cameroon sign a €212.35 million financing agreement to rehabilitate the corridor."},
         "confidence": "confirmé",
-        "sources": [{"url": "https://www.isdb.org/news/isdb-and-cameroon-sign-eur-21235-million-financing-agreement-for-major-transport-project", "publisher": "Banque islamique de développement", "title": "IsDB and Cameroon Sign EUR 212.35 Million Financing Agreement for Major Transport Project", "published": "2026-10-13", "tier": "A"}]
+        "sources": [{"url": "https://www.isdb.org/news/isdb-and-cameroon-sign-eur-21235-million-financing-agreement-for-major-transport-project", "publisher": {"fr": "Banque islamique de développement", "en": "Islamic Development Bank"}, "title": "IsDB and Cameroon Sign EUR 212.35 Million Financing Agreement for Major Transport Project", "published": "2026-10-13", "tier": "A"}]
       }
     ],
     "updated": "2026-10-19"
@@ -363,7 +307,7 @@
     "capacity": null,
     "cost": {"amount": 576.06, "currency": "EUR", "unit": "millions", "note": {"fr": "Coût total annoncé par la BID, dont 306,89 millions d'euros financés par la BID", "en": "Total cost announced by the IsDB, of which €306.89 million is financed by the IsDB"}},
     "owner": [],
-    "lenders": ["Banque islamique de développement"],
+    "lenders": [{"fr": "Banque islamique de développement", "en": "Islamic Development Bank"}],
     "contractors": [],
     "target_date": null,
     "milestones": [
@@ -372,7 +316,7 @@
         "type": "financement",
         "text": {"fr": "La BID signe avec le Bénin un financement de 306,89 millions d'euros, pour un coût total de 576,06 millions d'euros.", "en": "The IsDB signs €306.89 million of financing with Benin, towards a total cost of €576.06 million."},
         "confidence": "confirmé",
-        "sources": [{"url": "https://www.isdb.org/news/isdb-and-benin-strengthen-development-partnership-with-eu326-million-in-financing-agreements", "publisher": "Banque islamique de développement", "title": "IsDB and Benin Strengthen Development Partnership with €326 Million in Financing Agreements", "published": "2026-10-12", "tier": "A"}]
+        "sources": [{"url": "https://www.isdb.org/news/isdb-and-benin-strengthen-development-partnership-with-eu326-million-in-financing-agreements", "publisher": {"fr": "Banque islamique de développement", "en": "Islamic Development Bank"}, "title": "IsDB and Benin Strengthen Development Partnership with €326 Million in Financing Agreements", "published": "2026-10-12", "tier": "A"}]
       }
     ],
     "updated": "2026-10-19"
@@ -388,10 +332,10 @@
       "fr": "La Côte d'Ivoire prépare la construction de la route Zuénoula–Mankono, inscrite au programme PDZTA-2, en deux lots. Le premier couvre 36 km de route et 5 km de voirie, le second 39 km de route et 8 km de voirie. L'appel d'offres international, émis le 13 octobre 2026, fixe la remise des offres au 15 décembre 2026. La BAD a accordé un prêt ; un prêt de la BAII est sollicité.",
       "en": "Côte d'Ivoire is preparing to build the Zuénoula–Mankono road, part of the PDZTA-2 programme, in two lots. The first covers 36 km of road and 5 km of urban streets, the second 39 km of road and 8 km of urban streets. The international tender, issued on 13 October 2026, sets the bid deadline at 15 December 2026. The AfDB has granted a loan; a loan from the AIIB is being sought."
     },
-    "capacity": "Lot 1 : 36 km et 5 km de voirie ; lot 2 : 39 km et 8 km de voirie",
+    "capacity": {"fr": "Lot 1 : 36 km et 5 km de voirie ; lot 2 : 39 km et 8 km de voirie", "en": "Lot 1: 36 km and 5 km of urban roads; lot 2: 39 km and 8 km of urban roads"},
     "cost": null,
-    "owner": ["AGEROUTE (maître d'ouvrage délégué)"],
-    "lenders": ["Banque africaine de développement"],
+    "owner": [{"fr": "AGEROUTE (maître d'ouvrage délégué)", "en": "AGEROUTE (delegated project owner)"}],
+    "lenders": [{"fr": "Banque africaine de développement", "en": "African Development Bank"}],
     "contractors": [],
     "target_date": null,
     "milestones": [
@@ -400,7 +344,7 @@
         "type": "appel-d-offres",
         "text": {"fr": "Émission de l'appel d'offres international n° T 1505/2026 pour les deux lots ; remise des offres fixée au 15 décembre 2026.", "en": "International tender No. T 1505/2026 issued for both lots; bid deadline set at 15 December 2026."},
         "confidence": "confirmé",
-        "sources": [{"url": "https://www.afdb.org/sites/default/files/documents/project-related-procurement/avis_dappel_doffres_dao_travaux_zuenoula_-_mankono.pdf", "publisher": "Banque africaine de développement (avis du gouvernement ivoirien / AGEROUTE)", "title": "Avis d'Appel d'Offres international n° T 1505/2026 – PDZTA-2, route Zuenoula–Mankono", "published": "2026-10-13", "tier": "A"}, {"url": "https://www.afdb.org/en/documents/aoi-cote-divoire-travaux-construction-troncon-97530", "publisher": "Banque africaine de développement", "title": "AOI - Côte d'Ivoire - Travaux de construction du tronçon de route (Lot 1 & Lot 2) - PDZTA-2", "published": "2026-10-14", "tier": "A"}]
+        "sources": [{"url": "https://www.afdb.org/sites/default/files/documents/project-related-procurement/avis_dappel_doffres_dao_travaux_zuenoula_-_mankono.pdf", "publisher": {"fr": "Banque africaine de développement (avis du gouvernement ivoirien / AGEROUTE)", "en": "African Development Bank (Ivorian government / AGEROUTE notice)"}, "title": "Avis d'Appel d'Offres international n° T 1505/2026 – PDZTA-2, route Zuenoula–Mankono", "published": "2026-10-13", "tier": "A"}, {"url": "https://www.afdb.org/en/documents/aoi-cote-divoire-travaux-construction-troncon-97530", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "AOI - Côte d'Ivoire - Travaux de construction du tronçon de route (Lot 1 & Lot 2) - PDZTA-2", "published": "2026-10-14", "tier": "A"}]
       }
     ],
     "updated": "2026-10-19"
@@ -416,7 +360,7 @@
       "fr": "Le projet RAINE construit un réseau souterrain d'assainissement pluvial dans le Grand Lomé, au Togo. Le réseau compte environ 7,5 km de conduites, creusées par trois micro-tunneliers. Le premier, baptisé Mawusé, a été installé dans son puits d'attaque le 9 octobre 2026.",
       "en": "The RAINE project is building an underground stormwater drainage network in Greater Lomé, Togo. The network comprises around 7.5 km of pipes, bored by three microtunnelling machines. The first, named Mawusé, was installed in its launch shaft on 9 October 2026."
     },
-    "capacity": "environ 7,5 km de conduites souterraines",
+    "capacity": {"fr": "environ 7,5 km de conduites souterraines", "en": "about 7.5 km of underground pipes"},
     "cost": null,
     "owner": [],
     "lenders": [],
