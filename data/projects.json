@@ -70,8 +70,8 @@
     "stage": 1,
     "status": "publié",
     "summary": {
-      "fr": "Le Togo prépare une centrale thermique bifuel de 120 MW sur le site de la centrale de Lomé, qui fonctionnera surtout au gaz naturel. La Banque mondiale appuie le projet ; aucun montant n'est publié. Le ministère des Mines et des Énergies a consulté les acteurs du marché le 18 septembre 2026. La procédure de sélection est envisagée au quatrième trimestre 2026.",
-      "en": "Togo is preparing a 120 MW dual-fuel thermal power plant at the Lomé power station site, to run mainly on natural gas. The World Bank is supporting the project; no amount has been published. The Ministry of Mines and Energy consulted market players on 18 September 2026. The selection process is expected in the fourth quarter of 2026."
+      "fr": "Le Togo prépare une centrale thermique bifuel de 120 MW sur le site de la centrale de Lomé, qui fonctionnera surtout au gaz naturel. La Banque mondiale appuie le projet ; aucun montant n'est publié. Le ministère des Mines et des Énergies consulte les acteurs du marché depuis le 18 septembre 2026. La procédure de sélection est envisagée au quatrième trimestre 2026.",
+      "en": "Togo is preparing a 120 MW dual-fuel thermal power plant at the Lomé power station site, to run mainly on natural gas. The World Bank is supporting the project; no amount has been published. The Ministry of Mines and Energy has been consulting market players since 18 September 2026. The selection process is expected in the fourth quarter of 2026."
     },
     "capacity": "120 MW",
     "cost": null,
@@ -83,7 +83,7 @@
       {
         "date": "2026-09-18",
         "type": "etude",
-        "text": {"fr": "Le ministère des Mines et des Énergies réunit les acteurs du marché avant de lancer la procédure de sélection.", "en": "The Ministry of Mines and Energy convenes market players ahead of launching the selection process."},
+        "text": {"fr": "Le ministère des Mines et des Énergies ouvre les consultations avec les acteurs du marché, avant la procédure de sélection.", "en": "The Ministry of Mines and Energy opens consultations with market players ahead of the selection process."},
         "confidence": "confirmé",
         "sources": [{"url": "https://energie.gouv.tg/centrale-thermique-bifuel-de-120-mw-a-lome-le-ministere-consulte-les-acteurs-du-marche/", "publisher": {"fr": "Ministère des Mines et des Énergies (Togo)", "en": "Ministry of Mines and Energy (Togo)"}, "title": "Centrale thermique bifuel de 120 MW à Lomé : Le Ministère consulte les acteurs du marché avant le lancement de la procédure de sélection", "published": "2026-09-22", "tier": "A"}]
       }
