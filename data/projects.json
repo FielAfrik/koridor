@@ -33,62 +33,62 @@
     "country": "SN",
     "sector": "energie",
     "stage": 3,
-    "status": "à vérifier",
+    "status": "publié",
     "summary": {
-      "fr": "Le Sénégal étend son réseau de gazoducs. Des travaux ont démarré sur un gazoduc, et l'État cherche à mobiliser près de 600 millions pour l'extension du réseau.",
-      "en": "Senegal is expanding its gas pipeline network. Work has started on one pipeline, and the state is seeking to raise close to 600 million for the network expansion."
+      "fr": "Réseau gazier du Sénégal (RGS) construit le tronçon nord de 85 km de son réseau de gazoducs. La première canalisation a été posée à Gandon le 10 septembre 2026. Le 12 octobre 2026, RGS a présenté un besoin de 530 millions d'euros pour trois autres tronçons, longs de 255 km au total. Ce financement n'est pas acquis.",
+      "en": "Réseau gazier du Sénégal (RGS) is building the 85 km northern section of its gas pipeline network. The first pipe was laid at Gandon on 10 September 2026. On 12 October 2026, RGS set out a €530 million financing requirement for three further sections totalling 255 km. This financing has not been secured."
     },
-    "capacity": null,
-    "cost": {"amount": 600, "currency": null, "unit": "millions", "note": {"fr": "Montant recherché (« près de »), devise à confirmer", "en": "Amount sought (\"close to\"), currency to be confirmed"}},
-    "owner": [],
+    "capacity": "Tronçon nord : 85 km ; trois tronçons à financer : 255 km",
+    "cost": {"amount": 530, "currency": "EUR", "unit": "millions", "note": {"fr": "Financement recherché pour trois tronçons (255 km), non acquis", "en": "Financing sought for three sections (255 km), not secured"}},
+    "owner": ["Réseau gazier du Sénégal (RGS)"],
     "lenders": [],
     "contractors": [],
     "target_date": null,
     "milestones": [
       {
-        "date": "2026-10-18",
-        "type": "financement",
-        "text": {"fr": "L'État veut mobiliser près de 600 millions pour étendre son réseau gazier.", "en": "The state aims to raise close to 600 million to expand its gas network."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.agenceecofin.com/actualites/1810-142520-le-senegal-veut-mobiliser-pres-de-600-millions-pour-etendre-son-reseau-gazier", "publisher": "Agence Ecofin", "title": "Le Sénégal veut mobiliser près de 600 millions pour étendre son réseau gazier", "published": "2026-10-18", "tier": "B"}]
+        "date": "2026-10-12",
+        "type": "annonce",
+        "text": {"fr": "À l'African Energy Week, RGS chiffre à 530 millions d'euros le financement recherché pour trois tronçons totalisant 255 km.", "en": "At African Energy Week, RGS put the financing it is seeking for three sections totalling 255 km at €530 million."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afrique-sur7.fr/reseau-gazier-du-senegal-348-milliards-gazoducs", "publisher": "Afrique-sur7", "title": "Réseau gazier du Sénégal : 348 milliards pour les gazoducs", "published": "2026-10-14", "tier": "B"}, {"url": "https://www.agenceecofin.com/actualites/1810-142520-le-senegal-veut-mobiliser-pres-de-600-millions-pour-etendre-son-reseau-gazier", "publisher": "Agence Ecofin", "title": "Le Sénégal veut mobiliser près de 600 millions $ pour étendre son réseau gazier", "published": "2026-10-18", "tier": "B"}]
       },
       {
-        "date": "2026-10",
+        "date": "2026-09-10",
         "type": "travaux",
-        "text": {"fr": "Démarrage des travaux d'un gazoduc.", "en": "Construction starts on a gas pipeline."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/senegal-works-starts-gas-pipeline", "publisher": "African Energy", "title": "Senegal: Works starts on gas pipeline", "published": null, "tier": "B"}]
+        "text": {"fr": "Pose à Gandon de la première canalisation du tronçon nord, long de 85 km.", "en": "First pipe of the 85 km northern section laid at Gandon."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afrique-sur7.fr/reseau-gazier-du-senegal-348-milliards-gazoducs", "publisher": "Afrique-sur7", "title": "Réseau gazier du Sénégal : 348 milliards pour les gazoducs", "published": "2026-10-14", "tier": "B"}, {"url": "https://inspenet.com/en/news/senegal-gas-pipelines-530-million-expansion/", "publisher": "Inspenet", "title": "Senegal gas pipelines: 530 million expansion", "published": "2026-10-16", "tier": "B"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "centrale-gaz-togo",
-    "name": {"fr": "Grande centrale à gaz", "en": "Large gas-fired power plant"},
+    "name": {"fr": "Centrale thermique bifuel de 120 MW de Lomé", "en": "Lomé 120 MW dual-fuel thermal power plant"},
     "country": "TG",
     "sector": "energie",
     "stage": 1,
-    "status": "à vérifier",
+    "status": "publié",
     "summary": {
-      "fr": "Le Togo prépare la procédure d'achat d'une grande centrale électrique au gaz. Capacité, site et calendrier restent à confirmer.",
-      "en": "Togo is preparing the procurement of a large gas-fired power plant. Capacity, site and timetable are still to be confirmed."
+      "fr": "Le Togo prépare une centrale thermique bifuel de 120 MW sur le site de la centrale de Lomé, qui fonctionnera surtout au gaz naturel. La Banque mondiale appuie le projet ; aucun montant n'est publié. Le ministère des Mines et des Énergies a consulté les acteurs du marché le 18 septembre 2026. La procédure de sélection est envisagée au quatrième trimestre 2026.",
+      "en": "Togo is preparing a 120 MW dual-fuel thermal power plant at the Lomé power station site, to run mainly on natural gas. The World Bank is supporting the project; no amount has been published. The Ministry of Mines and Energy consulted market players on 18 September 2026. The selection process is expected in the fourth quarter of 2026."
     },
-    "capacity": null,
+    "capacity": "120 MW",
     "cost": null,
     "owner": [],
-    "lenders": [],
+    "lenders": ["Banque mondiale"],
     "contractors": [],
     "target_date": null,
     "milestones": [
       {
-        "date": "2026-10",
+        "date": "2026-09-18",
         "type": "appel-d-offres",
-        "text": {"fr": "Préparation de la procédure d'achat de la centrale.", "en": "Procurement for the plant is being prepared."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/togo-prepares-large-gas-power-plant-procurement", "publisher": "African Energy", "title": "Togo prepares large gas power plant procurement", "published": null, "tier": "B"}]
+        "text": {"fr": "Le ministère des Mines et des Énergies réunit les acteurs du marché avant de lancer la procédure de sélection.", "en": "The Ministry of Mines and Energy convenes market players ahead of launching the selection process."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://energie.gouv.tg/centrale-thermique-bifuel-de-120-mw-a-lome-le-ministere-consulte-les-acteurs-du-marche/", "publisher": "Ministère des Mines et des Énergies (Togo)", "title": "Centrale thermique bifuel de 120 MW à Lomé : Le Ministère consulte les acteurs du marché avant le lancement de la procédure de sélection", "published": "2026-09-22", "tier": "A"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "step-tubatse",
@@ -96,27 +96,27 @@
     "country": "ZA",
     "sector": "energie",
     "stage": 1,
-    "status": "à vérifier",
+    "status": "publié",
     "summary": {
-      "fr": "Station de transfert d'énergie par pompage (stockage hydraulique) en Afrique du Sud. La procédure d'appel d'offres a démarré.",
-      "en": "A pumped hydro storage scheme in South Africa. The tender process has started."
+      "fr": "La STEP de Tubatse, dans le Limpopo en Afrique du Sud, doit offrir jusqu'à 1,5 GW de puissance et 21 GWh de stockage. Eskom a lancé le 13 octobre 2026 un appel à qualification pour choisir un partenaire stratégique. Les réponses sont attendues le 30 novembre 2026 ; les candidats qualifiés recevront ensuite une demande de propositions.",
+      "en": "The Tubatse pumped storage scheme, in Limpopo, South Africa, is designed to provide up to 1.5 GW of capacity and 21 GWh of storage. On 13 October 2026 Eskom issued a request for qualification to select a strategic partner. Responses are due by 30 November 2026; qualified bidders will then receive a request for proposals."
     },
-    "capacity": null,
+    "capacity": "jusqu'à 1,5 GW / 21 GWh",
     "cost": null,
-    "owner": [],
+    "owner": ["Eskom Holdings (Eskom Green en cours de constitution)"],
     "lenders": [],
     "contractors": [],
     "target_date": null,
     "milestones": [
       {
-        "date": "2026-10",
+        "date": "2026-10-13",
         "type": "appel-d-offres",
-        "text": {"fr": "Lancement de la procédure d'appel d'offres.", "en": "Tender process launched."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/south-africa-tubatse-pumped-hydro-storage-tender-process-starts", "publisher": "African Energy", "title": "South Africa: Tubatse pumped hydro storage tender process starts", "published": null, "tier": "B"}]
+        "text": {"fr": "Eskom lance l'appel à qualification RFQ E3611GXR pour choisir un partenaire stratégique ; réponses attendues le 30 novembre 2026.", "en": "Eskom issues request for qualification RFQ E3611GXR to select a strategic partner; responses due by 30 November 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eskom.co.za/eskom-green-launches-strategic-partner-selection-process-for-up-to-1-5gw-21gwh-of-tubatse-pumped-storage-scheme-set-to-be-south-africas-largest-energy-storage-system-ess-to-integrate-inc/", "publisher": "Eskom", "title": "Eskom Green launches strategic partner selection process for up to 1.5GW / 21GWh of Tubatse Pumped Storage Scheme", "published": "2026-10-13", "tier": "A"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "solaire-kafue",
@@ -221,6 +221,13 @@
     "target_date": null,
     "milestones": [
       {
+        "date": "2026-10-14",
+        "type": "reglementation",
+        "text": {"fr": "Pour 2027, l'Autorité du fleuve Zambèze alloue 23 milliards de m³ à l'hydroélectricité de Kariba, contre 36 milliards de m³ en 2026.", "en": "For 2027, the Zambezi River Authority allocates 23 billion m³ to hydropower generation at Kariba, down from 36 billion m³ in 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.heraldonline.co.zw/zra-slashes-kariba-water-allocation-for-2027/", "publisher": "The Herald (Zimbabwe)", "title": "ZRA slashes Kariba water allocation for 2027", "published": "2026-10-15", "tier": "B"}, {"url": "https://www.agenceecofin.com/actualites-industries/1810-142527-le-zimbabwe-prepare-le-projet-solaire-de-kariba-en-prevision-de-la-baisse-des-quotas-d-eau-pour-l-hydroelectricite", "publisher": "Agence Ecofin", "title": "Le Zimbabwe prépare le projet solaire de Kariba, en prévision de la baisse des quotas d'eau pour l'hydroélectricité", "published": "2026-10-18", "tier": "B"}]
+      },
+      {
         "date": "2026-10",
         "type": "travaux",
         "text": {"fr": "Les travaux de réhabilitation approchent de leur fin.", "en": "Rehabilitation works are nearing completion."},
@@ -228,7 +235,7 @@
         "sources": [{"url": "https://www.africa-energy.com/news-centre/article/zambiazimbabwe-kariba-dam-rehabilitation-nearing-completion", "publisher": "African Energy", "title": "Zambia/Zimbabwe: Kariba dam rehabilitation nearing completion", "published": null, "tier": "B"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-19"
   },
   {
     "id": "eolien-ipp-egypte",
@@ -295,7 +302,7 @@
     "status": "à vérifier",
     "summary": {
       "fr": "Déploiement de la fibre optique au Nigeria. L'Union européenne y apporte une subvention de 14 millions d'euros.",
-      "en": "Fibre-optic roll-out in Nigeria. The European Union is providing a 14 million euro grant."
+      "en": "Fibre-optic roll-out in Nigeria. The European Union is providing a €14 million grant."
     },
     "capacity": null,
     "cost": {"amount": 14, "currency": "EUR", "unit": "millions", "note": {"fr": "Subvention de l'UE", "en": "EU grant"}},
@@ -307,11 +314,123 @@
       {
         "date": "2026-10-16",
         "type": "financement",
-        "text": {"fr": "Subvention de 14 millions d'euros de l'UE pour le déploiement.", "en": "EU grant of 14 million euros for the roll-out."},
+        "text": {"fr": "Subvention de 14 millions d'euros de l'UE pour le déploiement.", "en": "€14 million EU grant for the roll-out."},
         "confidence": "à confirmer",
         "sources": [{"url": "https://www.agenceecofin.com/actualites-numerique/1610-142492-nigeria-l-ue-appuie-le-deploiement-de-la-fibre-optique-avec-une-subvention-de-14-millions-d-euros", "publisher": "Agence Ecofin", "title": "Nigeria : l'UE appuie le déploiement de la fibre optique avec une subvention de 14 millions d'euros", "published": "2026-10-16", "tier": "B"}]
       }
     ],
     "updated": "2026-10-18"
+  },
+  {
+    "id": "route-douala-bafoussam",
+    "name": {"fr": "Réhabilitation de la route Douala–Bafoussam", "en": "Douala–Bafoussam road rehabilitation"},
+    "country": "CM",
+    "sector": "transport",
+    "stage": 2,
+    "status": "publié",
+    "summary": {
+      "fr": "Le Cameroun réhabilite le corridor routier entre Douala et Bafoussam. Le projet porte sur 218 km de routes nationales et 108 km de pistes. La Banque islamique de développement a signé le 13 octobre 2026 un accord de financement de 212,35 millions d'euros. Son communiqué ne donne pas le coût total du projet.",
+      "en": "Cameroon is rehabilitating the road corridor between Douala and Bafoussam. The project covers 218 km of national roads and 108 km of rural tracks. On 13 October 2026 the Islamic Development Bank signed a €212.35 million financing agreement. Its press release does not give the total project cost."
+    },
+    "capacity": "218 km de routes nationales et 108 km de pistes",
+    "cost": {"amount": 212.35, "currency": "EUR", "unit": "millions", "note": {"fr": "Montant du financement de la BID, pas le coût total du projet", "en": "IsDB financing amount, not the total project cost"}},
+    "owner": [],
+    "lenders": ["Banque islamique de développement"],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-13",
+        "type": "financement",
+        "text": {"fr": "À Bangkok, la BID et le Cameroun signent un accord de financement de 212,35 millions d'euros pour réhabiliter le corridor.", "en": "In Bangkok, the IsDB and Cameroon sign a €212.35 million financing agreement to rehabilitate the corridor."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.isdb.org/news/isdb-and-cameroon-sign-eur-21235-million-financing-agreement-for-major-transport-project", "publisher": "Banque islamique de développement", "title": "IsDB and Cameroon Sign EUR 212.35 Million Financing Agreement for Major Transport Project", "published": "2026-10-13", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-10-19"
+  },
+  {
+    "id": "route-godomey-ouidah-hillacondji",
+    "name": {"fr": "Élargissement et modernisation de la route Godomey–Ouidah–Hillacondji", "en": "Godomey–Ouidah–Hillacondji road widening and upgrading"},
+    "country": "BJ",
+    "sector": "transport",
+    "stage": 2,
+    "status": "publié",
+    "summary": {
+      "fr": "Le Bénin élargit et modernise la route Godomey–Ouidah–Hillacondji. Le coût total du projet est annoncé à 576,06 millions d'euros. La Banque islamique de développement en finance 306,89 millions d'euros, selon un accord signé le 12 octobre 2026. Le financement du solde n'est pas précisé.",
+      "en": "Benin is widening and upgrading the Godomey–Ouidah–Hillacondji road. The total project cost is put at €576.06 million. The Islamic Development Bank is financing €306.89 million of this, under an agreement signed on 12 October 2026. How the balance will be financed has not been specified."
+    },
+    "capacity": null,
+    "cost": {"amount": 576.06, "currency": "EUR", "unit": "millions", "note": {"fr": "Coût total annoncé par la BID, dont 306,89 millions d'euros financés par la BID", "en": "Total cost announced by the IsDB, of which €306.89 million is financed by the IsDB"}},
+    "owner": [],
+    "lenders": ["Banque islamique de développement"],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-12",
+        "type": "financement",
+        "text": {"fr": "La BID signe avec le Bénin un financement de 306,89 millions d'euros, pour un coût total de 576,06 millions d'euros.", "en": "The IsDB signs €306.89 million of financing with Benin, towards a total cost of €576.06 million."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.isdb.org/news/isdb-and-benin-strengthen-development-partnership-with-eu326-million-in-financing-agreements", "publisher": "Banque islamique de développement", "title": "IsDB and Benin Strengthen Development Partnership with €326 Million in Financing Agreements", "published": "2026-10-12", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-10-19"
+  },
+  {
+    "id": "route-zuenoula-mankono",
+    "name": {"fr": "Route Zuénoula–Mankono (PDZTA-2)", "en": "Zuénoula–Mankono road (PDZTA-2)"},
+    "country": "CI",
+    "sector": "transport",
+    "stage": 1,
+    "status": "publié",
+    "summary": {
+      "fr": "La Côte d'Ivoire prépare la construction de la route Zuénoula–Mankono, inscrite au programme PDZTA-2, en deux lots. Le premier couvre 36 km de route et 5 km de voirie, le second 39 km de route et 8 km de voirie. L'appel d'offres international, émis le 13 octobre 2026, fixe la remise des offres au 15 décembre 2026. La BAD a accordé un prêt ; un prêt de la BAII est sollicité.",
+      "en": "Côte d'Ivoire is preparing to build the Zuénoula–Mankono road, part of the PDZTA-2 programme, in two lots. The first covers 36 km of road and 5 km of urban streets, the second 39 km of road and 8 km of urban streets. The international tender, issued on 13 October 2026, sets the bid deadline at 15 December 2026. The AfDB has granted a loan; a loan from the AIIB is being sought."
+    },
+    "capacity": "Lot 1 : 36 km et 5 km de voirie ; lot 2 : 39 km et 8 km de voirie",
+    "cost": null,
+    "owner": ["AGEROUTE (maître d'ouvrage délégué)"],
+    "lenders": ["Banque africaine de développement"],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-13",
+        "type": "appel-d-offres",
+        "text": {"fr": "Émission de l'appel d'offres international n° T 1505/2026 pour les deux lots ; remise des offres fixée au 15 décembre 2026.", "en": "International tender No. T 1505/2026 issued for both lots; bid deadline set at 15 December 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/sites/default/files/documents/project-related-procurement/avis_dappel_doffres_dao_travaux_zuenoula_-_mankono.pdf", "publisher": "Banque africaine de développement (avis du gouvernement ivoirien / AGEROUTE)", "title": "Avis d'Appel d'Offres international n° T 1505/2026 – PDZTA-2, route Zuenoula–Mankono", "published": "2026-10-13", "tier": "A"}, {"url": "https://www.afdb.org/en/documents/aoi-cote-divoire-travaux-construction-troncon-97530", "publisher": "Banque africaine de développement", "title": "AOI - Côte d'Ivoire - Travaux de construction du tronçon de route (Lot 1 & Lot 2) - PDZTA-2", "published": "2026-10-14", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-10-19"
+  },
+  {
+    "id": "raine-assainissement-lome",
+    "name": {"fr": "Réseau d'assainissement pluvial RAINE du Grand Lomé", "en": "RAINE stormwater drainage network, Greater Lomé"},
+    "country": "TG",
+    "sector": "eau",
+    "stage": 3,
+    "status": "publié",
+    "summary": {
+      "fr": "Le projet RAINE construit un réseau souterrain d'assainissement pluvial dans le Grand Lomé, au Togo. Le réseau compte environ 7,5 km de conduites, creusées par trois micro-tunneliers. Le premier, baptisé Mawusé, a été installé dans son puits d'attaque le 9 octobre 2026.",
+      "en": "The RAINE project is building an underground stormwater drainage network in Greater Lomé, Togo. The network comprises around 7.5 km of pipes, bored by three microtunnelling machines. The first, named Mawusé, was installed in its launch shaft on 9 October 2026."
+    },
+    "capacity": "environ 7,5 km de conduites souterraines",
+    "cost": null,
+    "owner": [],
+    "lenders": [],
+    "contractors": [],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-09",
+        "type": "travaux",
+        "text": {"fr": "Le micro-tunnelier Mawusé, premier de trois, est installé dans son puits d'attaque et commence le creusement du réseau.", "en": "The microtunnelling machine Mawusé, the first of three, is installed in its launch shaft and begins boring the network."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.republiquetogolaise.tg/social/1210-12369-assainissement-debut-du-creusement-du-micro-tunnelier-mawuse", "publisher": "République togolaise – Togo Officiel", "title": "Assainissement : début du creusement du micro-tunnelier Mawusé", "published": "2026-10-12", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-10-19"
   }
 ]
