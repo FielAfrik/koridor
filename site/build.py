@@ -22,6 +22,20 @@ AFRICA = json.loads((SITE / "africa.json").read_text(encoding="utf-8"))
 BASE = os.environ.get("BASE_PATH", CONFIG.get("base_path", "")).rstrip("/")
 NAME = CONFIG["site_name"]
 
+# Mesure d'audience (Umami, sans cookie). Rien n'est injecté tant que website_id est vide.
+ANALYTICS = CONFIG.get("analytics") or {}
+TRACKING = bool(ANALYTICS.get("website_id"))
+
+
+def tracking_tags():
+    if not TRACKING:
+        return ""
+    domains = ANALYTICS.get("domains")
+    dom = f' data-domains="{html.escape(domains, quote=True)}"' if domains else ""
+    return (f'<script defer src="{html.escape(ANALYTICS.get("script_url", "https://cloud.umami.is/script.js"), quote=True)}" '
+            f'data-website-id="{html.escape(ANALYTICS["website_id"], quote=True)}"{dom}></script>\n'
+            f'<script defer src="{BASE}/assets/audience.js"></script>\n')
+
 LANGS = ("fr", "en")
 OTHER = {"fr": "en", "en": "fr"}
 
@@ -79,6 +93,7 @@ T = {
         "method_title": "Notre méthode",
         "about_title": "À propos de Koridor", "about_sub": "Comprendre les projets qui transforment l’Afrique",
         "footer": "Média indépendant sur les infrastructures, l'énergie et le développement durable en Afrique.",
+        "privacy": "Mesure d'audience anonyme, sans cookie ni donnée personnelle.",
         "lang_switch": "English",
         "projects_slug": "projets", "brief_slug": "brief", "method_slug": "methode", "about_slug": "a-propos",
         "currency": {"USD": "dollars", "EUR": "euros", "XOF": "francs CFA", "XAF": "francs CFA", None: ""},
@@ -138,6 +153,7 @@ T = {
         "method_title": "Our method",
         "about_title": "About Koridor", "about_sub": "Understanding the projects transforming Africa",
         "footer": "Independent outlet on infrastructure, energy and sustainable development in Africa.",
+        "privacy": "Anonymous audience measurement, no cookies, no personal data.",
         "lang_switch": "Français",
         "projects_slug": "projects", "brief_slug": "brief", "method_slug": "method", "about_slug": "about",
         "currency": {"USD": "dollars", "EUR": "euros", "XOF": "CFA francs", "XAF": "CFA francs", None: ""},
@@ -376,7 +392,7 @@ def page(lang, title, body, path_parts, description="", current=""):
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
 <link rel="stylesheet" href="{BASE}/assets/style.css">
-</head>
+{tracking_tags()}</head>
 <body>
 <a class="skip" href="#contenu">{e(t['skip'])}</a>
 <header class="top">
@@ -395,7 +411,7 @@ def page(lang, title, body, path_parts, description="", current=""):
 <footer class="foot">
 <div class="wrap foot-in">
 <div class="foot-brand"><a class="brand" href="{url(lang)}">{LOGO}<span class="brand-name">{e(NAME)}</span></a>
-<p>{e(t['footer'])}</p></div>
+<p>{e(t['footer'])}</p>{f'<p class="fine">{e(t["privacy"])}</p>' if TRACKING else ''}</div>
 <nav aria-label="{e(t['nav_label'])}">{''.join(nav)}</nav>
 </div>
 </footer>
@@ -757,6 +773,8 @@ def main():
         shutil.rmtree(DIST)
     (DIST / "assets").mkdir(parents=True)
     shutil.copy(SITE / "style.css", DIST / "assets" / "style.css")
+    if TRACKING:
+        shutil.copy(SITE / "audience.js", DIST / "assets" / "audience.js")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
     (DIST / "index.html").write_text(
         f'<!doctype html><html lang="fr"><head><meta charset="utf-8"><title>{e(NAME)}</title>'

@@ -1,0 +1,47 @@
+name: Bilan d'audience
+
+# Chaque lundi, avant le cycle de veille (4 h 56), récupère les chiffres de la semaine
+# écoulée auprès d'Umami et les range sur la branche « audience ». Le Rapporteur les y lit.
+# Cette branche ne contient que des chiffres : elle ne touche ni main ni le site publié.
+on:
+  schedule:
+    - cron: "10 2 * * 1"   # 4 h 10 à Paris l'été, 3 h 10 l'hiver
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Lundi du rapport (AAAA-MM-JJ), vide = cette semaine"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  audience:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Récupérer les chiffres
+        env:
+          UMAMI_API_KEY: ${{ secrets.UMAMI_API_KEY }}
+          UMAMI_SHARE_URL: ${{ secrets.UMAMI_SHARE_URL }}
+        run: python3 scripts/audience.py --out "$RUNNER_TEMP/audience" ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
+      - name: Ranger sur la branche audience
+        run: |
+          if [ ! -d "$RUNNER_TEMP/audience" ]; then echo "Rien à ranger."; exit 0; fi
+          git config user.name "koridor-audience"
+          git config user.email "actions@users.noreply.github.com"
+          if git fetch --depth 1 origin audience; then
+            git checkout -B audience FETCH_HEAD
+          else
+            git checkout --orphan audience
+            git rm -rf --quiet .
+            printf "# Audience de Koridor\n\nUn bilan par semaine, écrit chaque lundi par le workflow « Bilan d'audience ».\n" > README.md
+          fi
+          mkdir -p audience
+          cp "$RUNNER_TEMP"/audience/* audience/
+          git add README.md audience
+          git commit -m "Audience : bilan du $(ls "$RUNNER_TEMP"/audience | grep -v dernier | head -1 | cut -c1-10)" || exit 0
+          git push origin audience

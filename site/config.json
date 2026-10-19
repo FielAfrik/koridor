@@ -3,5 +3,11 @@
   "base_path": "",
   "show_unverified": false,
   "newsletter_signup_url": "",
-  "contact_email": ""
+  "contact_email": "",
+  "analytics": {
+    "provider": "umami",
+    "website_id": "15ee0c08-ea04-4614-b3e7-06229bb32d18",
+    "script_url": "https://cloud.umami.is/script.js",
+    "domains": "fielafrik.github.io"
+  }
 }
