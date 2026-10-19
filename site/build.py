@@ -21,6 +21,9 @@ COUNTRIES = json.loads((SITE / "countries.json").read_text(encoding="utf-8"))
 AFRICA = json.loads((SITE / "africa.json").read_text(encoding="utf-8"))
 BASE = os.environ.get("BASE_PATH", CONFIG.get("base_path", "")).rstrip("/")
 NAME = CONFIG["site_name"]
+# Adresse publique du site, pour les liens absolus des aperçus de partage et du plan du site.
+ORIGIN = CONFIG.get("site_origin", "").rstrip("/")
+SITEMAP = []
 
 # Mesure d'audience (Umami, sans cookie). Rien n'est injecté tant que website_id est vide.
 ANALYTICS = CONFIG.get("analytics") or {}
@@ -364,7 +367,31 @@ def translate_path(parts, lang):
     return [mapping.get(p, p) for p in parts]
 
 
-def page(lang, title, body, path_parts, description="", current=""):
+def share_tags(lang, title, description, path_parts, other, other_parts, kind):
+    """Balises d'aperçu (LinkedIn, WhatsApp, X, e-mail), lien canonique et plan du site."""
+    if not ORIGIN:
+        return ""
+    here = ORIGIN + url(lang, *path_parts)
+    SITEMAP.append(here)
+    locale = {"fr": "fr_FR", "en": "en_GB"}
+    image = f"{ORIGIN}{BASE}/assets/og-{lang}.png"
+    return (f'<link rel="canonical" href="{e(here)}">\n'
+            f'<link rel="alternate" hreflang="{lang}" href="{e(here)}">\n'
+            f'<link rel="alternate" hreflang="x-default" href="{e(ORIGIN + url("fr", *(path_parts if lang == "fr" else other_parts)))}">\n'
+            f'<meta property="og:site_name" content="{e(NAME)}">\n'
+            f'<meta property="og:type" content="{kind}">\n'
+            f'<meta property="og:title" content="{e(title)}">\n'
+            f'<meta property="og:description" content="{e(description)}">\n'
+            f'<meta property="og:url" content="{e(here)}">\n'
+            f'<meta property="og:image" content="{e(image)}">\n'
+            f'<meta property="og:image:width" content="1200">\n'
+            f'<meta property="og:image:height" content="630">\n'
+            f'<meta property="og:locale" content="{locale[lang]}">\n'
+            f'<meta property="og:locale:alternate" content="{locale[other]}">\n'
+            f'<meta name="twitter:card" content="summary_large_image">\n')
+
+
+def page(lang, title, body, path_parts, description="", current="", kind="website"):
     t = T[lang]
     other = OTHER[lang]
     other_parts = translate_path(path_parts, lang)
@@ -385,6 +412,7 @@ def page(lang, title, body, path_parts, description="", current=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(full_title)}</title>
 <meta name="description" content="{e(description or t['hero_sub'])}">
+{share_tags(lang, title if title != NAME else full_title, description or t['hero_sub'], path_parts, other, other_parts, kind)}
 <meta name="theme-color" content="#0F1E2B">
 <link rel="icon" href="{FAVICON}">
 <link rel="alternate" hreflang="{other}" href="{url(other, *other_parts)}">
@@ -692,7 +720,7 @@ def build_project(lang, p, projects):
 </aside>
 </div>
 </div>"""
-    return page(lang, p["name"][lang], body, [t["projects_slug"], p["id"]], p["summary"][lang], current="nav_projects")
+    return page(lang, p["name"][lang], body, [t["projects_slug"], p["id"]], p["summary"][lang], current="nav_projects", kind="article")
 
 
 def paragraphs(text):
@@ -721,7 +749,8 @@ def build_brief_issue(lang, b, by_id):
 {deal}
 {analysis}
 </div>"""
-    return page(lang, title, body, [t["brief_slug"], b["date"]], current="nav_brief")
+    lead = b["deal"]["title"][lang] if b.get("deal") else ""
+    return page(lang, title, body, [t["brief_slug"], b["date"]], lead, current="nav_brief", kind="article")
 
 
 def build_brief_index(lang, briefs):
@@ -773,6 +802,9 @@ def main():
         shutil.rmtree(DIST)
     (DIST / "assets").mkdir(parents=True)
     shutil.copy(SITE / "style.css", DIST / "assets" / "style.css")
+    for lang in LANGS:
+        if (SITE / f"og-{lang}.png").exists():
+            shutil.copy(SITE / f"og-{lang}.png", DIST / "assets" / f"og-{lang}.png")
     if TRACKING:
         shutil.copy(SITE / "audience.js", DIST / "assets" / "audience.js")
     (DIST / ".nojekyll").write_text("", encoding="utf-8")
@@ -794,6 +826,16 @@ def main():
         for b in briefs:
             write(f"{lang}/{t['brief_slug']}/{b['date']}", build_brief_issue(lang, b, by_id))
             pages += 1
+    if ORIGIN:
+        # Plan du site et robots.txt, pour que Google trouve chaque fiche projet.
+        # Sur GitHub Pages en sous-dossier, Google lit le sitemap déclaré dans la Search Console.
+        stamp = date.today().isoformat()
+        urls = "".join(f"<url><loc>{e(u)}</loc><lastmod>{stamp}</lastmod></url>" for u in sorted(set(SITEMAP)))
+        (DIST / "sitemap.xml").write_text(
+            '<?xml version="1.0" encoding="UTF-8"?>\n'
+            f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n', encoding="utf-8")
+        (DIST / "robots.txt").write_text(
+            f"User-agent: *\nAllow: /\nSitemap: {ORIGIN}{BASE}/sitemap.xml\n", encoding="utf-8")
     print(f"Site généré : {pages} pages dans dist/")
 
 

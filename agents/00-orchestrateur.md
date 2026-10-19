@@ -37,7 +37,7 @@ fichier de sortie du précédent existe et n'est pas vide.
 | 4 | Rédacteur (`04-redacteur.md`) | `03-changements.json`, `data/projects.json` | textes FR dans `data/projects.json`, `data/briefs/AAAA-MM-JJ.json` |
 | 5 | Traducteur (`05-traducteur.md`) | les textes FR | champs `en` des mêmes fichiers |
 | 6 | Éditeur (`06-editeur.md`) | tout ce qui a changé | corrections + `work/…/06-relecture.md` |
-| 7 | Publieur (`07-publieur.md`) | le dépôt | build, contrôles, pull request, brouillons LinkedIn |
+| 7 | Publieur (`07-publieur.md`) | le dépôt | build, contrôles, pull request |
 | 8 | Rapporteur (`08-rapporteur.md`) | tout `work/…/`, dont `07-audience.md` | `reports/AAAA-MM-JJ.md` + description de la pull request |
 
 Les agents 4 et 5 peuvent se succéder rapidement, mais jamais en parallèle sur le même
