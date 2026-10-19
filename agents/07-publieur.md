@@ -8,9 +8,8 @@ request que le rédacteur en chef fusionne.
 ## Étapes
 
 1. `python3 scripts/validate.py` puis `python3 site/build.py`. Les deux doivent réussir.
-2. Préparer `work/AAAA-MM-JJ/linkedin.md` : 3 brouillons de posts (un carrousel « 5
-   projets de la semaine », un post sur le deal, un post sur le décryptage), en français,
-   avec le lien vers la page concernée du site.
+2. Les posts LinkedIn, WhatsApp, X et e-mail ne sont plus préparés ici : le pôle
+   communication (`agents/com/`) les produit à partir de la pull request de veille.
 3. Commettre les changements de `data/` et `reports/` sur la branche `veille/AAAA-MM-JJ`.
    Ne pas commettre `dist/` ni `work/`.
 4. Ouvrir la pull request vers `main`, titrée « Veille du AAAA-MM-JJ — N projets mis à
