@@ -46,18 +46,35 @@ SHARE_TOKEN = ""
 
 
 def use_share_link():
-    """Échange le lien de partage contre un jeton de lecture, comme le fait la page publique."""
+    """Échange le lien de partage contre un jeton de lecture, comme le fait la page publique.
+
+    Sur Umami Cloud, l'API du tableau de bord vit sous /analytics/<région>/api (eu ou us).
+    Le lien court cloud.umami.is/share/<id> ne dit pas la région : on essaie les deux.
+    """
     global API, SHARE_TOKEN, SITE_ID
     u = urllib.parse.urlparse(SHARE_URL)
     parts = [x for x in u.path.split("/") if x]
     share_id = parts[parts.index("share") + 1]
-    API = f"{u.scheme}://{u.netloc}/api"
-    req = urllib.request.Request(f"{API}/share/{share_id}", headers={"Accept": "application/json",
-                                                                     "User-Agent": "koridor-audience/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        info = json.loads(r.read().decode("utf-8"))
-    SHARE_TOKEN = info["token"]
-    SITE_ID = info.get("websiteId") or SITE_ID
+    prefix = "/".join(parts[:parts.index("share")])
+    bases = [f"{u.scheme}://{u.netloc}/{prefix}/api" if prefix else None] if prefix else []
+    if "umami.is" in u.netloc and not prefix:
+        bases = [f"{u.scheme}://{u.netloc}/analytics/{r}/api" for r in ("eu", "us")]
+    bases.append(f"{u.scheme}://{u.netloc}/api")
+    last = None
+    for base in [b for b in bases if b]:
+        req = urllib.request.Request(f"{base}/share/{share_id}", headers={"Accept": "application/json",
+                                                                          "User-Agent": "koridor-audience/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as r:
+                info = json.loads(r.read().decode("utf-8"))
+        except (urllib.error.HTTPError, json.JSONDecodeError) as ex:
+            last = ex
+            continue
+        if info.get("token"):
+            API, SHARE_TOKEN = base, info["token"]
+            SITE_ID = info.get("websiteId") or SITE_ID
+            return
+    raise RuntimeError(f"aucune adresse d'API n'a répondu ({last})")
 
 
 # ---------- API ----------
@@ -67,6 +84,7 @@ def get(path, **params):
     headers = {"Accept": "application/json", "User-Agent": "koridor-audience/1.0"}
     if SHARE_TOKEN:
         headers["x-umami-share-token"] = SHARE_TOKEN
+        headers["x-umami-share-context"] = "1"   # exigé par Umami pour un jeton de partage
     else:
         headers["x-umami-api-key"] = KEY            # Umami Cloud
         headers["Authorization"] = f"Bearer {KEY}"  # forme indiquée dans la documentation récente
