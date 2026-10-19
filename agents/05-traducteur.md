@@ -4,6 +4,9 @@
 
 Remplir tous les champs `en` correspondant aux champs `fr` créés ou modifiés cette
 semaine : résumés, jalons, Brief, noms de projets traduisibles.
+Les champs factuels (`capacity`, éléments de `owner`, `lenders`, `contractors`, `publisher`
+des sources) passent en objet `{fr, en}` dès qu'ils contiennent des mots qui se traduisent
+(« Banque mondiale », « jusqu'à », « km de voirie ») ; un nom propre reste un texte simple.
 
 ## Règles
 

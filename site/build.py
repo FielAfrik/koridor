@@ -67,7 +67,7 @@ T = {
         "same_sector": "Dans le même secteur",
         "brief_title": "Le Brief du lundi",
         "brief_pitch": "Les projets d'infrastructure et d'énergie qui ont bougé en Afrique cette semaine, lus par un ingénieur. Cinq minutes, chaque lundi matin.",
-        "brief_side": "Dix projets qui ont bougé, un deal, un décryptage. Chaque lundi, gratuit.",
+        "brief_side": "Jusqu'à dix projets qui ont bougé, un deal, un décryptage. Chaque lundi, gratuit.",
         "subscribe": "Recevoir le Brief",
         "subscribe_soon": "Les inscriptions ouvrent très bientôt.",
         "email": "Adresse e-mail professionnelle",
@@ -126,7 +126,7 @@ T = {
         "same_sector": "In the same sector",
         "brief_title": "The Monday Brief",
         "brief_pitch": "The African infrastructure and energy projects that moved this week, read by an engineer. Five minutes, every Monday morning.",
-        "brief_side": "Ten projects that moved, one deal, one analysis. Every Monday, free.",
+        "brief_side": "Up to ten projects that moved, one deal, one analysis. Every Monday, free.",
         "subscribe": "Get the Brief",
         "subscribe_soon": "Sign-up opens very soon.",
         "email": "Work email address",
@@ -241,6 +241,13 @@ FAVICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox
            "%3Cpath d='M9 5v20' stroke='%23fff' stroke-width='3.4' stroke-linecap='round'/%3E"
            "%3Cpath d='M9 15 24 6' stroke='%23F2B705' stroke-width='3.4' stroke-linecap='round'/%3E"
            "%3Cpath d='M9 15l15 9' stroke='%232BB383' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E")
+
+
+def lx(v, lang):
+    """Valeur de champ factuel : texte neutre (nom propre, chiffre) ou objet {fr, en}."""
+    if isinstance(v, dict):
+        return v.get(lang) or v.get("fr")
+    return v
 
 
 def e(s):
@@ -402,8 +409,9 @@ def card(p, lang):
     latest = p["milestones"][0]
     link = url(lang, t["projects_slug"], p["id"])
     search_text = " ".join([p["name"][lang], country_name(p["country"], lang), t["sectors"][p["sector"]],
-                            " ".join(p.get("owner") or []), " ".join(p.get("lenders") or []),
-                            " ".join(p.get("contractors") or [])]).lower()
+                            " ".join(lx(x, lang) for x in p.get("owner") or []),
+                            " ".join(lx(x, lang) for x in p.get("lenders") or []),
+                            " ".join(lx(x, lang) for x in p.get("contractors") or [])]).lower()
     amount = fmt_amount(p.get("cost"), lang)
     amount_html = ""
     if amount:
@@ -478,7 +486,7 @@ def build_home(lang, projects, briefs, updated):
     f_text = feat["summary"][lang]
     f_facts = [(t["f_stage"], e(t["stages"][feat["stage"]]))]
     if feat.get("capacity"):
-        f_facts.append((t["f_capacity"], e(feat["capacity"])))
+        f_facts.append((t["f_capacity"], e(lx(feat["capacity"], lang))))
     if feat.get("cost"):
         note = cost_note(feat["cost"], lang)
         f_facts.append((t["f_cost"], e(fmt_amount(feat["cost"], lang)) + (f"<small>{e(note)}</small>" if note else "")))
@@ -612,10 +620,10 @@ def build_home(lang, projects, briefs, updated):
 
 def build_project(lang, p, projects):
     t = T[lang]
-    joined = lambda xs: ", ".join(xs) if xs else None
+    joined = lambda xs: ", ".join(lx(x, lang) for x in xs) if xs else None
     rows = [
         (t["f_cost"], fmt_amount(p.get("cost"), lang)),
-        (t["f_capacity"], p.get("capacity")),
+        (t["f_capacity"], lx(p.get("capacity"), lang)),
         (t["f_owner"], joined(p.get("owner"))),
         (t["f_lenders"], joined(p.get("lenders"))),
         (t["f_contractors"], joined(p.get("contractors"))),
@@ -636,13 +644,13 @@ def build_project(lang, p, projects):
     ms_html = []
     for m in p["milestones"]:
         srcs = ", ".join(
-            f'<a href="{e(s["url"])}" rel="noopener" target="_blank">{e(s["publisher"])}</a>' for s in m["sources"])
+            f'<a href="{e(s["url"])}" rel="noopener" target="_blank">{e(lx(s["publisher"], lang))}</a>' for s in m["sources"])
         ok = m["confidence"] == "confirmé"
         conf = t["confirmed"] if ok else t["unverified"]
         ms_html.append(
             f'<li class="{"ok" if ok else "tbc"}"><div class="tl-meta"><time datetime="{e(m["date"])}">{e(fmt_date(m["date"], lang))}</time>'
             f'<span class="conf">{e(conf)}</span></div>'
-            f'<p>{e(m["text"][lang])}</p><p class="src">{e(t["sources"])} : {srcs}</p></li>')
+            f'<p>{e(m["text"][lang])}</p><p class="src">{e(t["sources"])}{" :" if lang == "fr" else ":"} {srcs}</p></li>')
     related = [r for r in visible(projects) if r["sector"] == p["sector"] and r["id"] != p["id"]][:4]
     rel_html = "".join(
         f'<li><a href="{url(lang, t["projects_slug"], r["id"])}"><strong>{e(r["name"][lang])}</strong>'

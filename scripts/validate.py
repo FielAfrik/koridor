@@ -44,6 +44,8 @@ def check_source(where, src):
         err(where, "URL de source invalide")
     if not src.get("publisher"):
         err(where, "éditeur de la source manquant")
+    elif isinstance(src.get("publisher"), dict):
+        bilingual(f"{where}, éditeur", src["publisher"])
     if src.get("tier") not in TIERS:
         err(where, "rang de source A ou B attendu")
     pub = src.get("published")
@@ -79,6 +81,15 @@ def check_projects(countries):
             err(w, f"statut inconnu « {p.get('status')} »")
         if p.get("status") in ("publié", "à vérifier"):
             bilingual(f"{w}, résumé", p.get("summary"))
+        # Champs factuels : texte neutre (nom propre, chiffre) ou objet {fr, en}
+        if isinstance(p.get("capacity"), dict):
+            bilingual(f"{w}, capacité", p.get("capacity"))
+        for field in ("owner", "lenders", "contractors"):
+            for k, x in enumerate(p.get(field) or []):
+                if isinstance(x, dict):
+                    bilingual(f"{w}, {field} {k + 1}", x)
+                elif not isinstance(x, str) or not x.strip():
+                    err(w, f"{field} {k + 1} : texte ou objet {{fr, en}} attendu")
         if p.get("cost"):
             c = p["cost"]
             if not isinstance(c.get("amount"), (int, float)):

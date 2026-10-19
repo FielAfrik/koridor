@@ -2,15 +2,15 @@
 
 Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`. Ne pas le modifier à la main : modifier le registre, puis relancer le script.
 
-**155 sources**, dont 146 actives : 145 sites, 78 comptes X, 69 pages LinkedIn. Priorité 1 : collecte hebdomadaire sur tous les canaux ; 2 : site et X chaque semaine ; 3 : une fois par mois. Les règles sont dans `editorial/sources.md`.
+**156 sources**, dont 146 actives : 145 sites, 81 comptes X, 70 pages LinkedIn. Priorité 1 : collecte hebdomadaire sur tous les canaux ; 2 : site et X chaque semaine ; 3 : une fois par mois. Les règles sont dans `editorial/sources.md`.
 
 ## Banques multilatérales et institutions de financement (22)
 
 | Source | Pays | Prio. | Site | X | LinkedIn | Statut | Remarque |
 |---|---|---|---|---|---|---|---|
-| Afreximbank | AF | 1 | [site](https://www.afreximbank.com/news/) | [@afreximbank](https://x.com/afreximbank) | [page](https://www.linkedin.com/company/african-export-import-bank) | ✅ actif |  |
-| Africa Finance Corporation (AFC) | AF | 1 | [site](https://www.africafc.org/press-releases) | [@africa_finance](https://x.com/africa_finance) | [page](https://www.linkedin.com/company/africa-finance-corporation) | ✅ actif |  |
-| Africa50 | AF | 1 | [site](https://www.africa50.com/news-events/news/) | [@africa50infra](https://x.com/africa50infra) | [page](https://www.linkedin.com/company/africa50infrastructurefund) | ✅ actif |  |
+| Afreximbank | AF | 1 | [site](https://www.afreximbank.com/category/press-releases/) | [@afreximbank](https://x.com/afreximbank) | [page](https://www.linkedin.com/company/african-export-import-bank) | ✅ actif | Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404). |
+| Africa Finance Corporation (AFC) | AF | 1 | [site](https://www.africafc.org/news-and-insights/news) | [@africa_finance](https://x.com/africa_finance) | [page](https://www.linkedin.com/company/africa-finance-corporation) | ✅ actif | Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404). |
+| Africa50 | AF | 1 | [site](https://www.africa50.com/media/news/) | [@africa50infra](https://x.com/africa50infra) | [page](https://www.linkedin.com/company/africa50infrastructurefund) | ✅ actif | Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404). |
 | Banque africaine de développement (BAD) | AF | 1 | [site](https://www.afdb.org/fr/news-and-events/press-releases) | [@AfDB_Group](https://x.com/AfDB_Group) | [page](https://www.linkedin.com/company/african-development-bank) | ✅ actif |  |
 | Banque ouest-africaine de développement (BOAD) | AF | 1 | [site](https://www.boad.org/fr) | — | — | ✅ actif |  |
 | Mission 300 (Banque mondiale – BAD) | AF | 1 | [site](https://mission300africa.org/) | — | — | ✅ actif |  |
@@ -22,9 +22,9 @@ Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`.
 | TDB Group | AF | 2 | [site](https://www.tdbgroup.org/) | — | — | ✅ actif |  |
 | Banque islamique de développement | INT | 2 | [site](https://www.isdb.org/news) | [@isdb_group](https://x.com/isdb_group) | [page](https://www.linkedin.com/company/islamic-development-bank) | ✅ actif |  |
 | Fonds vert pour le climat | INT | 2 | [site](https://www.greenclimate.fund/about/news-and-updates) | [@theGCF](https://x.com/theGCF) | [page](https://www.linkedin.com/company/green-climate-fund) | ✅ actif |  |
-| MIGA (Groupe Banque mondiale) | INT | 2 | [site](https://www.miga.org/news) | [@miga](https://x.com/miga) | [page](https://www.linkedin.com/company/wb-miga) | ✅ actif |  |
-| OPEC Fund | INT | 2 | [site](https://opecfund.org/news-stories) | [@TheOPECFund](https://x.com/TheOPECFund) | [page](https://www.linkedin.com/company/the-opec-fund-for-international-development-ofid-) | ✅ actif |  |
-| Development Bank of Southern Africa (DBSA) | ZA | 2 | [site](https://www.dbsa.org/media-centre) | [@dbsa_bank](https://x.com/dbsa_bank) | [page](https://www.linkedin.com/company/dbsa) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. |
+| MIGA (Groupe Banque mondiale) | INT | 2 | [site](https://www.miga.org/news-events) | [@miga](https://x.com/miga) | [page](https://www.linkedin.com/company/wb-miga) | ✅ actif | Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404). |
+| OPEC Fund | INT | 2 | [site](https://opecfund.org/news-events/press-releases) | [@TheOPECFund](https://x.com/TheOPECFund) | [page](https://www.linkedin.com/company/the-opec-fund-for-international-development-ofid-) | ✅ actif | Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404). |
+| Development Bank of Southern Africa (DBSA) | ZA | 2 | [site](https://www.dbsa.org/media) | [@dbsa_bank](https://x.com/dbsa_bank) | [page](https://www.linkedin.com/company/dbsa) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404). |
 | ATIDI (assurance-crédit africaine) | AF | 3 | [site](https://www.atidi.africa/news-updates/news/) | [@ati_aca](https://x.com/ati_aca) | [page](https://www.linkedin.com/company/african-trade-insurance-agency) | ✅ actif |  |
 | East African Development Bank | AF | 3 | [site](https://eadb.org/) | [@EADB_Official](https://x.com/EADB_Official) | [page](https://www.linkedin.com/company/east-african-development-bank) | ✅ actif |  |
 | BADEA | INT | 3 | [site](https://www.badea.org/) | [@badeabank](https://x.com/badeabank) | [page](https://www.linkedin.com/company/badeabank) | ✅ actif | Compte X très prolifique (environ 70 tweets par semaine) : collecté une fois par mois. |
@@ -38,7 +38,7 @@ Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`.
 | Commission européenne – Global Gateway (INTPA) | EU | 1 | [site](https://international-partnerships.ec.europa.eu/news-and-events/news_en) | [@EU_Partnerships](https://x.com/EU_Partnerships) | — | ✅ actif |  |
 | Agence française de développement (AFD) | FR | 1 | [site](https://www.afd.fr/fr/actualites) | [@AFD_France](https://x.com/AFD_France) | [page](https://www.linkedin.com/company/agence-francaise-de-developpement) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026 : LinkedIn est le canal le plus actif. |
 | Proparco | FR | 1 | [site](https://www.proparco.fr/fr/actualites) | [@Proparco](https://x.com/Proparco) | [page](https://www.linkedin.com/company/1337207) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026 : LinkedIn est le canal le plus actif. |
-| KfW Entwicklungsbank | DE | 2 | [site](https://www.kfw-entwicklungsbank.de/International-financing/KfW-Development-Bank/Press/) | [@KfW_FZ](https://x.com/KfW_FZ) | [page](https://www.linkedin.com/company/kfw) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. |
+| KfW Entwicklungsbank | DE | 2 | [site](https://www.kfw-entwicklungsbank.de/news_en.jsp) | [@KfW_FZ](https://x.com/KfW_FZ) | [page](https://www.linkedin.com/company/kfw) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404) : page News trouvée depuis l'accueil kfw-entwicklungsbank.de (news.jsp, version anglaise news_en.jsp) ; la liste est chargée en JavaScript, la lecture demande un rendu avec attente. |
 | British International Investment (BII) | GB | 2 | [site](https://www.bii.co.uk/en/) | [@BritishIntInv](https://x.com/BritishIntInv) | [page](https://www.linkedin.com/company/british-international-investment) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. |
 | FMO | NL | 2 | [site](https://www.fmo.nl/news) | [@fmo_development](https://x.com/fmo_development) | [page](https://www.linkedin.com/company/fmo) | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. |
 | US International Development Finance Corporation (DFC) | US | 2 | [site](https://www.dfc.gov/media/newsroom) | [@DFCgov](https://x.com/DFCgov) | [page](https://www.linkedin.com/company/dfcgov) | ✅ actif |  |
@@ -49,7 +49,7 @@ Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`.
 | Norfund | NO | 3 | [site](https://www.norfund.no/news-archive/) | — | [page](https://www.linkedin.com/company/norfund) | ✅ actif |  |
 | Saudi Fund for Development | SA | 3 | [site](https://www.sfd.gov.sa/en/news) (à confirmer) | — | — | ✅ actif |  |
 
-## Institutions continentales et régionales (19)
+## Institutions continentales et régionales (20)
 
 | Source | Pays | Prio. | Site | X | LinkedIn | Statut | Remarque |
 |---|---|---|---|---|---|---|---|
@@ -57,12 +57,13 @@ Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`.
 | Système d'échanges d'énergie électrique ouest-africain (EEEOA/WAPP) | AF | 1 | [site](https://www.ecowapp.org/) | [@african_pool](https://x.com/african_pool) | [page](https://www.linkedin.com/company/west-african-power-pool-wapp) | ✅ actif | Compte X @african_pool lié depuis ecowapp.org. |
 | ARREC/ERERA (régulateur régional CEDEAO) | AF | 2 | [site](https://erera.arrec.org/) | — | — | ✅ actif |  |
 | Commission de l'UEMOA | AF | 2 | [site](https://www.uemoa.int/fr/actualites) | [@UEMOA_officiel](https://x.com/UEMOA_officiel) | [page](https://www.linkedin.com/company/west-african-economic-and-monetary-union-uemoa-) | ✅ actif |  |
-| Commission de la CEDEAO | AF | 2 | [site](https://www.ecowas.int/media-centre/latest-news/) | [@ecowas_cedeao](https://x.com/ecowas_cedeao) | [page](https://www.linkedin.com/company/ecowas-commission) | ✅ actif |  |
+| Commission de la CEDEAO | AF | 2 | [site](https://www.ecowas.int/c/news/) | [@ecowas_cedeao](https://x.com/ecowas_cedeao) | [page](https://www.linkedin.com/company/ecowas-commission) | ✅ actif | Adresse de presse mise à jour le 2026-10-19 (l'ancienne renvoyait une erreur 404). |
 | ECREEE (Centre CEDEAO pour les énergies renouvelables) | AF | 2 | [site](https://www.ecreee.org/) | [@ecreee_ecowas](https://x.com/ecreee_ecowas) | — | ✅ actif |  |
 | OMVG (bassin du fleuve Gambie) | AF | 2 | [site](https://www.omvg.org/) | [@OMVG_FG](https://x.com/OMVG_FG) | [page](https://www.linkedin.com/company/organisation-pour-la-mise-en-valeur-du-fleuve-gambie-omvg) | ✅ actif |  |
-| OMVS (bassin du fleuve Sénégal) | AF | 2 | [site](https://www.portail-omvs.org/) | — | — | ✅ actif |  |
+| OMVS (bassin du fleuve Sénégal) | AF | 2 | injoignable | — | — | ⚠️ à vérifier | Le 2026-10-19, le domaine portail-omvs.org affiche un blog sans rapport (consommation d'énergie, recyclage) : il est retiré du registre jusqu'à confirmation de la nouvelle adresse de l'OMVS. Aucune page officielle consultée (dont omvg.org) ne donne cette adresse. |
 | PIDA – Programme de développement des infrastructures en Afrique | AF | 2 | [site](https://www.au-pida.org/) | — | — | ✅ actif |  |
 | Union africaine | AF | 2 | [site](https://au.int/en/happening/pressreleases) | [@_AfricanUnion](https://x.com/_AfricanUnion) | [page](https://www.linkedin.com/company/african-union-commission-addis-ababa) | ✅ actif |  |
+| Autorité du fleuve Zambèze (Zambezi River Authority) | ZM,ZW | 2 | [site](https://www.zambezira.org/media-centre/news) | [@AuthorityRiver](https://x.com/AuthorityRiver) | — | ✅ actif | Communiqués (niveaux du lac Kariba, réhabilitation du barrage) sur https://www.zambezira.org/media-centre/press-release. Aucune page LinkedIn liée depuis le site. Site rendu en JavaScript : lecture avec attente. |
 | Autorité du bassin du Niger | AF | 3 | [site](https://www.abn.ne/) | — | — | ✅ actif | Le site affiche des liens sociaux de démonstration : aucun compte retenu. |
 | CEEAC | AF | 3 | [site](https://ceeac-eccas.org/) | [@CEEAC_ECCAS](https://x.com/CEEAC_ECCAS) | — | ✅ actif |  |
 | COMESA | AF | 3 | [site](https://www.comesa.int/category/news/) | — | — | ✅ actif |  |
@@ -94,16 +95,16 @@ Fichier généré par `scripts/registre_md.py` à partir de `data/sources.json`.
 | Primature du Sénégal | SN | 1 | [site](https://primature.sn/) | [@Primature_sn](https://x.com/Primature_sn) | — | ✅ actif |  |
 | Présidence de la République du Sénégal | SN | 1 | [site](https://www.presidence.sn/) | [@pr_senegal](https://x.com/pr_senegal) | — | ✅ actif |  |
 | Ministère de l'Investissement (Togo) | TG | 1 | [site](https://investissement.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
-| Ministère des Mines et des Énergies (Togo) | TG | 1 | [site](https://energie.gouv.tg/) | [@MpenTG](https://x.com/MpenTG) | [page](https://www.linkedin.com/company/mpentg) | ✅ actif | Lien constaté sur energie.gouv.tg (redirection depuis mines.gouv.tg). Un ancien compte @memppc y figure aussi. Aucun post X ni LinkedIn entre le 12 et le 18 octobre 2026. |
+| Ministère des Mines et des Énergies (Togo) | TG | 1 | [site](https://energie.gouv.tg/) | [@memppc](https://x.com/memppc) | [page](https://www.linkedin.com/company/memppc1) | ✅ actif | Lien constaté sur energie.gouv.tg (redirection depuis mines.gouv.tg). Le 2026-10-19, le site lie X @memppc et LinkedIn company/memppc1 : ce sont désormais les comptes retenus. Les comptes retenus auparavant, X @MpenTG et LinkedIn company/mpentg (aucun post X ni LinkedIn entre le 12 et le 18 octobre 2026), ne sont plus liés depuis le site. |
 | Ministère des Transports (Togo) | TG | 1 | [site](https://transports.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
 | Présidence de la République togolaise | TG | 1 | [site](https://presidence.gouv.tg/) | — | — | ✅ actif |  |
-| Présidence du Conseil des ministres (Togo) | TG | 1 | [site](https://presidenceduconseil.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
+| Présidence du Conseil des ministres (Togo) | TG | 1 | [site](https://presidenceduconseil.gouv.tg/) | [@presidencecstg](https://x.com/presidencecstg) | [page](https://www.linkedin.com/company/presidencecstg) | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement. Site lu le 2026-10-19 ; comptes X et LinkedIn liés en pied de page de presidenceduconseil.gouv.tg. |
 | République togolaise – Togo Officiel | TG | 1 | [site](https://www.republiquetogolaise.tg/) | — | — | ✅ actif | Actualité gouvernementale officielle (rubriques énergies, transports, communiqués, comptes rendus du Conseil des ministres). Le seul compte X lié est le compte personnel du chef de l'exécutif : non retenu. |
 | Ministry of Energy and Green Transition (Ghana) | GH | 2 | [site](https://energymin.gov.gh/) | — | — | ✅ actif |  |
 | Federal Ministry of Power (Nigeria) | NG | 2 | [site](https://power.gov.ng/) | [@federal_power](https://x.com/federal_power) | — | ✅ actif | Aucun tweet entre le 12 et le 18 octobre 2026. |
 | Journal officiel de la République togolaise | TG | 2 | [site](https://jo.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
 | Ministère de l'Eau (Togo) | TG | 2 | [site](https://eau.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
-| Ministère de l'Économie maritime (Togo) | TG | 2 | [site](https://maritime.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
+| Ministère de l'Économie maritime (Togo) | TG | 2 | [site](https://maritime.gouv.tg/) | [@maritimeTg](https://x.com/maritimeTg) | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement. Site lu le 2026-10-19 ; compte X lié en pied de page. Le site lie aussi la page LinkedIn company/memppc1, qui est celle du ministère de l'Énergie (gabarit commun) : non retenue ici. |
 | Ministère de l'Économie numérique (Togo) | TG | 2 | [site](https://numerique.gouv.tg/) (à confirmer) | — | — | ✅ actif | Lien publié sur togo.gouv.tg, le portail officiel du gouvernement ; site non encore lu automatiquement. |
 | Portail officiel du gouvernement togolais | TG | 2 | [site](https://togo.gouv.tg/) | — | — | ✅ actif | Annuaire officiel des ministères et institutions : sert à vérifier l'adresse d'un site public togolais. |
 

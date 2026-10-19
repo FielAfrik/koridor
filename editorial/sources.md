@@ -72,6 +72,7 @@ Familles de sources, détaillées dans `data/sources.json` :
 - The Africa Report ; Jeune Afrique ; African Business
 - Construction Review Online ; IJGlobal / Green Street (partiellement payants)
 - Reuters, Bloomberg, Financial Times (partiellement payants)
+- Afrique-sur7 ; Inspenet ; The Herald (Zimbabwe) — admis au rang B par le rédacteur en chef le 19 octobre 2026
 
 ## Rang C — repérage seulement (jamais une source de publication)
 
