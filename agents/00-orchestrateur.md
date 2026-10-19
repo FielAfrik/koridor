@@ -15,7 +15,7 @@ Rien n'est publié sans validation humaine. Le cycle se termine par une demande 
 1. Cloner le dépôt et créer la branche `veille/AAAA-MM-JJ` (date du lundi qui suit).
 2. Créer le dossier de travail `work/AAAA-MM-JJ/`. Tous les fichiers intermédiaires y vont.
 3. Récupérer le bilan d'audience de la semaine, rangé par le workflow « Bilan d'audience »
-   sur la branche `audience` : `git fetch --depth 1 origin audience` puis
+   sur la branche `stats-audience` : `git fetch --depth 1 origin stats-audience` puis
    `git show FETCH_HEAD:audience/AAAA-MM-JJ.md > work/AAAA-MM-JJ/07-audience.md` (et de même
    pour le `.json`). Si la branche ou le fichier manque, noter la raison pour le Rapporteur
    (mesure pas encore configurée, workflow en échec) et continuer : l'audience n'arrête

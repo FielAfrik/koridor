@@ -62,7 +62,7 @@ complète d'une fiche, clics vers le Brief, changement de langue.
 
 Chaque lundi vers 4 h, le workflow « Bilan d'audience » (`.github/workflows/audience.yml`)
 interroge Umami avec `scripts/audience.py` et range le bilan de la semaine sur la branche
-`audience`. Le Rapporteur le reprend dans le rapport de la pull request. Pour tester la
+`stats-audience`. Le Rapporteur le reprend dans le rapport de la pull request. Pour tester la
 mise en forme sans compte : `python3 scripts/audience.py --demo --out /tmp/audience`.
 
 ## Réglages (`site/config.json`)
