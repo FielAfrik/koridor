@@ -17,9 +17,11 @@ Produire les visuels de la semaine aux couleurs de Koridor (`editorial/identite.
 
 ## Comment
 
-- Générer les visuels par script à partir des données (même rendu chaque semaine,
-  aucun chiffre retapé à la main). Script à créer : `scripts/visuels.py` (Pillow, polices
-  Archivo et Source Serif 4, comme `scripts/og_image.py`).
+- Lancer `python3 scripts/visuels.py --brief AAAA-MM-JJ --fonts DOSSIER --out
+  work/com/AAAA-MM-JJ/visuels` : carrousel PDF (et ses pages en PNG), deal et échéances,
+  en français et en anglais. Aucun chiffre n'est retapé à la main.
+- Signature en pied de page : « par Fiéltoa LARE » en phase 1 ; `--author ""` en phase 2
+  pour les visuels de la page.
 - En attendant le script, ou pour un visuel ponctuel, utiliser Canva avec la charte
   Koridor, sans modèle générique.
 - Couleurs : encre `#0F1E2B`, vert `#127A5A` / `#2BB383`, jaune `#F2B705` avec parcimonie.

@@ -32,4 +32,6 @@ Puis, en dessous :
   remplit pas.
 - Varier les pays et les secteurs sur la semaine ; ne pas mettre deux fois le même
   projet en avant le même jour sur deux comptes.
+- Phase 1 (pas de page Koridor, voir § 4 de la stratégie) : un seul compte, le profil du
+  rédacteur en chef ; trois publications Koridor par semaine au plus, plus la newsletter.
 - Le profil du rédacteur en chef ne parle de Koridor qu'une publication sur deux.

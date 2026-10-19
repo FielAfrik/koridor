@@ -1,6 +1,10 @@
 # Stratégie de communication — Koridor
 
-Version 1, 19 octobre 2026. À revoir après quatre semaines de mesure.
+Version 2, 19 octobre 2026. À revoir après quatre semaines de mesure.
+
+Décision du 19 octobre 2026 : **pas de page LinkedIn Koridor tant qu'il n'y a pas un
+minimum d'audience.** La phase de lancement passe entièrement par le profil du rédacteur
+en chef (§ 4).
 
 ## 1. Le constat de départ
 
@@ -43,8 +47,8 @@ Afrique francophone.** Concrètement, construire une audience qui nous appartien
 
 | Indicateur | Où on le lit | Cible indicative à 90 jours |
 |---|---|---|
-| Abonnés à la newsletter LinkedIn « Le Brief du lundi » | LinkedIn | 500 |
-| Abonnés de la page Koridor | LinkedIn | 1 000 |
+| Nouveaux abonnés du profil du rédacteur en chef | LinkedIn | + 1 000 |
+| Abonnés à la newsletter LinkedIn « Le Brief du lundi » | LinkedIn | 300 |
 | Abonnés e-mail | service d'envoi | 150 |
 | Membres de la chaîne WhatsApp | WhatsApp | 150 |
 | Visiteurs uniques par semaine sur le site | Umami | 300 |
@@ -55,31 +59,43 @@ Ces cibles sont des hypothèses de départ, sans historique. L'Analyste les reca
 de quatre semaines, chiffres à l'appui. Sous 50 visiteurs par semaine, on ne tire aucune
 conclusion d'une variation.
 
-## 4. Les canaux, par ordre de priorité
+## 4. Deux phases, et les canaux de chacune
 
-1. **Le profil LinkedIn du rédacteur en chef — le porte-voix.** Un regard d'ingénieur,
-   à la première personne. C'est lui qui donne de la crédibilité et de la portée au
-   média naissant. Il relaie Koridor sans devenir une vitrine : au plus un post sur deux
-   parle de Koridor.
-2. **La page LinkedIn Koridor et sa newsletter « Le Brief du lundi ».** La newsletter
-   LinkedIn prévient chaque abonné à chaque parution et n'est pas pénalisée par les
-   liens : c'est là qu'on renvoie vers les fiches du site. Version anglaise :
-   « The Monday Brief », en post récapitulatif le jeudi.
+### Phase 1 — le lancement, depuis le profil (dès maintenant)
+
+Koridor n'a pas encore de compte propre sur LinkedIn. Tout part du profil du rédacteur
+en chef, qui a déjà un réseau d'ingénieurs et une habitude de publication quotidienne.
+Les visuels portent la marque Koridor et la signature « par Fiéltoa LARE ».
+
+1. **Le profil LinkedIn du rédacteur en chef.** Trois publications Koridor par semaine
+   au plus, au milieu de ses autres posts, pour que le profil reste le sien et ne
+   devienne pas une vitrine.
+2. **La newsletter LinkedIn « Le Brief du lundi », ouverte depuis le profil** si LinkedIn
+   le propose sur ce compte. Elle prévient chaque abonné à chaque parution et peut
+   contenir des liens : c'est là qu'on renvoie vers les fiches du site. Sinon, le lien
+   du Brief va dans la section « Sélection » du profil.
 3. **Le site et Google.** Chaque fiche projet répond à une recherche précise (« route
    Zuénoula Mankono appel d'offres », « STEP Tubatse »). Ce trafic grandit lentement
    mais dure. À faire une fois : déclarer le site dans Google Search Console et Bing
    Webmaster Tools. À décider : un nom de domaine propre (voir § 9).
-4. **L'e-mail.** La seule audience qui ne dépend d'aucun algorithme. Le service d'envoi
-   reste à choisir (Brevo est le plus simple en français, avec une offre gratuite).
-5. **La chaîne WhatsApp Koridor.** Deux messages par semaine, courts, avec le lien :
-   le Brief le lundi, les échéances le vendredi. Pour les lecteurs mobiles d'Afrique de
-   l'Ouest et centrale.
-6. **X.** Les banques de développement, ministères et agences y publient beaucoup. Un
-   compte Koridor sert surtout à les suivre, à reprendre leurs annonces avec la fiche
-   correspondante et à publier un fil le lundi. Priorité basse.
+4. **WhatsApp.** Une chaîne Koridor, ou en attendant un envoi depuis le compte du
+   rédacteur en chef à ses contacts du secteur : le Brief le lundi, les échéances le
+   vendredi.
+5. **L'e-mail**, dès que le service d'envoi est choisi. C'est la seule audience qui ne
+   dépend d'aucun algorithme : elle suivra Koridor en phase 2.
 
-Pas maintenant : Instagram, TikTok, YouTube, Facebook. On y reviendra si l'audience le
-demande (vidéo d'un chantier, entretien).
+X, Instagram, TikTok, YouTube, Facebook : pas en phase 1.
+
+### Phase 2 — la page Koridor (quand l'audience est là)
+
+La page est créée quand **deux de ces trois seuils** sont tenus quatre semaines de suite :
+- 150 visiteurs uniques par semaine sur le site ;
+- 200 abonnés à la newsletter « Le Brief du lundi » (ou à l'e-mail) ;
+- 15 % des visites du site venues de LinkedIn, preuve que les posts amènent des lecteurs.
+
+L'Analyste suit ces seuils chaque semaine et signale le moment où ils sont atteints. La
+page reprend alors les rubriques Ce qui a bougé, Le deal et Échéances ; le profil garde
+le Regard d'ingénieur et partage la page. Un compte X Koridor peut s'ouvrir en même temps.
 
 ## 5. Les cinq rubriques sociales
 
@@ -94,22 +110,22 @@ jamais produire de contenu « pour remplir ».
 | **Échéances** | Les dates limites d'appels d'offres et de qualification | Liste datée ; c'est la rubrique la plus utile aux EPC et développeurs |
 | **Méthode** | Comment on vérifie, d'où viennent les chiffres, une correction | Post court ; il construit la confiance |
 
-## 6. La semaine type
+## 6. La semaine type (phase 1)
 
 Heures de publication : en début de matinée en Afrique de l'Ouest (8 h–9 h à Abidjan et
 Dakar), soit 9 h–10 h à Paris en hiver.
 
-| Jour | Page Koridor | Profil du rédacteur en chef | WhatsApp / X / e-mail |
+| Jour | Profil LinkedIn du rédacteur en chef | Visuel | WhatsApp / e-mail |
 |---|---|---|---|
-| Lundi | Newsletter « Le Brief du lundi » (après fusion de la veille) | Ce que je retiens du Brief, en trois points | WhatsApp : le Brief · X : fil du Brief · e-mail : le Brief |
-| Mardi | Carrousel « Ce qui a bougé » | Partage du carrousel avec une phrase personnelle | — |
-| Mercredi | Le deal | — | X : le deal |
-| Jeudi | « The Monday Brief » en anglais (récapitulatif) | Regard d'ingénieur (décryptage, FR puis EN) | — |
-| Vendredi | Échéances (ou Méthode, une semaine sur quatre) | — | WhatsApp : les échéances |
+| Lundi | Newsletter « Le Brief du lundi » (après fusion de la veille) | Visuel du deal en couverture | Le Brief, avec le lien |
+| Mardi | Carrousel « Ce qui a bougé », avec trois lignes d'introduction | Carrousel PDF | — |
+| Jeudi | Regard d'ingénieur (FR le matin, EN l'après-midi) | Aucun : texte seul | — |
+| Vendredi | Échéances (ou Méthode, une semaine sur quatre) | Visuel des échéances | Les échéances |
 
-Soit 5 posts par semaine sur la page, 3 sur le profil, 2 messages WhatsApp. C'est la
-fourchette recommandée pour une page (3 à 5 par semaine). Mieux vaut une semaine à trois
-bons posts qu'à cinq posts faibles.
+Soit trois publications Koridor par semaine, plus la newsletter. Les autres jours restent
+au rédacteur en chef pour ses propres sujets. Le carrousel anglais est produit aussi :
+il peut être publié le mercredi pour le réseau anglophone. Mieux vaut une semaine à deux
+bons posts qu'à quatre posts faibles.
 
 ## 7. Règles de publication
 
@@ -143,21 +159,21 @@ fait nouveau. Fiches dans `agents/com/`.
 | C0 | Directeur de la communication | chaque lundi | Lance le cycle, transmet les fichiers, envoie le récapitulatif |
 | C1 | Stratège | chaque lundi | Le plan de la semaine : angles, jours, canaux |
 | C2 | Plume sociale | chaque lundi | Les textes FR/EN de tous les canaux |
-| C3 | Studio visuel | chaque lundi | Le carrousel PDF et les visuels |
+| C3 | Studio visuel | chaque lundi | Le carrousel PDF et les visuels (`scripts/visuels.py`) |
 | C4 | Diffuseur | chaque lundi | Les brouillons Typefully, liens marqués, la liste de contrôle |
 | C5 | Vigie et engagement | chaque lundi | Les posts du secteur à commenter, avec un brouillon de commentaire |
 | C6 | Référenceur | chaque lundi (contrôle), chaque mois (bilan) | Le contrôle SEO du site, les pistes de fiches à créer |
 | C7 | Relais et partenariats | chaque mois | Dix relais à approcher, avec un message préparé |
-| C8 | Analyste | chaque lundi, bilan mensuel | La section « Diffusion » du rapport, trois enseignements au plus |
+| C8 | Analyste | chaque lundi, bilan mensuel | La section « Diffusion » du rapport, trois enseignements au plus, le suivi des seuils de la phase 2 |
 
 Le cycle de communication tourne le lundi après le cycle éditorial. Il lit la pull
 request de la semaine ; si elle n'existe pas, il s'arrête et le signale.
 
 ## 9. Décisions à prendre par le rédacteur en chef
 
-1. **Créer la page LinkedIn Koridor** et y ouvrir la newsletter « Le Brief du lundi »,
-   puis l'ajouter à Typefully (aujourd'hui seul le profil personnel y est relié).
-2. **Créer la chaîne WhatsApp Koridor** et, en priorité basse, le compte X.
+1. **Ouvrir la newsletter LinkedIn « Le Brief du lundi » depuis le profil**, si LinkedIn
+   la propose sur ce compte. La page Koridor attend les seuils du § 4.
+2. **Créer la chaîne WhatsApp Koridor**, ou choisir de partir de son propre compte.
 3. **Choisir le service d'e-mail** (Brevo, Buttondown ou Substack).
 4. **Nom de domaine.** Sur `fielafrik.github.io/koridor`, Google ne lit pas le
    `robots.txt` (il doit être à la racine du domaine) et l'adresse ne porte pas la

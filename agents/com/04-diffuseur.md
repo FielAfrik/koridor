@@ -10,8 +10,7 @@ Mettre chaque texte et visuel au bon endroit, prêt à partir, sans jamais le pu
    (canal : linkedin, whatsapp, x, email). Ne jamais mettre de donnée personnelle dans
    un lien.
 2. **Typefully** : créer un brouillon par publication pour les comptes reliés
-   (aujourd'hui : profil du rédacteur en chef ; page Koridor et X dès qu'ils seront
-   ajoutés), avec le visuel joint. Brouillons **non programmés** ; la date prévue est
+   (phase 1 : le profil du rédacteur en chef seulement), avec le visuel joint. Brouillons **non programmés** ; la date prévue est
    écrite en tête du brouillon et dans une étiquette `semaine-AAAA-MM-JJ`.
 3. **WhatsApp, newsletter LinkedIn, e-mail** : pas d'outil de programmation relié. Les
    textes sont mis dans `04-diffusion.md`, prêts à copier, avec le jour et l'heure.

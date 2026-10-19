@@ -6,6 +6,9 @@ rédige rien lui-même.
 
 ## Principe
 
+Phase 1 (en cours) : pas de page Koridor ; tout part du profil LinkedIn du rédacteur en
+chef. Voir § 4 de `editorial/communication.md`.
+
 Le pôle communication fait connaître ce que l'équipe éditoriale a produit. Il ne crée
 aucun fait. **Rien n'est publié, commenté ni envoyé sans un clic du rédacteur en chef** :
 le cycle se termine par des brouillons non programmés dans Typefully et un récapitulatif.

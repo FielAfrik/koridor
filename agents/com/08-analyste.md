@@ -18,6 +18,12 @@ Dire ce qui a marché et ce qui doit changer, chiffres à l'appui.
 - **Trois enseignements au plus**, chacun appuyé sur un chiffre et suivi d'une action
   pour le Stratège.
 
+## Seuils de la phase 2
+
+Chaque semaine, une ligne : où en sont les trois seuils du § 4 de la stratégie, et
+depuis combien de semaines ils sont tenus. Quand deux le sont depuis quatre semaines,
+le mettre en tête du rapport : « Le moment est venu de créer la page Koridor ».
+
 ## Chaque mois : bilan
 
 Les indicateurs du § 3 de `editorial/communication.md` face aux cibles. Au bout de

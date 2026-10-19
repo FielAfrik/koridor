@@ -13,7 +13,9 @@ source (le champ de la fiche dont ils viennent).
 
 ## Gabarits
 
-**LinkedIn, page Koridor (1 200 à 1 800 caractères)**
+**LinkedIn, post Koridor (1 200 à 1 800 caractères)** — en phase 1, publié depuis le
+profil du rédacteur en chef : on écrit « Koridor » ou « le Brief », jamais « nous »
+comme si une rédaction parlait.
 - Ligne 1 : le fait, sujet + verbe + chiffre. Pas de question, pas d'émoji d'accroche.
 - Lignes 2 à 6 : ce que le fait change, qui est concerné, ce qui manque encore.
 - Fin : ce qu'il faut surveiller ensuite, avec une date si elle existe. Puis « Fiche
