@@ -8,6 +8,7 @@ les compare à la semaine précédente et écrit :
 
 Usage :
   UMAMI_API_KEY=… python3 scripts/audience.py [--date AAAA-MM-JJ] [--out audience]
+  UMAMI_SHARE_URL=https://cloud.umami.is/share/… python3 scripts/audience.py   # plan gratuit
   python3 scripts/audience.py --demo   # données fictives, pour tester la mise en forme
 
 L'identifiant du site est lu dans site/config.json (analytics.website_id) ou dans
@@ -39,18 +40,37 @@ SECTORS = {"energie": "Énergie", "transport": "Transport", "eau": "Eau", "numer
 API = os.environ.get("UMAMI_API_URL", "https://api.umami.is/v1").rstrip("/")
 KEY = os.environ.get("UMAMI_API_KEY", "").strip()
 SITE_ID = os.environ.get("UMAMI_WEBSITE_ID", "").strip() or (CONFIG.get("analytics") or {}).get("website_id", "")
+# Plan gratuit sans clé d'API : lien de partage du tableau de bord (Website > Edit > Share URL).
+SHARE_URL = os.environ.get("UMAMI_SHARE_URL", "").strip()
+SHARE_TOKEN = ""
+
+
+def use_share_link():
+    """Échange le lien de partage contre un jeton de lecture, comme le fait la page publique."""
+    global API, SHARE_TOKEN, SITE_ID
+    u = urllib.parse.urlparse(SHARE_URL)
+    parts = [x for x in u.path.split("/") if x]
+    share_id = parts[parts.index("share") + 1]
+    API = f"{u.scheme}://{u.netloc}/api"
+    req = urllib.request.Request(f"{API}/share/{share_id}", headers={"Accept": "application/json",
+                                                                     "User-Agent": "koridor-audience/1.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        info = json.loads(r.read().decode("utf-8"))
+    SHARE_TOKEN = info["token"]
+    SITE_ID = info.get("websiteId") or SITE_ID
 
 
 # ---------- API ----------
 
 def get(path, **params):
     q = urllib.parse.urlencode({k: v for k, v in params.items() if v is not None})
-    req = urllib.request.Request(f"{API}{path}?{q}", headers={
-        "Accept": "application/json",
-        "x-umami-api-key": KEY,              # Umami Cloud
-        "Authorization": f"Bearer {KEY}",    # forme indiquée dans la documentation récente
-        "User-Agent": "koridor-audience/1.0",
-    })
+    headers = {"Accept": "application/json", "User-Agent": "koridor-audience/1.0"}
+    if SHARE_TOKEN:
+        headers["x-umami-share-token"] = SHARE_TOKEN
+    else:
+        headers["x-umami-api-key"] = KEY            # Umami Cloud
+        headers["Authorization"] = f"Bearer {KEY}"  # forme indiquée dans la documentation récente
+    req = urllib.request.Request(f"{API}{path}?{q}", headers=headers)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read().decode("utf-8"))
 
@@ -269,8 +289,14 @@ def main():
     if a.demo:
         fetch = demo_fetch()
     else:
-        if not KEY or not SITE_ID:
-            print("Mesure d'audience non configurée (clé UMAMI_API_KEY ou website_id manquant) : rien à collecter.")
+        if SHARE_URL and not KEY:
+            try:
+                use_share_link()
+            except Exception as ex:  # noqa: BLE001
+                print(f"Lien de partage Umami inutilisable ({ex}). Vérifier UMAMI_SHARE_URL.", file=sys.stderr)
+                return 1
+        elif not KEY or not SITE_ID:
+            print("Mesure d'audience non configurée (ni UMAMI_API_KEY ni UMAMI_SHARE_URL) : rien à collecter.")
             return 0
         fetch = {"stats": stats, "metrics": metrics}
     try:

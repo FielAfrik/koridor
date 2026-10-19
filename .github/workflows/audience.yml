@@ -26,6 +26,7 @@ jobs:
       - name: Récupérer les chiffres
         env:
           UMAMI_API_KEY: ${{ secrets.UMAMI_API_KEY }}
+          UMAMI_SHARE_URL: ${{ secrets.UMAMI_SHARE_URL }}
         run: python3 scripts/audience.py --out "$RUNNER_TEMP/audience" ${{ inputs.date && format('--date {0}', inputs.date) || '' }}
       - name: Ranger sur la branche audience
         run: |

@@ -71,7 +71,9 @@ mise en forme sans compte : `python3 scripts/audience.py --demo --out /tmp/audie
   `false` quand la base confirmée sera assez riche.
 - `analytics.website_id` : l'identifiant du site dans Umami Cloud. Tant qu'il est vide,
   aucun traceur n'est ajouté au site. La clé d'accès aux chiffres, elle, n'est jamais dans
-  le dépôt : elle est rangée dans le secret GitHub `UMAMI_API_KEY`.
+  le dépôt : elle est rangée dans le secret GitHub `UMAMI_API_KEY`. Sur le plan gratuit,
+  qui ne donne pas de clé, on range à la place le lien de partage du tableau de bord dans
+  le secret `UMAMI_SHARE_URL`.
 - `newsletter_signup_url` : l'adresse du formulaire d'inscription du service d'envoi
   (Buttondown, Brevo…). Tant qu'elle est vide, le site annonce une ouverture prochaine.
 
