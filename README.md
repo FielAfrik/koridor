@@ -16,7 +16,9 @@ n'est publié sans la validation du rédacteur en chef.
    - si tout est bon, vous la fusionnez et le site se met à jour tout seul en 2 minutes ;
    - si vous voulez une correction, vous laissez un commentaire et elle est faite avant la
      fusion.
-5. Le Publieur prépare aussi trois brouillons de posts LinkedIn.
+5. Le pôle communication (`agents/com/`) prend ensuite le relais : il prépare les
+   posts de la semaine en brouillons dans Typefully, que vous programmez vous-même.
+   Stratégie complète : `editorial/communication.md`.
 
 ## L'équipe
 
@@ -31,6 +33,22 @@ n'est publié sans la validation du rédacteur en chef.
 | Éditeur | `agents/06-editeur.md` | Relit, vérifie les chiffres, contrôle le rendu |
 | Publieur | `agents/07-publieur.md` | Construit le site et ouvre la pull request |
 | Rapporteur | `agents/08-rapporteur.md` | Rédige le compte rendu de la semaine |
+
+## Le pôle communication
+
+| Agent | Fiche | Rôle |
+|---|---|---|
+| Directeur de la communication | `agents/com/00-directeur-com.md` | Lance le cycle communication et vous envoie le récapitulatif |
+| Stratège | `agents/com/01-stratege.md` | Plan de la semaine : quoi dire, où, quand |
+| Plume sociale | `agents/com/02-plume.md` | Textes FR/EN pour LinkedIn, X, WhatsApp, e-mail |
+| Studio visuel | `agents/com/03-studio.md` | Carrousel PDF et visuels aux couleurs Koridor |
+| Diffuseur | `agents/com/04-diffuseur.md` | Brouillons Typefully non programmés, liens marqués |
+| Vigie et engagement | `agents/com/05-vigie.md` | Posts du secteur à commenter, réponses aux commentaires |
+| Référenceur | `agents/com/06-referenceur.md` | Contrôle SEO et aperçus de partage du site |
+| Relais et partenariats | `agents/com/07-relais.md` | Chaque mois, dix relais à approcher avec un message préparé |
+| Analyste | `agents/com/08-analyste.md` | Ce qui a marché, chiffres à l'appui |
+
+Aucun agent ne publie, ne commente ni n'envoie de message : vous gardez la main.
 
 ## Organisation du dépôt
 
@@ -49,7 +67,8 @@ reports/      un rapport par semaine
 ```
 python3 scripts/validate.py   # contrôle les données et le registre des sources
 python3 scripts/registre_md.py # régénère editorial/registre.md après une modification du registre
-python3 site/build.py         # génère le site dans dist/
+python3 site/build.py         # génère le site dans dist/ (avec aperçus de partage et sitemap.xml)
+python3 scripts/og_image.py --fonts DOSSIER  # régénère les images de partage (voir le script)
 ```
 
 ## Mesure d'audience
