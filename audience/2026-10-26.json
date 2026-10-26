@@ -1,0 +1,201 @@
+{
+  "rapport_du": "2026-10-26",
+  "periode": {
+    "debut": "2026-10-19",
+    "fin": "2026-10-25"
+  },
+  "semaine": {
+    "visiteurs": 29,
+    "visites": 35,
+    "pages_vues": 61,
+    "pages_par_visite": 1.7,
+    "duree_moyenne_s": 26,
+    "taux_rebond": 60
+  },
+  "semaine_precedente": {
+    "visiteurs": 0,
+    "visites": 0,
+    "pages_vues": 0,
+    "pages_par_visite": 0,
+    "duree_moyenne_s": 0,
+    "taux_rebond": 0
+  },
+  "tendance_8_semaines": [
+    {
+      "semaine_du": "2026-08-31",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-07",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-14",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-21",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-28",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-05",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-12",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-19",
+      "visiteurs": 29,
+      "pages_vues": 61
+    }
+  ],
+  "fiches_les_plus_lues": [
+    {
+      "id": "centrale-gaz-togo",
+      "nom": "Centrale thermique bifuel de 120 MW de Lomé",
+      "vues": 7
+    },
+    {
+      "id": "raine-assainissement-lome",
+      "nom": "Réseau d'assainissement pluvial RAINE du Grand Lomé",
+      "vues": 4
+    },
+    {
+      "id": "reseau-gazier-senegal",
+      "nom": "Extension du réseau de gazoducs du Sénégal",
+      "vues": 4
+    },
+    {
+      "id": "route-godomey-ouidah-hillacondji",
+      "nom": "Élargissement et modernisation de la route Godomey–Ouidah–Hillacondji",
+      "vues": 4
+    },
+    {
+      "id": "step-tubatse",
+      "nom": "STEP de Tubatse",
+      "vues": 3
+    },
+    {
+      "id": "route-douala-bafoussam",
+      "nom": "Réhabilitation de la route Douala–Bafoussam",
+      "vues": 3
+    },
+    {
+      "id": "route-zuenoula-mankono",
+      "nom": "Route Zuénoula–Mankono (PDZTA-2)",
+      "vues": 1
+    }
+  ],
+  "fiches_sans_visite": [
+    "Métro de Kinshasa",
+    "Centrale solaire de Kafue",
+    "Transguinéen",
+    "Dragage du chenal du port de Maputo",
+    "Réhabilitation du barrage de Kariba",
+    "Déploiement de la fibre optique"
+  ],
+  "pages_brief": 10,
+  "langue_pages_vues": {
+    "fr": 45,
+    "en": 2
+  },
+  "provenance": [
+    {
+      "site": "bing.com",
+      "visites": 12
+    },
+    {
+      "site": "linkedin.com",
+      "visites": 1
+    }
+  ],
+  "pays": [
+    {
+      "pays": "États-Unis",
+      "code": "US",
+      "visiteurs": 23
+    },
+    {
+      "pays": "France",
+      "code": "FR",
+      "visiteurs": 6
+    }
+  ],
+  "appareils": [
+    {
+      "type": "laptop",
+      "visiteurs": 20
+    },
+    {
+      "type": "mobile",
+      "visiteurs": 9
+    }
+  ],
+  "clics": {
+    "Lecture complète": [
+      {
+        "detail": "raine-assainissement-lome",
+        "n": 5
+      },
+      {
+        "detail": "centrale-gaz-togo",
+        "n": 5
+      },
+      {
+        "detail": "route-godomey-ouidah-hillacondj",
+        "n": 2
+      },
+      {
+        "detail": "route-douala-bafoussam",
+        "n": 1
+      },
+      {
+        "detail": "step-tubatse",
+        "n": 1
+      }
+    ],
+    "Langue": [
+      {
+        "detail": "fr",
+        "n": 2
+      },
+      {
+        "detail": "en",
+        "n": 2
+      }
+    ],
+    "Clic fiche": [
+      {
+        "detail": "À la une",
+        "n": 2
+      },
+      {
+        "detail": "Ce qui a bougé",
+        "n": 1
+      },
+      {
+        "detail": "Liste des projets",
+        "n": 1
+      }
+    ],
+    "Brief": [
+      {
+        "detail": "clic abonnement",
+        "n": 1
+      }
+    ]
+  }
+}
