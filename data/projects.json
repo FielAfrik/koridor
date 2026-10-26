@@ -7,8 +7,8 @@
     "stage": 1,
     "status": "à vérifier",
     "summary": {
-      "fr": "Projet de métro pour la capitale de la RDC. Un financement de 877 millions a été annoncé en octobre 2026 ; la devise, les prêteurs et les conditions restent à confirmer.",
-      "en": "A metro project for the capital of the DRC. Financing of 877 million was announced in October 2026; the currency, lenders and terms are still to be confirmed."
+      "fr": "MetroKin est un projet de métro urbain de 25 km à Kinshasa, en RDC. En octobre 2026, l'Africa Finance Corporation (AFC) a annoncé avoir signé avec la RDC des accords pour poursuivre son développement. Ces accords portent aussi sur la ligne ferroviaire Kinshasa–Matadi–Banana (463 km). Aucun montant de financement n'est confirmé à ce jour.",
+      "en": "MetroKin is a 25 km urban metro project in Kinshasa, DRC. In October 2026, Africa Finance Corporation (AFC) announced that it had signed agreements with the DRC to take its development forward. The agreements also cover the Kinshasa–Matadi–Banana railway line (463 km). No financing amount has been confirmed to date."
     },
     "capacity": null,
     "cost": {"amount": 877, "currency": null, "unit": "millions", "note": {"fr": "Financement annoncé, devise à confirmer", "en": "Announced financing, currency to be confirmed"}},
@@ -23,9 +23,16 @@
         "text": {"fr": "Annonce d'un financement de 877 millions pour le projet.", "en": "Financing of 877 million announced for the project."},
         "confidence": "à confirmer",
         "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa", "publisher": "Agence Ecofin", "title": "La RDC obtient un financement de 877 millions pour le projet de métro de Kinshasa", "published": "2026-10-14", "tier": "B"}]
+      },
+      {
+        "date": "2026-10-12",
+        "type": "signature",
+        "text": {"fr": "L'AFC annonce avoir signé avec la RDC des accords sur le métro urbain MetroKin (25 km) et la ligne Kinshasa–Matadi–Banana (463 km).", "en": "AFC announces it has signed agreements with the DRC on the MetroKin urban metro (25 km) and the Kinshasa–Matadi–Banana line (463 km)."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://x.com/africa_finance/status/2112180048497463486", "publisher": "Africa Finance Corporation", "title": "Post X @africa_finance", "published": "2026-10-19", "tier": "A"}, {"url": "https://acp.cd/anglais/drc-afc-877-million-granted-to-launch-the-metrokin-urban-railway/", "publisher": {"fr": "Agence congolaise de presse (ACP)", "en": "Congolese Press Agency (ACP)"}, "title": "DRC-AFC: $877 million granted to launch the Metrokin urban railway", "published": "2026-10-14", "tier": "B"}]
       }
     ],
-    "updated": "2026-10-19"
+    "updated": "2026-10-26"
   },
   {
     "id": "reseau-gazier-senegal",
@@ -123,16 +130,16 @@
     "name": {"fr": "Centrale solaire de Kafue", "en": "Kafue solar plant"},
     "country": "ZM",
     "sector": "energie",
-    "stage": 1,
+    "stage": 2,
     "status": "à vérifier",
     "summary": {
-      "fr": "Projet solaire de Globeleq en Zambie. Le contrat EPC a été attribué à Solarcentury Africa et Alensy.",
-      "en": "A Globeleq solar project in Zambia. The EPC contract has been awarded to Solarcentury Africa and Alensy."
+      "fr": "Le projet solaire de Globeleq à Kafue, en Zambie, comprend deux centrales de 20 MWac et une ligne 33 kV de 4,5 km. Le FMO et British International Investment (BII) ont engagé leur financement en décembre 2025. Le prêt senior décrit par le FMO s'élève à 20,4 millions de dollars.",
+      "en": "Globeleq's solar project at Kafue, Zambia, comprises two 20 MWac plants and a 4.5 km 33 kV line. FMO and British International Investment (BII) committed their financing in December 2025. The senior loan described by FMO amounts to $20.4 million."
     },
-    "capacity": null,
-    "cost": null,
+    "capacity": "2 × 20 MWac",
+    "cost": {"amount": 20.4, "currency": "USD", "unit": "millions", "note": {"fr": "Prêt senior décrit par le FMO, pas le coût total du projet. BII annonce 23,7 millions de dollars (23,66 dans ses données) dans un paquet de dette de 50 millions de dollars.", "en": "Senior loan described by FMO, not the total project cost. BII reports $23.7 million (23.66 in its data) within a $50 million debt package."}},
     "owner": ["Globeleq"],
-    "lenders": [],
+    "lenders": ["FMO", "British International Investment"],
     "contractors": ["Solarcentury Africa", "Alensy"],
     "target_date": null,
     "milestones": [
@@ -142,24 +149,31 @@
         "text": {"fr": "Attribution du contrat EPC à Solarcentury Africa et Alensy.", "en": "EPC contract awarded to Solarcentury Africa and Alensy."},
         "confidence": "à confirmer",
         "sources": [{"url": "https://www.africa-energy.com/live-data/article/zambia-solarcentury-africa-and-alensy-win-epc-deal-globeleqs-kafue", "publisher": "African Energy", "title": "Zambia: Solarcentury Africa and Alensy win EPC deal for Globeleq's Kafue", "published": null, "tier": "B"}]
+      },
+      {
+        "date": "2025-12-22",
+        "type": "financement",
+        "text": {"fr": "Le FMO et BII financent Globeleq Kafue Solar : deux centrales de 20 MWac et une ligne 33 kV de 4,5 km. Le prêt senior décrit par le FMO s'élève à 20,4 millions de dollars.", "en": "FMO and BII finance Globeleq Kafue Solar: two 20 MWac plants and a 4.5 km 33 kV line. The senior loan described by FMO amounts to $20.4 million."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.fmo.nl/project-detail/64121", "publisher": "FMO", "title": "Project detail - Globeleq Kafue Solar Limited (64121)", "published": "2024-10-14", "tier": "A"}, {"url": "https://www.bii.co.uk/en/our-impact/investment/globeleq-kafue-solar-limited-investment-01/", "publisher": "British International Investment", "title": "Globeleq Kafue Solar Limited", "published": "2026-09", "tier": "A"}]
       }
     ],
-    "updated": "2026-10-18"
+    "updated": "2026-10-26"
   },
   {
     "id": "transguineen",
     "name": {"fr": "Transguinéen", "en": "Trans-Guinean railway"},
     "country": "GN",
     "sector": "transport",
-    "stage": 3,
-    "status": "à vérifier",
+    "stage": 4,
+    "status": "publié",
     "summary": {
-      "fr": "Ligne ferroviaire guinéenne. Le voyage inaugural a eu lieu ; plusieurs étapes restent à franchir avant l'ouverture commerciale.",
-      "en": "A Guinean railway line. The inaugural journey has taken place; several steps remain before commercial opening."
+      "fr": "Le Transguinéen est une ligne ferroviaire guinéenne dont la Compagnie du Transguinéen (CTG) est le maître d'ouvrage. Selon SimFer (Rio Tinto), le réseau ferroviaire de Simandou est entièrement en service pour le fret de minerai depuis le premier trimestre 2026. Le train de voyageurs a fait son voyage inaugural le 12 octobre 2026 entre Morébaya et Kassa (148 km). L'ouverture au public sera progressive.",
+      "en": "The Trans-Guinean railway is a line in Guinea, with the Compagnie du Transguinéen (CTG) as project owner. According to SimFer (Rio Tinto), the Simandou rail network has been fully operational for ore freight since the first quarter of 2026. The passenger train made its inaugural journey on 12 October 2026 between Morébaya and Kassa (148 km). Opening to the public will be phased."
     },
     "capacity": null,
     "cost": null,
-    "owner": [],
+    "owner": ["Compagnie du Transguinéen (CTG)"],
     "lenders": [],
     "contractors": [],
     "target_date": null,
@@ -167,12 +181,19 @@
       {
         "date": "2026-10-12",
         "type": "travaux",
-        "text": {"fr": "Voyage inaugural effectué ; l'ouverture commerciale reste à venir.", "en": "Inaugural journey completed; commercial opening still to come."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142391-apres-le-voyage-inaugural-le-transguineen-doit-encore-franchir-des-etapes-avant-louverture-commerciale", "publisher": "Agence Ecofin", "title": "Après le voyage inaugural, le Transguinéen doit encore franchir des étapes avant l'ouverture commerciale", "published": "2026-10-14", "tier": "B"}]
+        "text": {"fr": "Voyage inaugural du train de voyageurs de la Compagnie du Transguinéen entre Morébaya et Kassa (148 km). L'ouverture au public doit être progressive.", "en": "Inaugural journey of the Compagnie du Transguinéen passenger train between Morébaya and Kassa (148 km). Opening to the public is to be phased."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://presidence.gov.gn/vision-integree-du-transport-en-guinee-son-excellence-le-president-mamadi-doumbouya-voyage-a-bord-du-train-de-passagers-de-la-compagnie-du-transguineen-ctg/", "publisher": {"fr": "Présidence de la République de Guinée", "en": "Presidency of the Republic of Guinea"}, "title": "Vision intégrée du transport en Guinée : le Président Mamadi Doumbouya voyage à bord du train de passagers de la CTG", "published": "2026-10-12", "tier": "A"}, {"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142391-apres-le-voyage-inaugural-le-transguineen-doit-encore-franchir-des-etapes-avant-louverture-commerciale", "publisher": "Agence Ecofin", "title": "Après le voyage inaugural, le Transguinéen doit encore franchir des étapes avant l'ouverture commerciale", "published": "2026-10-14", "tier": "B"}]
+      },
+      {
+        "date": "2026-08-06",
+        "type": "mise-en-service",
+        "text": {"fr": "Selon SimFer (Rio Tinto), le réseau ferroviaire de Simandou est entièrement en service pour le fret de minerai depuis le premier trimestre 2026. Le port est achevé à 85 % ; sa mise en service est visée au premier trimestre 2027.", "en": "According to SimFer (Rio Tinto), the Simandou rail network has been fully operational for ore freight since the first quarter of 2026. The port is 85% complete; commissioning is targeted for the first quarter of 2027."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://riotintoguinee.com/en/media/press-release/simfer-advances-the-simandou-project-at-pace-reaching-new-operational-milestones/", "publisher": "Rio Tinto Guinée (SimFer)", "title": "SimFer advances the Simandou project at pace, reaching new operational milestones", "published": "2026-08-06", "tier": "A"}]
       }
     ],
-    "updated": "2026-10-19"
+    "updated": "2026-10-26"
   },
   {
     "id": "port-maputo-dragage",
@@ -208,14 +229,14 @@
     "country": "ZM,ZW",
     "sector": "energie",
     "stage": 3,
-    "status": "à vérifier",
+    "status": "publié",
     "summary": {
-      "fr": "Réhabilitation du barrage de Kariba, partagé par la Zambie et le Zimbabwe. Les travaux approchent de leur fin.",
-      "en": "Rehabilitation of the Kariba dam, shared by Zambia and Zimbabwe. Works are nearing completion."
+      "fr": "Ce projet réhabilite le barrage de Kariba, partagé par la Zambie et le Zimbabwe, sous la maîtrise d'ouvrage de l'Autorité du fleuve Zambèze. Le portique du déversoir a été mis en service le 27 août 2026, avec 13 mois de retard. La phase II du déversoir atteignait 81 % en septembre 2026, pour un achèvement visé fin 2026. Pour 2027, l'Autorité ramène l'eau allouée à l'hydroélectricité à 23 milliards de m³, contre 36 milliards de m³ en 2026.",
+      "en": "This project is rehabilitating the Kariba dam, shared by Zambia and Zimbabwe, with the Zambezi River Authority as project owner. The spillway gantry crane was commissioned on 27 August 2026, 13 months late. Phase II of the spillway was 81% complete in September 2026, with completion targeted for the end of 2026. For 2027, the Authority is cutting the water allocated to hydropower to 23 billion m³, from 36 billion m³ in 2026."
     },
     "capacity": null,
     "cost": null,
-    "owner": [],
+    "owner": [{"fr": "Autorité du fleuve Zambèze", "en": "Zambezi River Authority"}],
     "lenders": [],
     "contractors": [],
     "target_date": null,
@@ -231,11 +252,18 @@
         "date": "2026-10",
         "type": "travaux",
         "text": {"fr": "Les travaux de réhabilitation approchent de leur fin.", "en": "Rehabilitation works are nearing completion."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.africa-energy.com/news-centre/article/zambiazimbabwe-kariba-dam-rehabilitation-nearing-completion", "publisher": "African Energy", "title": "Zambia/Zimbabwe: Kariba dam rehabilitation nearing completion", "published": null, "tier": "B"}]
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.zambezira.org/media-centre/news/kariba-dam-spillway-rehabilitation-passes-critical-milestone-project-eyes", "publisher": {"fr": "Autorité du fleuve Zambèze", "en": "Zambezi River Authority"}, "title": "Kariba Dam Spillway Rehabilitation Passes Critical Milestone as Project Eyes Completion", "published": "2026-09-15", "tier": "A"}, {"url": "https://www.africa-energy.com/news-centre/article/zambiazimbabwe-kariba-dam-rehabilitation-nearing-completion", "publisher": "African Energy", "title": "Zambia/Zimbabwe: Kariba dam rehabilitation nearing completion", "published": null, "tier": "B"}]
+      },
+      {
+        "date": "2026-08-27",
+        "type": "retard",
+        "text": {"fr": "Le portique du déversoir est mis en service avec 13 mois de retard sur la cible de juillet 2025. La phase II du déversoir atteint 81 % d'avancement en septembre 2026, pour un achèvement visé fin 2026.", "en": "The spillway gantry crane is commissioned 13 months behind the July 2025 target. Phase II of the spillway reaches 81% completion in September 2026, with completion targeted for the end of 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.zambezira.org/media-centre/news/kariba-dam-spillway-rehabilitation-passes-critical-milestone-project-eyes", "publisher": {"fr": "Autorité du fleuve Zambèze", "en": "Zambezi River Authority"}, "title": "Kariba Dam Spillway Rehabilitation Passes Critical Milestone as Project Eyes Completion", "published": "2026-09-15", "tier": "A"}]
       }
     ],
-    "updated": "2026-10-19"
+    "updated": "2026-10-26"
   },
   {
     "id": "fibre-optique-nigeria",
@@ -376,5 +404,87 @@
       }
     ],
     "updated": "2026-10-19"
+  },
+  {
+    "id": "barrage-thwake",
+    "name": {"fr": "Barrage polyvalent de Thwake", "en": "Thwake multipurpose dam"},
+    "country": "KE",
+    "sector": "eau",
+    "stage": 3,
+    "status": "publié",
+    "summary": {"fr": "Le barrage polyvalent de Thwake, au Kenya, doit produire environ 20 MW et irriguer jusqu'à 40 000 hectares. La BAD a approuvé en mai 2026 un financement supplémentaire II de 68,39 millions d'euros. Selon la banque, les travaux ont repris en août 2026 et la mise en eau est visée en janvier 2027.", "en": "Kenya's Thwake multipurpose dam is designed to generate about 20 MW and irrigate up to 40,000 hectares. The AfDB approved €68.39 million of Supplementary Financing II in May 2026. According to the bank, works resumed in August 2026 and impoundment is targeted for January 2027."},
+    "capacity": {"fr": "environ 20 MW ; jusqu'à 40 000 hectares irrigués", "en": "about 20 MW; up to 40,000 hectares irrigated"},
+    "cost": {"amount": 68.39, "currency": "EUR", "unit": "millions", "note": {"fr": "Financement supplémentaire II de la BAD, approuvé en mai 2026 ; pas le coût total du projet", "en": "AfDB Supplementary Financing II, approved in May 2026; not the total project cost"}},
+    "owner": null,
+    "lenders": [{"fr": "Banque africaine de développement", "en": "African Development Bank"}],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-09-25",
+        "type": "travaux",
+        "text": {"fr": "À l'issue d'une mission du 21 au 25 septembre 2026, la BAD indique que les travaux ont repris en août 2026. La mise en eau est visée en janvier 2027.", "en": "Following a mission from 21 to 25 September 2026, the AfDB reports that works resumed in August 2026. Impoundment is targeted for January 2027."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/fr/news-and-events/press-releases/banque-africaine-developpement-kenya-accelerent-97716", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "La Banque africaine de développement et le Kenya accélèrent les efforts pour l'achèvement du barrage de Thwake", "published": "2026-10-21", "tier": "A"}]
+      },
+      {
+        "date": "2026-05",
+        "type": "financement",
+        "text": {"fr": "La BAD approuve un financement supplémentaire II de 68,39 millions d'euros.", "en": "The AfDB approves €68.39 million of Supplementary Financing II."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/fr/news-and-events/press-releases/banque-africaine-developpement-kenya-accelerent-97716", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "La Banque africaine de développement et le Kenya accélèrent les efforts pour l'achèvement du barrage de Thwake", "published": "2026-10-21", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-10-26"
+  },
+  {
+    "id": "terminal-point-durban",
+    "name": {"fr": "Point Container Terminal du port de Durban", "en": "Point Container Terminal, Port of Durban"},
+    "country": "ZA",
+    "sector": "transport",
+    "stage": 1,
+    "status": "publié",
+    "summary": {"fr": "Le Point Container Terminal fait partie du port de Durban, en Afrique du Sud ; Transnet en est le maître d'ouvrage. Le projet doit porter sa capacité d'environ 0,2 à 1,8 million d'EVP par an. Les études, financées par un don de 2 millions de dollars du fonds SADC PPDF géré par la DBSA, sont achevées. Le projet est prêt pour la passation.", "en": "The Point Container Terminal is part of the Port of Durban, South Africa, with Transnet as project owner. The project is to raise its capacity from about 0.2 to 1.8 million TEU a year. The studies, funded by a $2 million grant from the SADC PPDF managed by the DBSA, are complete. The project is ready for procurement."},
+    "capacity": {"fr": "de 0,2 à 1,8 million d'EVP par an", "en": "from 0.2 to 1.8 million TEU a year"},
+    "cost": null,
+    "owner": ["Transnet SOC Limited"],
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-22",
+        "type": "etude",
+        "text": {"fr": "La DBSA annonce que les études financées par un don de 2 millions de dollars du fonds SADC PPDF sont achevées. Le projet est prêt pour la passation.", "en": "The DBSA announces that the studies funded by a $2 million grant from the SADC PPDF are complete. The project is ready for procurement."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://sadcppdf.dbsa.org/press-releases/unlocking-durbans-potential-regional-gateway-sadc-trade", "publisher": "DBSA / SADC PPDF", "title": "Unlocking Durban's Potential as a Regional Gateway", "published": null, "tier": "A"}]
+      }
+    ],
+    "updated": "2026-10-26"
+  },
+  {
+    "id": "waca-littoral-togo",
+    "name": {"fr": "Protection du littoral togolais (WACA ResIP)", "en": "Togo coastal protection (WACA ResIP)"},
+    "country": "TG",
+    "sector": "eau",
+    "stage": 3,
+    "status": "publié",
+    "summary": {"fr": "Ce programme du WACA ResIP, financé par la Banque mondiale, protège le littoral togolais par des épis et des brise-lames. Début octobre 2026, 26 épis ont été réceptionnés à titre provisoire entre Gbodjomé et Kpémé. Fin septembre 2026, l'exécution physique atteignait 70 % et l'exécution financière 94 %. La fin du programme est prévue en 2027.", "en": "This WACA ResIP programme, financed by the World Bank, protects Togo's coastline with groynes and breakwaters. In early October 2026, 26 groynes received provisional acceptance between Gbodjomé and Kpémé. At the end of September 2026, physical progress stood at 70% and financial execution at 94%. The programme is scheduled to end in 2027."},
+    "capacity": null,
+    "cost": null,
+    "owner": null,
+    "lenders": [{"fr": "Banque mondiale", "en": "World Bank"}],
+    "contractors": null,
+    "target_date": "2027",
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "travaux",
+        "text": {"fr": "Réception provisoire de 26 épis entre Gbodjomé et Kpémé ; le brise-lames d'Aného est allongé de 200 m. Fin septembre 2026, l'exécution physique atteint 70 %, l'exécution financière 94 %.", "en": "Provisional acceptance of 26 groynes between Gbodjomé and Kpémé; the Aného breakwater is extended by 200 m. At the end of September 2026, physical progress stands at 70% and financial execution at 94%."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.republiquetogolaise.tg/social/1910-12400-protection-du-littoral-le-togo-renforce-ses-ouvrages-de-stabilisation", "publisher": "République togolaise", "title": "Protection du littoral : le Togo renforce ses ouvrages de stabilisation", "published": "2026-10-19", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-10-26"
   }
 ]
