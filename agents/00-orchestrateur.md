@@ -20,8 +20,17 @@ Rien n'est publié sans validation humaine. Le cycle se termine par une demande 
    pour le `.json`). Si la branche ou le fichier manque, noter la raison pour le Rapporteur
    (mesure pas encore configurée, workflow en échec) et continuer : l'audience n'arrête
    jamais le cycle. Ne jamais commettre ces fichiers sur la branche de veille.
-4. Lire `editorial/charte.md`, `editorial/sources.md` et `data/schema.md`. Les transmettre
+4. Récupérer l'état de l'archivage des sources, rangé par le workflow « Archivage des
+   sources » sur la branche `archives-sources` : `git fetch --depth 1 origin
+   archives-sources` puis `git show FETCH_HEAD:archives/archives.json >
+   work/AAAA-MM-JJ/00-archives.json` et `git show FETCH_HEAD:archives/etat.md >
+   work/AAAA-MM-JJ/00-archives.md`. Si la branche manque, le noter pour le Rapporteur et
+   continuer : l'archivage n'arrête jamais le cycle. Ne jamais commettre ces fichiers.
+5. Lire `editorial/charte.md`, `editorial/sources.md` et `data/schema.md`. Les transmettre
    à chaque agent avec sa fiche.
+6. Transmettre aussi à chaque agent les skills que sa fiche cite (section « Skills à
+   lire ») : le texte complet de `.claude/skills/<nom>/SKILL.md`. Un sous-agent ne les
+   charge pas toujours seul. La liste des skills et leur origine : `.claude/skills/README.md`.
 
 ## Ordre des agents
 
@@ -32,13 +41,13 @@ fichier de sortie du précédent existe et n'est pas vide.
 | # | Agent | Lit | Écrit |
 |---|-------|-----|-------|
 | 1 | Veilleur (`01-veilleur.md`) | `editorial/sources.md`, `data/sources.json`, `data/projects.json` | `work/…/00-flux.json`, `work/…/01-candidats.json`, `work/…/01-collecte.md` |
-| 2 | Vérificateur (`02-verificateur.md`) | `01-candidats.json` | `work/…/02-verifies.json` |
+| 2 | Vérificateur (`02-verificateur.md`) | `01-candidats.json`, `00-archives.json` | `work/…/02-verifies.json` |
 | 3 | Documentaliste (`03-documentaliste.md`) | `02-verifies.json`, `data/projects.json` | `data/projects.json`, `work/…/03-changements.json` |
 | 4 | Rédacteur (`04-redacteur.md`) | `03-changements.json`, `data/projects.json` | textes FR dans `data/projects.json`, `data/briefs/AAAA-MM-JJ.json` |
 | 5 | Traducteur (`05-traducteur.md`) | les textes FR | champs `en` des mêmes fichiers |
 | 6 | Éditeur (`06-editeur.md`) | tout ce qui a changé | corrections + `work/…/06-relecture.md` |
 | 7 | Publieur (`07-publieur.md`) | le dépôt | build, contrôles, pull request |
-| 8 | Rapporteur (`08-rapporteur.md`) | tout `work/…/`, dont `07-audience.md` | `reports/AAAA-MM-JJ.md` + description de la pull request |
+| 8 | Rapporteur (`08-rapporteur.md`) | tout `work/…/`, dont `07-audience.md` et `00-archives.md` | `reports/AAAA-MM-JJ.md` + description de la pull request |
 
 Les agents 4 et 5 peuvent se succéder rapidement, mais jamais en parallèle sur le même
 fichier. Le Rapporteur passe avant que le Publieur n'ouvre la pull request, afin que sa
@@ -64,4 +73,5 @@ Envoyer au rédacteur en chef un message court contenant :
 - le lien de la pull request ;
 - le nombre de projets ajoutés, mis à jour ou écartés ;
 - les points qui demandent sa décision ;
-- une ligne d'audience : visiteurs de la semaine et évolution, fiche la plus lue.
+- une ligne d'audience : visiteurs de la semaine et évolution, fiche la plus lue ;
+- les sources citées devenues injoignables, s'il y en a.

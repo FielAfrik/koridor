@@ -43,9 +43,10 @@ comme si une rédaction parlait.
 
 - La charte s'applique sans exception : chiffres tels qu'annoncés, aucun adjectif
   promotionnel, aucune reprise de texte, citations de moins de 15 mots.
-- Liste à bannir : « dans un monde où », « plus que jamais », « véritable », « clé »,
-  « game changer », « révolutionnaire », « historique », triplets d'adjectifs, phrases
-  qui finissent par « … et c'est tout l'enjeu ». Une conclusion donne une date ou un fait
-  à suivre, pas une morale.
+- Vocabulaire et tournures : skill `.claude/skills/ecriture-koridor/SKILL.md`, listes
+  française et anglaise, relecture en deux passes avant de rendre. S'y ajoutent pour les
+  réseaux : « plus que jamais », « game changer », phrases qui finissent par « … et c'est
+  tout l'enjeu ». Une conclusion donne une date ou un fait à suivre, pas une morale.
+- Un post qui reprend un fait corrigé sur le site suit le skill `corrections`.
 - Aucun chiffre qui ne figure pas sur la fiche du site.
 - Pas de lien dans un post LinkedIn hors newsletter.

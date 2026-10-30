@@ -50,9 +50,18 @@ n'est publié sans la validation du rédacteur en chef.
 
 Aucun agent ne publie, ne commente ni n'envoie de message : vous gardez la main.
 
+## Les skills
+
+Les agents appliquent six fiches de méthode rangées dans `.claude/skills/` : vérification
+des faits, archivage des sources, corrections, écriture sans tics, chiffres et données,
+newsletter e-mail. Ce sont des adaptations en français de skills de la collection
+claude-skills-journalism (Joe Amditis, licence MIT). Chaque fiche d'agent dit lesquelles
+lire. Détail, origine et ce qui n'a pas été repris : `.claude/skills/README.md`.
+
 ## Organisation du dépôt
 
 ```
+.claude/skills/ méthodes partagées par les agents (vérification, archivage, écriture…)
 agents/       consignes de chaque agent
 editorial/    charte éditoriale, règles des sources (sources.md) et registre lisible (registre.md)
 data/         base projets (projects.json), registre des sources (sources.json), Briefs, format des données
@@ -69,7 +78,18 @@ python3 scripts/validate.py   # contrôle les données et le registre des source
 python3 scripts/registre_md.py # régénère editorial/registre.md après une modification du registre
 python3 site/build.py         # génère le site dans dist/ (avec aperçus de partage et sitemap.xml)
 python3 scripts/og_image.py --fonts DOSSIER  # régénère les images de partage (voir le script)
+python3 scripts/archiver.py --demo --out /tmp/archives  # teste l'archivage des sources sans réseau
 ```
+
+## Archivage des sources
+
+Chaque lundi vers 3 h 40, et après chaque fusion qui modifie `data/projects.json`, le
+workflow « Archivage des sources » (`.github/workflows/archives.yml`) lance
+`scripts/archiver.py`. Il vérifie que chaque source citée répond encore et en garde une
+copie datée dans la Wayback Machine. L'état est rangé sur la branche `archives-sources` ;
+le Rapporteur en reprend le résumé dans le rapport de la semaine (sources devenues
+injoignables, sources sans copie). Rien à configurer : le workflow n'a besoin d'aucune
+clé.
 
 ## Mesure d'audience
 

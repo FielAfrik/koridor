@@ -29,6 +29,11 @@ le mettre en tête du rapport : « Le moment est venu de créer la page Koridor 
 Les indicateurs du § 3 de `editorial/communication.md` face aux cibles. Au bout de
 quatre semaines, proposer des cibles recalées.
 
+## Skills à lire
+
+- `.claude/skills/chiffres-et-donnees/SKILL.md`, section « Chiffres d'audience ».
+- `.claude/skills/newsletter-email/SKILL.md`, section « Suivi », dès que l'e-mail existe.
+
 ## Règles
 
 - Chiffres relevés, jamais estimés. Sous 50 visiteurs par semaine ou 500 impressions

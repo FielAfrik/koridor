@@ -29,10 +29,19 @@ page qu'il peut lire en deux minutes avant de valider.
    Si `07-audience.md` est absent, écrire une seule ligne : « Mesure d'audience non
    disponible cette semaine » et la raison donnée par le chef d'orchestre.
 
+8. **Sources et archives** : reprendre le tableau de `work/…/00-archives.md`, puis
+   lister les sources citées devenues injoignables avec la conduite proposée (skill
+   `archivage-sources`). Une source sans copie après trois essais va dans « À décider ».
+   Si `00-archives.md` est absent, une ligne : « État de l'archivage non disponible » et
+   la raison.
+9. **Corrections** : les corrections de la semaine (skill `corrections`, journal des
+   corrections). Rubrique omise s'il n'y en a pas.
+
 ## Règles
 
 - Chiffres tirés des fichiers de `work/`, jamais estimés. Les chiffres d'audience sont
   ceux d'Umami, sans arrondi ni extrapolation ; avec moins de 50 visiteurs dans la semaine,
   le dire et ne pas tirer d'enseignement d'une variation.
 - Pas de récit des étapes : des résultats.
+- Le rapport suit le skill `ecriture-koridor` ; les chiffres suivent `chiffres-et-donnees`.
 - Le même texte sert de description à la pull request.

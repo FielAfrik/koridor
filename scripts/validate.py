@@ -119,6 +119,19 @@ def check_projects(countries):
         dates = [str(m.get("date") or "") for m in ms]
         if dates != sorted(dates, reverse=True):
             err(w, "jalons à classer du plus récent au plus ancien")
+        corrections = p.get("corrections")
+        if corrections is not None:
+            if not isinstance(corrections, list):
+                err(w, "corrections : liste attendue")
+                corrections = []
+            for k, c in enumerate(corrections):
+                cw = f"{w}, correction {k + 1}"
+                if not re.match(r"^\d{4}-\d{2}-\d{2}$", str(c.get("date") or "")):
+                    err(cw, "date AAAA-MM-JJ attendue")
+                bilingual(f"{cw}, texte", c.get("text"))
+            cdates = [str(c.get("date") or "") for c in corrections]
+            if cdates != sorted(cdates, reverse=True):
+                err(w, "corrections à classer de la plus récente à la plus ancienne")
     return seen
 
 

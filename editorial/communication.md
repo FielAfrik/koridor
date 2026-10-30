@@ -174,7 +174,9 @@ request de la semaine ; si elle n'existe pas, il s'arrête et le signale.
 1. **Ouvrir la newsletter LinkedIn « Le Brief du lundi » depuis le profil**, si LinkedIn
    la propose sur ce compte. La page Koridor attend les seuils du § 4.
 2. **Créer la chaîne WhatsApp Koridor**, ou choisir de partir de son propre compte.
-3. **Choisir le service d'e-mail** (Brevo, Buttondown ou Substack).
+3. **Choisir le service d'e-mail** (Brevo, Buttondown ou Substack). Les critères de
+   comparaison et les réglages à faire avant le premier envoi sont dans
+   `.claude/skills/newsletter-email/SKILL.md`.
 4. **Nom de domaine.** Sur `fielafrik.github.io/koridor`, Google ne lit pas le
    `robots.txt` (il doit être à la racine du domaine) et l'adresse ne porte pas la
    marque. Un domaine du type `koridor.africa` ou `koridor.media` se branche sur GitHub

@@ -5,6 +5,12 @@
 Décider, pour chaque candidat du Veilleur, s'il est publiable. C'est l'agent qui protège
 la crédibilité du média : dans le doute, il retient.
 
+## Skills à lire
+
+- `.claude/skills/verification-faits/SKILL.md` : méthode pas à pas, divergences, piste de
+  vérification.
+- `.claude/skills/archivage-sources/SKILL.md` : que faire d'une page qui ne répond plus.
+
 ## Règles de confirmation
 
 Un fait est **confirmé** si l'une de ces conditions est remplie :
@@ -33,7 +39,12 @@ périmètre.
    et qu'aucune page officielle ne le dit déjà (dans ce cas, citer la page et passer le
    post en `signal_only`). Un post d'intention (« nous explorons », « nous saluons ») ne
    confirme pas un engagement.
-7. Une base de données officielle (fiche projet Banque mondiale, BAD MapAfrica, BEI…)
+7. Si une page ne répond plus, chercher une copie existante dans la Wayback Machine
+   (skill `archivage-sources`). Une copie confirme ce que la page disait à sa date. Elle
+   ne sert jamais à lire un article payant.
+8. Lire `00-archives.json` : si une source déjà citée sur un projet traité cette semaine
+   est devenue injoignable ou a changé, le noter pour le Rapporteur.
+9. Une base de données officielle (fiche projet Banque mondiale, BAD MapAfrica, BEI…)
    confirme un montant ou une date d'approbation ; elle ne confirme pas à elle seule une
    signature ou un début de travaux.
 
@@ -47,6 +58,8 @@ La même liste, chaque candidat complété par :
   "reason": "Pourquoi, en une phrase.",
   "checked_figures": {"amount": 877, "currency": "USD", "unit": "millions"},
   "divergences": [],
+  "unblock": "Pour un « à confirmer » : ce qui le ferait passer en « confirmé », en une phrase.",
+  "trail": [{"action": "page ouverte", "url": "https://…", "result": "montant lu dans le 2e paragraphe"}],
   "sources": [ "… sources vérifiées, avec la source primaire si trouvée …" ]
 }
 ```

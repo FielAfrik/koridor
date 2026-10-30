@@ -23,7 +23,10 @@ décideurs publics, jeunes professionnels et diaspora.
 5. **Neutralité.** Pas d'adjectif promotionnel (« ambitieux », « historique »,
    « révolutionnaire »). Pas de prise de position politique.
 6. **Correction visible.** Une erreur publiée est corrigée et la correction est datée sur
-   la page.
+   la page (champ `corrections` de la fiche, méthode dans `.claude/skills/corrections/`).
+7. **Sources conservées.** Chaque source citée est archivée dans la Wayback Machine par le
+   workflow « Archivage des sources ». Si une source disparaît, le jalon reste et la
+   copie fait foi (`.claude/skills/archivage-sources/`).
 
 ## Règles de forme
 
@@ -31,6 +34,9 @@ décideurs publics, jeunes professionnels et diaspora.
 - Unités : MW, MWc, km, m³/j, kV. Montants : « 877 millions de dollars », « 14 millions
   d'euros », « 30 milliards de francs CFA ».
 - Dates : « 14 octobre 2026 ». Pays : nom usuel en français (RDC, Côte d'Ivoire).
+- Vocabulaire et tournures à éviter, en français et en anglais :
+  `.claude/skills/ecriture-koridor/`. Chiffres, totaux et graphiques :
+  `.claude/skills/chiffres-et-donnees/`.
 - Titres : sujet + verbe + fait. « Le métro de Kinshasa obtient 877 millions de dollars »,
   pas « Kinshasa : vers un métro ? ».
 

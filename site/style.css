@@ -216,6 +216,10 @@ time{font-variant-numeric:tabular-nums}
 .timeline li.ok .conf{color:var(--green-d);font-weight:600}
 .timeline p{margin-top:6px;font:17px/1.5 var(--read);color:var(--text)}
 .timeline .src{font:14px var(--head);color:var(--muted)}
+.corrections ul{margin:0;padding:0;list-style:none}
+.corrections li{font:16px/1.5 var(--read);color:var(--text);padding:8px 0;border-top:1px solid var(--line)}
+.corrections li:first-child{border-top:0;padding-top:0}
+.corrections time{display:block;font:600 13px var(--head);color:var(--muted);margin-bottom:2px}
 .related{list-style:none;margin:0;padding:0}
 .related li{border-top:1px solid var(--line-2)}
 .related a{display:flex;flex-direction:column;gap:2px;padding:12px 0;text-decoration:none;color:var(--ink)}

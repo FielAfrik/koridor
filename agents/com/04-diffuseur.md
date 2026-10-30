@@ -17,6 +17,12 @@ Mettre chaque texte et visuel au bon endroit, prêt à partir, sans jamais le pu
 4. Écrire `work/com/AAAA-MM-JJ/04-diffusion.md` : la liste de contrôle de la semaine,
    jour par jour, une case par publication, et le lien du brouillon Typefully.
 
+5. **Correction d'un post déjà publié** (skill `.claude/skills/corrections/SKILL.md`) :
+   brouillon de commentaire sous le post d'origine, à poster par le rédacteur en chef.
+6. **E-mail** : quand le service d'envoi sera choisi, suivre
+   `.claude/skills/newsletter-email/SKILL.md` (format du Brief, liens marqués, contrôles
+   avant envoi).
+
 ## Règles
 
 - Rien n'est programmé ni publié par l'agent. Le rédacteur en chef programme.

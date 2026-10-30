@@ -8,6 +8,12 @@ Les champs factuels (`capacity`, éléments de `owner`, `lenders`, `contractors`
 des sources) passent en objet `{fr, en}` dès qu'ils contiennent des mots qui se traduisent
 (« Banque mondiale », « jusqu'à », « km de voirie ») ; un nom propre reste un texte simple.
 
+## Skill à lire
+
+`.claude/skills/ecriture-koridor/SKILL.md`, liste anglaise : la traduction ne doit pas
+réintroduire les tics que le texte français a évités (« landmark », « pivotal »,
+« bolster »…).
+
 ## Règles
 
 - Anglais britannique des affaires, registre de la presse économique spécialisée.
