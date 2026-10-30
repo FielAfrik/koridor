@@ -1,0 +1,63 @@
+name: Archivage des sources
+
+# Garde une copie datée (Wayback Machine) de chaque source citée dans data/projects.json
+# et contrôle que les pages répondent encore. L'état est rangé sur la branche
+# « archives-sources » : le chef d'orchestre l'y lit au début du cycle de veille.
+# Cette branche ne contient que l'état de l'archivage : elle ne touche ni main ni le site.
+# Méthode : .claude/skills/archivage-sources/SKILL.md
+on:
+  schedule:
+    - cron: "40 2 * * 1"   # chaque lundi, 3 h 40 à Paris l'hiver, 4 h 40 l'été, avant la veille
+  push:
+    branches: [main]
+    paths: ["data/projects.json"]   # après chaque fusion qui ajoute des sources
+  workflow_dispatch:
+    inputs:
+      check_only:
+        description: "Contrôler les liens sans demander de copie"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archives-sources
+  cancel-in-progress: false
+
+jobs:
+  archives:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Reprendre l'état précédent
+        run: |
+          mkdir -p "$RUNNER_TEMP/precedent"
+          if git fetch --depth 1 origin archives-sources; then
+            git show FETCH_HEAD:archives/archives.json > "$RUNNER_TEMP/precedent/archives.json" || true
+          fi
+      - name: Contrôler et archiver
+        run: |
+          STATE=""
+          if [ -s "$RUNNER_TEMP/precedent/archives.json" ]; then STATE="--state $RUNNER_TEMP/precedent/archives.json"; fi
+          python3 scripts/archiver.py --out "$RUNNER_TEMP/archives" $STATE ${{ inputs.check_only && '--check-only' || '' }}
+      - name: Ranger sur la branche archives-sources
+        run: |
+          git config user.name "koridor-archives"
+          git config user.email "actions@users.noreply.github.com"
+          if git fetch --depth 1 origin archives-sources; then
+            git checkout -B archives-sources FETCH_HEAD
+          else
+            git checkout --orphan archives-sources
+            git rm -rf --quiet .
+            printf "# Archivage des sources de Koridor\n\nÉtat écrit par le workflow « Archivage des sources ». Une entrée par source citée dans data/projects.json.\n" > README.md
+          fi
+          mkdir -p archives
+          cp "$RUNNER_TEMP"/archives/* archives/
+          git add README.md archives
+          git commit -m "Archives : état du $(date -u +%F)" || exit 0
+          git push origin archives-sources

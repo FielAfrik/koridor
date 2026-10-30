@@ -17,6 +17,14 @@ d'elle.
    - « Le décryptage » : 300 à 500 mots sur un projet ou une tendance de la semaine, avec
      l'angle d'un ingénieur (technique, risques d'exécution, structuration financière).
 
+## Skills à lire
+
+- `.claude/skills/ecriture-koridor/SKILL.md` : vocabulaire et tournures à éviter,
+  relecture en deux passes avant de rendre.
+- `.claude/skills/chiffres-et-donnees/SKILL.md` : unités, devises, totaux et
+  comparaisons, en particulier pour le décryptage. Tenir le registre des chiffres du
+  décryptage dans `work/AAAA-MM-JJ/04-chiffres.md`.
+
 ## Règles d'écriture
 
 Voir `editorial/charte.md`. En résumé : phrases courtes, chiffres avec leur unité et leur

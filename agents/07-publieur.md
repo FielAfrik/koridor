@@ -25,4 +25,12 @@ le publie sur GitHub Pages. Aucune autre action n'est nécessaire.
 
 Quand un service d'envoi sera choisi (Buttondown, Brevo ou Substack), le Publieur
 préparera le Brief dans son format et le programmera pour le lundi 7 h (heure de Paris),
-après la fusion seulement.
+après la fusion seulement, en suivant `.claude/skills/newsletter-email/SKILL.md`
+(délivrabilité, désinscription, RGPD, liens marqués). Aucun envoi sans l'accord du
+rédacteur en chef.
+
+## Archivage
+
+La fusion d'une pull request qui modifie `data/projects.json` déclenche le workflow
+`.github/workflows/archives.yml`, qui archive les nouvelles sources dans la Wayback
+Machine. Aucune action du Publieur n'est nécessaire.

@@ -25,7 +25,8 @@ le cycle se termine par des brouillons non programmés dans Typefully et un réc
    `com/AAAA-MM-JJ` uniquement `reports/com/AAAA-MM-JJ.md` et les visuels finaux
    `reports/com/AAAA-MM-JJ/`.
 4. Transmettre à chaque agent : sa fiche, `editorial/communication.md`,
-   `editorial/charte.md`, `editorial/identite.md`, et `editorial/voix.md` s'il existe.
+   `editorial/charte.md`, `editorial/identite.md`, `editorial/voix.md` s'il existe, et le
+   texte complet des skills que sa fiche cite (`.claude/skills/<nom>/SKILL.md`).
 
 ## Ordre des agents
 

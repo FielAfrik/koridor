@@ -23,6 +23,7 @@ Une liste d'objets :
 | `contractors` | liste | non | EPC, entreprises (voir ci-dessous) |
 | `target_date` | texte ou null | non | Mise en service visée, telle qu'annoncée |
 | `milestones` | liste | oui (au moins 1) | Voir ci-dessous, du plus récent au plus ancien |
+| `corrections` | liste | non | Erreurs publiées puis corrigées, de la plus récente à la plus ancienne : `{date, text: {fr, en}}`. Voir `.claude/skills/corrections/SKILL.md` |
 | `updated` | date | oui | `AAAA-MM-JJ` |
 
 Dans `owner`, `lenders` et `contractors`, chaque élément est soit un texte neutre (nom propre

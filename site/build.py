@@ -80,6 +80,7 @@ T = {
         "f_contractors": "EPC et entreprises", "f_target": "Mise en service visée",
         "missing": "Pas encore rendu public : {x}.",
         "milestones": "Historique des jalons",
+        "corrections": "Corrections",
         "confirmed": "Confirmé",
         "same_sector": "Dans le même secteur",
         "brief_title": "Le Brief du lundi",
@@ -140,6 +141,7 @@ T = {
         "f_contractors": "EPC and contractors", "f_target": "Target commissioning",
         "missing": "Not yet public: {x}.",
         "milestones": "Milestones",
+        "corrections": "Corrections",
         "confirmed": "Confirmed",
         "same_sector": "In the same sector",
         "brief_title": "The Monday Brief",
@@ -699,6 +701,12 @@ def build_project(lang, p, projects):
     rel_html = "".join(
         f'<li><a href="{url(lang, t["projects_slug"], r["id"])}"><strong>{e(r["name"][lang])}</strong>'
         f'<span>{e(country_name(r["country"], lang))}, {e(t["stages"][r["stage"]].lower())}</span></a></li>' for r in related)
+    corr = p.get("corrections") or []
+    corr_html = ""
+    if corr:
+        items = "".join(f'<li><time datetime="{e(c["date"])}">{e(fmt_date(c["date"], lang))}</time> {e(c["text"][lang])}</li>'
+                        for c in corr)
+        corr_html = f'<section class="panel corrections" id="corrections"><h2>{e(t["corrections"])}</h2><ul>{items}</ul></section>'
     badge = f'<span class="badge">{e(t["unverified"])}</span>' if p["status"] != "publié" else ""
     body = f"""
 <div class="wrap project">
@@ -713,6 +721,7 @@ def build_project(lang, p, projects):
 <div class="col-main">
 <section class="panel"><h2>{e(t['facts'])}</h2><div class="table-scroll"><table class="facts">{table}</table></div>{missing}</section>
 <section class="panel"><h2>{e(t['milestones'])}</h2><ol class="timeline">{''.join(ms_html)}</ol></section>
+{corr_html}
 </div>
 <aside class="col-side">
 <section class="panel panel-ink"><h2>{e(t['brief_title'])}</h2><p>{e(t['brief_side'])}</p><a class="btn btn-light btn-block" href="{url(lang, t['brief_slug'])}">{e(t['subscribe'])}</a></section>

@@ -35,4 +35,6 @@ nom). Une photo n'est utilisée que si sa source et ses droits sont connus.
 ## Contrôle
 
 Ouvrir chaque visuel et vérifier : chiffres identiques aux fiches, texte lisible sur
-téléphone (corps 28 px au moins), aucune page vide.
+téléphone (corps 28 px au moins), aucune page vide. Pour tout graphique : règles du
+skill `.claude/skills/chiffres-et-donnees/SKILL.md` (source, unité et date sur le visuel,
+axe à zéro, jamais deux devises sur un même axe).

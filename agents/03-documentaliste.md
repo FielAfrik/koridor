@@ -21,6 +21,10 @@ Chaque page projet, chaque compteur et chaque Brief en sont tirés.
    passer au stade 2. Un ordre de service ou un premier coup de pioche fait passer au
    stade 3.
 6. Chaque jalon garde ses sources et son niveau de confiance.
+7. Si un fait vérifié contredit ce que le site a déjà publié, distinguer avec le skill
+   `.claude/skills/corrections/SKILL.md` : erreur de Koridor (entrée `corrections` sur
+   la fiche) ou fait nouveau de la source (nouveau jalon). Ne jamais effacer un jalon
+   pour cacher une erreur.
 
 ## Sortie
 

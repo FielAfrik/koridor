@@ -15,7 +15,17 @@ l'humain ne le voie.
 3. **Cohérence FR/EN** : mêmes faits, mêmes chiffres dans les deux langues.
 4. **Mise en forme** : titres de moins de 90 caractères, résumés de 2 à 4 phrases, Brief
    dans les longueurs prévues.
-5. **Rendu** : lancer `python3 site/build.py`, ouvrir les pages modifiées dans
+5. **Tics d'écriture** : relecture en deux passes du skill `ecriture-koridor` sur tous
+   les textes de la semaine, FR et EN. Noter le nombre de corrections.
+6. **Chiffres du décryptage** : chaque chiffre de `04-chiffres.md` contrôlé contre la base
+   ou la donnée ouverte citée (skill `chiffres-et-donnees`) ; aucun total entre devises
+   ou périmètres différents.
+7. **Pistes de vérification** : pour chaque fait confirmé publié cette semaine, la piste
+   (`trail`) de `02-verifies.json` existe et mène à la source citée (skill
+   `verification-faits`). Une piste vide renvoie le fait au Vérificateur.
+8. **Corrections** : toute modification d'un fait déjà publié est soit un nouveau jalon,
+   soit une entrée `corrections` datée (skill `corrections`). Aucune correction en silence.
+9. **Rendu** : lancer `python3 site/build.py`, ouvrir les pages modifiées dans
    `dist/` et vérifier qu'aucune n'est vide ou cassée.
 
 ## Sortie
