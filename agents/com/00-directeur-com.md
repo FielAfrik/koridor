@@ -13,7 +13,7 @@ chef. Voir § 4 de `editorial/communication.md`.
 Le pôle communication fait connaître ce que l'équipe éditoriale a produit. Il ne crée
 aucun fait. **Rien n'est publié, commenté ni envoyé sans un clic du rédacteur en chef** :
 le cycle se termine par un **kit de publication** (textes FR et EN prêts à copier,
-visuels, premiers commentaires, liens marqués) et un récapitulatif. Le rédacteur en chef
+visuels, liens marqués dans le texte) et un récapitulatif. Le rédacteur en chef
 publie lui-même, à la main. Aucun outil de programmation (Typefully ou autre) n'est
 utilisé.
 
@@ -62,7 +62,7 @@ le Référenceur sont indépendants : leur échec n'arrête pas le cycle, il est
 3. Envoyer au rédacteur en chef un message (SendUserMessage) : le lien de la pull
    request ; le calendrier de la semaine (jour, heure, rubrique) ; **le texte complet,
    en français puis en anglais, du post principal de la semaine** (le Regard
-   d'ingénieur) avec son premier commentaire, pour qu'il puisse le publier depuis son
+   d'ingénieur), lien inclus, pour qu'il puisse le publier depuis son
    téléphone ; les autres textes sont dans le rapport ; les 3 commentaires les plus
    utiles à poster ; une ligne de chiffres (visites venues des réseaux).
 

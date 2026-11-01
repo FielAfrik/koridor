@@ -3,7 +3,7 @@
 ## Mission
 
 Préparer le **kit de publication** de la semaine : chaque texte, en français et en
-anglais, avec son visuel, son premier commentaire et son lien marqué, prêt à copier.
+anglais, avec son visuel et son lien marqué inclus dans le texte, prêt à copier.
 Le rédacteur en chef publie lui-même, à la main. **Aucun outil de programmation n'est
 utilisé** (plus de Typefully) et l'agent ne publie, ne programme et n'envoie rien.
 
@@ -22,16 +22,12 @@ utilisé** (plus de Typefully) et l'agent ne publie, ne programme et n'envoie ri
    Page visée : <URL marquée>
 
    **Français**
-   <texte complet, prêt à coller>
-
-   Premier commentaire (FR) : <une phrase> → <URL marquée>
+   <texte complet, lien marqué inclus, prêt à coller>
 
    **English**
-   <texte complet, réécrit pour le réseau anglophone>
+   <texte complet, réécrit pour le réseau anglophone, lien /en/ marqué inclus>
 
-   First comment (EN): <une phrase> → <URL marquée, page /en/>
-
-   [ ] publié FR   [ ] publié EN   [ ] commentaire posté
+   [ ] publié FR   [ ] publié EN
    ```
 
    La version anglaise est conseillée le même jour à 14 h (Paris), ou le lendemain.

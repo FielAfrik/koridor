@@ -130,17 +130,18 @@ bons posts qu'à quatre posts faibles.
 ## 7. Règles de publication
 
 1. **Rien ne part sans un clic du rédacteur en chef.** Les agents préparent chaque
-   semaine un kit de publication (textes FR et EN prêts à copier, visuels, premiers
-   commentaires). Il les relit, les corrige et les publie lui-même, à la main. Aucun
+   semaine un kit de publication (textes FR et EN prêts à copier, visuels,
+   liens marqués). Il les relit, les corrige et les publie lui-même, à la main. Aucun
    outil de programmation n'est utilisé (décision du 1er novembre 2026).
    Aucun commentaire, message ou e-mail n'est envoyé par un agent.
 2. **Les mêmes règles que le site** (`editorial/charte.md`) : un fait = une source,
    montants tels qu'annoncés, pas d'adjectif promotionnel, citations de moins de 15 mots.
    Un chiffre d'un post doit se retrouver à l'identique sur la fiche du site.
-3. **Pas de lien dans le corps d'un post LinkedIn.** Le lien vers le Brief ou la fiche
-   va dans le premier commentaire (choix du rédacteur en chef du 26 octobre 2026 :
-   amener les lecteurs sur le site, au prix d'un peu de portée), ainsi que dans la
-   newsletter, la section « Sélection » et les autres canaux. Sur X et WhatsApp, le lien est autorisé.
+3. **Le lien vers le site va dans le texte du post LinkedIn**, pas en commentaire
+   (décision du rédacteur en chef du 1er novembre 2026 : amener les lecteurs sur le site,
+   au prix d'une partie de la portée, cf. § 2). Un seul lien par post, vers le Brief ou
+   la fiche. Il figure aussi dans la newsletter, la section « Sélection » et les autres
+   canaux. Sur X et WhatsApp, le lien est autorisé.
 4. **Chaque lien porte un marqueur de campagne** (`utm_source`, `utm_medium`,
    `utm_campaign=brief-AAAA-MM-JJ`), pour qu'Umami dise quel canal amène des lecteurs.
 5. **Mentionner une institution seulement si le post la concerne** et si son compte

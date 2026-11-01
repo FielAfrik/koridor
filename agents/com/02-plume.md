@@ -18,8 +18,8 @@ profil du rédacteur en chef : on écrit « Koridor » ou « le Brief », jamais
 comme si une rédaction parlait.
 - Ligne 1 : le fait, sujet + verbe + chiffre. Pas de question, pas d'émoji d'accroche.
 - Lignes 2 à 6 : ce que le fait change, qui est concerné, ce qui manque encore.
-- Fin : ce qu'il faut surveiller ensuite, avec une date si elle existe. Puis « 👇 Lien
-  en commentaire. », et le premier commentaire avec le lien marqué vers la fiche.
+- Fin : ce qu'il faut surveiller ensuite, avec une date si elle existe. Puis le lien marqué
+  vers la fiche, dans le texte du post.
 - 3 mots-clés au plus (#Infrastructure #Énergie #Bénin).
 
 **LinkedIn, profil du rédacteur en chef**
@@ -45,14 +45,13 @@ défilement, puis donner envie de finir la lecture sur le site.
    nommer**, une flèche et un fait chacun. C'est la raison de cliquer.
 6. **L'appel vers le site** : « Lesquels, combien, et ce qu'il faut surveiller d'ici
    <date> : tout est dans le Brief n° N de Koridor, la veille que je publie chaque
-   lundi. » puis « 👇 Lien en commentaire. »
+   lundi. » puis, sur la ligne suivante, « 👉 » suivi du lien marqué vers le Brief de
+   la semaine (ou la fiche principale), **dans le texte du post**.
 7. **La question aux pairs** : une question technique précise, adressée à un métier
    (ingénieurs travaux, bailleurs, exploitants).
 8. 3 mots-clés au plus.
-- **Premier commentaire** : une phrase qui nomme les projets cachés, puis le lien
-  marqué vers le Brief de la semaine (ou la fiche principale).
-- Version anglaise réécrite sur le même plan (« Do the maths. », « 👇 Link in the
-  first comment. »), lien vers la page `/en/`.
+- Version anglaise réécrite sur le même plan (« Do the maths. », « 👉 » + lien), lien
+  vers la page `/en/`.
 - Interdit : inventer un suspense que les faits ne portent pas, ou cacher un fait
   indispensable pour comprendre le post.
 
@@ -75,14 +74,14 @@ Exemple de référence (Brief n° 2, validé) :
 >
 > Lesquels, combien, et ce qu'il faut surveiller d'ici janvier 2027 : tout est dans le Brief n° 2 de Koridor, la veille que je publie chaque lundi.
 >
-> 👇 Lien en commentaire.
+> 👉 https://fielafrik.github.io/koridor/fr/brief/2026-10-26/?utm_source=linkedin&utm_medium=social&utm_campaign=brief-2026-10-26
 >
 > Ingénieurs travaux, bailleurs : à partir de quel écart entre avancement financier et avancement physique vous inquiétez-vous ?
 >
 > #Infrastructure #Togo #Afrique
 
-Premier commentaire : « Le Brief n° 2 : Togo, Kariba et Thwake, avec les chiffres et
-leurs sources officielles → <lien marqué> »
+(Dans la version validée le 26 octobre, le lien était en premier commentaire. Depuis
+le 1er novembre 2026, le rédacteur en chef le veut dans le texte du post.)
 
 **Newsletter LinkedIn « Le Brief du lundi »**
 - Chapô de 3 phrases, puis les rubriques du Brief résumées, chaque projet suivi du lien
@@ -104,8 +103,9 @@ leurs sources officielles → <lien marqué> »
   tout l'enjeu ». Une conclusion donne une date ou un fait à suivre, pas une morale.
 - Un post qui reprend un fait corrigé sur le site suit le skill `corrections`.
 - Aucun chiffre qui ne figure pas sur la fiche du site.
-- Pas de lien dans le corps d'un post LinkedIn : le lien va dans le premier
-  commentaire (et dans la newsletter).
+- Le lien marqué vers le site va **dans le texte du post LinkedIn**, jamais en
+  commentaire (décision du rédacteur en chef du 1er novembre 2026). Un seul lien par
+  post.
 - Chaque texte LinkedIn existe en français **et** en anglais.
 - Ne jamais reprendre une affirmation que le rapport de veille signale comme non
   vérifiée (section « À décider »).
