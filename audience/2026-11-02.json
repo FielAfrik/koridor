@@ -1,0 +1,236 @@
+{
+  "rapport_du": "2026-11-02",
+  "periode": {
+    "debut": "2026-10-25",
+    "fin": "2026-10-31"
+  },
+  "semaine": {
+    "visiteurs": 67,
+    "visites": 68,
+    "pages_vues": 95,
+    "pages_par_visite": 1.4,
+    "duree_moyenne_s": 25,
+    "taux_rebond": 60
+  },
+  "semaine_precedente": {
+    "visiteurs": 29,
+    "visites": 35,
+    "pages_vues": 61,
+    "pages_par_visite": 1.7,
+    "duree_moyenne_s": 26,
+    "taux_rebond": 60
+  },
+  "tendance_8_semaines": [
+    {
+      "semaine_du": "2026-09-06",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-13",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-20",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-27",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-04",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-11",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-18",
+      "visiteurs": 29,
+      "pages_vues": 61
+    },
+    {
+      "semaine_du": "2026-10-25",
+      "visiteurs": 67,
+      "pages_vues": 95
+    }
+  ],
+  "fiches_les_plus_lues": [
+    {
+      "id": "terminal-point-durban",
+      "nom": "Point Container Terminal du port de Durban",
+      "vues": 9
+    },
+    {
+      "id": "centrale-gaz-togo",
+      "nom": "Centrale thermique bifuel de 120 MW de Lomé",
+      "vues": 8
+    },
+    {
+      "id": "barrage-thwake",
+      "nom": "Barrage polyvalent de Thwake",
+      "vues": 8
+    },
+    {
+      "id": "waca-littoral-togo",
+      "nom": "Protection du littoral togolais (WACA ResIP)",
+      "vues": 8
+    },
+    {
+      "id": "transguineen",
+      "nom": "Transguinéen",
+      "vues": 6
+    },
+    {
+      "id": "route-douala-bafoussam",
+      "nom": "Réhabilitation de la route Douala–Bafoussam",
+      "vues": 6
+    },
+    {
+      "id": "step-tubatse",
+      "nom": "STEP de Tubatse",
+      "vues": 5
+    },
+    {
+      "id": "raine-assainissement-lome",
+      "nom": "Réseau d'assainissement pluvial RAINE du Grand Lomé",
+      "vues": 5
+    },
+    {
+      "id": "reseau-gazier-senegal",
+      "nom": "Extension du réseau de gazoducs du Sénégal",
+      "vues": 5
+    },
+    {
+      "id": "route-zuenoula-mankono",
+      "nom": "Route Zuénoula–Mankono (PDZTA-2)",
+      "vues": 5
+    }
+  ],
+  "fiches_sans_visite": [
+    "Métro de Kinshasa",
+    "Centrale solaire de Kafue",
+    "Dragage du chenal du port de Maputo",
+    "Déploiement de la fibre optique"
+  ],
+  "pages_brief": 9,
+  "langue_pages_vues": {
+    "fr": 90,
+    "en": 0
+  },
+  "provenance": [
+    {
+      "site": "bing.com",
+      "visites": 23
+    },
+    {
+      "site": "lnkd.in",
+      "visites": 1
+    }
+  ],
+  "pays": [
+    {
+      "pays": "États-Unis",
+      "code": "US",
+      "visiteurs": 63
+    },
+    {
+      "pays": "Togo",
+      "code": "TG",
+      "visiteurs": 2
+    },
+    {
+      "pays": "Belgique",
+      "code": "BE",
+      "visiteurs": 1
+    },
+    {
+      "pays": "France",
+      "code": "FR",
+      "visiteurs": 1
+    }
+  ],
+  "appareils": [
+    {
+      "type": "laptop",
+      "visiteurs": 52
+    },
+    {
+      "type": "mobile",
+      "visiteurs": 15
+    }
+  ],
+  "clics": {
+    "Lecture complète": [
+      {
+        "detail": "waca-littoral-togo",
+        "n": 5
+      },
+      {
+        "detail": "terminal-point-durban",
+        "n": 4
+      },
+      {
+        "detail": "centrale-gaz-togo",
+        "n": 4
+      },
+      {
+        "detail": "raine-assainissement-lome",
+        "n": 3
+      },
+      {
+        "detail": "route-douala-bafoussam",
+        "n": 1
+      },
+      {
+        "detail": "transguineen",
+        "n": 1
+      },
+      {
+        "detail": "route-zuenoula-mankono",
+        "n": 1
+      },
+      {
+        "detail": "step-tubatse",
+        "n": 1
+      },
+      {
+        "detail": "barrage-thwake",
+        "n": 1
+      },
+      {
+        "detail": "route-godomey-ouidah-hillacondj",
+        "n": 1
+      }
+    ],
+    "Carte": [
+      {
+        "detail": "TG",
+        "n": 1
+      }
+    ],
+    "Clic fiche": [
+      {
+        "detail": "À la une",
+        "n": 1
+      },
+      {
+        "detail": "Liste des projets",
+        "n": 1
+      }
+    ],
+    "Source": [
+      {
+        "detail": "republiquetogolaise.tg",
+        "n": 1
+      }
+    ]
+  }
+}
