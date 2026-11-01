@@ -1,0 +1,589 @@
+{
+ "https://acp.cd/anglais/drc-afc-877-million-granted-to-launch-the-metrokin-urban-railway/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261014233702/https://acp.cd/anglais/drc-afc-877-million-granted-to-launch-the-metrokin-urban-railway/",
+  "wayback_date": "2026-10-14",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "metro-kinshasa"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://afdb.africa-newsroom.com/press/the-african-development-fund-grants-guinea-nearly-26-million-in-additional-funding-to-develop-an-electricity-interconnection-with-mali": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "interconnexion-guinee-mali-225kv"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://energie.gouv.tg/centrale-thermique-bifuel-de-120-mw-a-lome-le-ministere-consulte-les-acteurs-du-marche/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "centrale-gaz-togo"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://inspenet.com/en/news/senegal-gas-pipelines-530-million-expansion/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "reseau-gazier-senegal"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://presidence.gov.gn/vision-integree-du-transport-en-guinee-son-excellence-le-president-mamadi-doumbouya-voyage-a-bord-du-train-de-passagers-de-la-compagnie-du-transguineen-ctg/": {
+  "first_seen": "2026-11-01",
+  "http": null,
+  "state": "injoignable",
+  "wayback": "https://web.archive.org/web/20261012201058/https://presidence.gov.gn/vision-integree-du-transport-en-guinee-son-excellence-le-president-mamadi-doumbouya-voyage-a-bord-du-train-de-passagers-de-la-compagnie-du-transguineen-ctg/",
+  "wayback_date": "2026-10-12",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "transguineen"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://riotintoguinee.com/en/media/press-release/simfer-advances-the-simandou-project-at-pace-reaching-new-operational-milestones/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261101064813/https://riotintoguinee.com/en/media/press-release/simfer-advances-the-simandou-project-at-pace-reaching-new-operational-milestones/",
+  "wayback_date": "2026-11-01",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "transguineen"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://sadcppdf.dbsa.org/press-releases/unlocking-durbans-potential-regional-gateway-sadc-trade": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "terminal-point-durban"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://tcc-metrokin.com/fr/about-metrokin/project-overview/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20260430094631/https://tcc-metrokin.com/fr/about-metrokin/project-overview/",
+  "wayback_date": "2026-04-30",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "metro-kinshasa"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://tcc-metrokin.com/fr/about-metrokin/project-sponsors/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20260316182408/https://tcc-metrokin.com/fr/about-metrokin/project-sponsors/",
+  "wayback_date": "2026-03-16",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "metro-kinshasa"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.afdb.org/en/documents/aao-benin-travaux-curage-laval-bassin-pa2-jusquau-98107": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "papc-assainissement-cotonou"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.afdb.org/en/documents/aoi-cote-divoire-travaux-construction-troncon-97530": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback HTTP 520",
+  "projects": [
+   "route-zuenoula-mankono"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.afdb.org/en/documents/ppm-guinee-projet-interconnexion-electrique-225-kv-98067": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "interconnexion-guinee-mali-225kv"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.afdb.org/fr/news-and-events/press-releases/banque-africaine-developpement-kenya-accelerent-97716": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "barrage-thwake"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.afdb.org/sites/default/files/documents/project-related-procurement/avis_dappel_doffres_dao_travaux_zuenoula_-_mankono.pdf": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback HTTP 520",
+  "projects": [
+   "route-zuenoula-mankono"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.africa-energy.com/live-data/article/zambia-solarcentury-africa-and-alensy-win-epc-deal-globeleqs-kafue": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "solaire-kafue"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.africa-energy.com/news-centre/article/zambiazimbabwe-kariba-dam-rehabilitation-nearing-completion": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "barrage-kariba"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.africafc.org/news-and-insights/news/afc-announces-preferred-epc-contractors-for-zambia-lobito-railway-advancing-atlantic-trade-corridor-to-project-implementation": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "chemin-de-fer-lobito-zambie"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.africafc.org/news-and-insights/news/kinshasas-mass-transit-system-to-be-rebuilt-by-africa-finance-corporation-and-trans-connexion-congo": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20260807192642/https://www.africafc.org/news-and-insights/news/kinshasas-mass-transit-system-to-be-rebuilt-by-africa-finance-corporation-and-trans-connexion-congo",
+  "wayback_date": "2026-08-07",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "metro-kinshasa"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.afrique-sur7.fr/centrale-solaire-de-tongon-mbengue": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "centrale-solaire-tongon"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.afrique-sur7.fr/reseau-gazier-du-senegal-348-milliards-gazoducs": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": "https://web.archive.org/web/20261015192141/https://www.afrique-sur7.fr/reseau-gazier-du-senegal-348-milliards-gazoducs",
+  "wayback_date": "2026-10-15",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "reseau-gazier-senegal"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.agenceecofin.com/actualites-industries/1810-142527-le-zimbabwe-prepare-le-projet-solaire-de-kariba-en-prevision-de-la-baisse-des-quotas-d-eau-pour-l-hydroelectricite": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261019165000/https://www.agenceecofin.com/actualites-industries/1810-142527-le-zimbabwe-prepare-le-projet-solaire-de-kariba-en-prevision-de-la-baisse-des-quotas-d-eau-pour-l-hydroelectricite",
+  "wayback_date": "2026-10-19",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "barrage-kariba"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.agenceecofin.com/actualites-infrastructures/1410-142391-apres-le-voyage-inaugural-le-transguineen-doit-encore-franchir-des-etapes-avant-louverture-commerciale": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261016082219/https://www.agenceecofin.com/actualites-infrastructures/1410-142391-apres-le-voyage-inaugural-le-transguineen-doit-encore-franchir-des-etapes-avant-louverture-commerciale",
+  "wayback_date": "2026-10-16",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "transguineen"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.agenceecofin.com/actualites-infrastructures/1410-142395-le-port-de-maputo-fait-draguer-son-chenal-dacces-pour-accueillir-des-navires-plus-larges": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261023135650/https://www.agenceecofin.com/actualites-infrastructures/1410-142395-le-port-de-maputo-fait-draguer-son-chenal-dacces-pour-accueillir-des-navires-plus-larges",
+  "wayback_date": "2026-10-23",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "port-maputo-dragage"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261015071508/https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa",
+  "wayback_date": "2026-10-15",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "metro-kinshasa"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.agenceecofin.com/actualites-numerique/1610-142492-nigeria-l-ue-appuie-le-deploiement-de-la-fibre-optique-avec-une-subvention-de-14-millions-d-euros": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261018005129/https://www.agenceecofin.com/actualites-numerique/1610-142492-nigeria-l-ue-appuie-le-deploiement-de-la-fibre-optique-avec-une-subvention-de-14-millions-d-euros",
+  "wayback_date": "2026-10-18",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "fibre-optique-nigeria"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.agenceecofin.com/actualites/1810-142520-le-senegal-veut-mobiliser-pres-de-600-millions-pour-etendre-son-reseau-gazier": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261019171236/https://www.agenceecofin.com/actualites/1810-142520-le-senegal-veut-mobiliser-pres-de-600-millions-pour-etendre-son-reseau-gazier",
+  "wayback_date": "2026-10-19",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "reseau-gazier-senegal"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.bii.co.uk/en/our-impact/investment/globeleq-kafue-solar-limited-investment-01/": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback HTTP 520",
+  "projects": [
+   "solaire-kafue"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.ecofinagency.com/news/0808-48000-cote-d-ivoire-backs-local-firm-for-58-5-mln-solar-plant-to-boost-energy-sovereignty": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20250808092717/https://www.ecofinagency.com/news/0808-48000-cote-d-ivoire-backs-local-firm-for-58-5-mln-solar-plant-to-boost-energy-sovereignty",
+  "wayback_date": "2025-08-08",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "centrale-solaire-tongon"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.eib.org/en/press/all/2021-138-330-millions-d-eur-de-l-equipe-europe-a-la-construction-de-la-nouvelle-ligne-electrique-de-225-kv-guinee-mali-qui-approvisionnera-en-energie-propre-et-abordable-des-millions-de-personnes-en-afrique-de-l-ouest": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20250324174820/https://www.eib.org/en/press/all/2021-138-330-millions-d-eur-de-l-equipe-europe-a-la-construction-de-la-nouvelle-ligne-electrique-de-225-kv-guinee-mali-qui-approvisionnera-en-energie-propre-et-abordable-des-millions-de-personnes-en-afrique-de-l-ouest",
+  "wayback_date": "2025-03-24",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "interconnexion-guinee-mali-225kv"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.eib.org/en/press/all/2026-363-eib-provides-up-to-usd90-million-for-one-of-the-largest-solar-and-battery-projects-in-egypt-and-africa": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "solaire-dandara-egypte"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.eib.org/en/projects/all/20160638": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20241004162133/https://www.eib.org/en/projects/all/20160638",
+  "wayback_date": "2024-10-04",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "interconnexion-guinee-mali-225kv"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.eib.org/en/projects/all/20250695": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "solaire-dandara-egypte"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.eskom.co.za/eskom-green-launches-strategic-partner-selection-process-for-up-to-1-5gw-21gwh-of-tubatse-pumped-storage-scheme-set-to-be-south-africas-largest-energy-storage-system-ess-to-integrate-inc/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261015102205/https://www.eskom.co.za/eskom-green-launches-strategic-partner-selection-process-for-up-to-1-5gw-21gwh-of-tubatse-pumped-storage-scheme-set-to-be-south-africas-largest-energy-storage-system-ess-to-integrate-inc/",
+  "wayback_date": "2026-10-15",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "step-tubatse"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.fmo.nl/project-detail/64121": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261101191232/https://www.fmo.nl/project-detail/64121",
+  "wayback_date": "2026-11-01",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "solaire-kafue"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.heraldonline.co.zw/zra-slashes-kariba-water-allocation-for-2027/": {
+  "first_seen": "2026-11-01",
+  "http": 403,
+  "state": "lecture automatique refusée",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "barrage-kariba"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.isdb.org/news/isdb-and-benin-strengthen-development-partnership-with-eu326-million-in-financing-agreements": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261012152704/https://www.isdb.org/news/isdb-and-benin-strengthen-development-partnership-with-eu326-million-in-financing-agreements",
+  "wayback_date": "2026-10-12",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "route-godomey-ouidah-hillacondji"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.isdb.org/news/isdb-and-cameroon-sign-eur-21235-million-financing-agreement-for-major-transport-project": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261013185043/https://www.isdb.org/news/isdb-and-cameroon-sign-eur-21235-million-financing-agreement-for-major-transport-project",
+  "wayback_date": "2026-10-13",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "route-douala-bafoussam"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.linkedin.com/posts/ci-energies_cinergies-construireabrlaabrcaektedivoireabrelectrique-activity-7520540598496464896-1jWC": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback HTTP 523",
+  "projects": [
+   "centrale-solaire-tongon",
+   "centrale-solaire-binguebougou",
+   "centrale-solaire-katiola"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.republiquetogolaise.tg/social/1210-12369-assainissement-debut-du-creusement-du-micro-tunnelier-mawuse": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261012122959/https://www.republiquetogolaise.tg/social/1210-12369-assainissement-debut-du-creusement-du-micro-tunnelier-mawuse",
+  "wayback_date": "2026-10-12",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "raine-assainissement-lome"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.republiquetogolaise.tg/social/1910-12400-protection-du-littoral-le-togo-renforce-ses-ouvrages-de-stabilisation": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "waca-littoral-togo"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.scatec.com/en/scatec-secures-financing-for-the-first-phase-of-the-dandara-solar-and-bess-project-in-egypt/": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": "https://web.archive.org/web/20261101191854/https://www.scatec.com/en/scatec-secures-financing-for-the-first-phase-of-the-dandara-solar-and-bess-project-in-egypt/",
+  "wayback_date": "2026-11-01",
+  "attempts": 0,
+  "error": null,
+  "projects": [
+   "solaire-dandara-egypte"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://www.zambezira.org/media-centre/news/kariba-dam-spillway-rehabilitation-passes-critical-milestone-project-eyes": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "barrage-kariba"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://x.com/KETRACO1/status/2114782007502790830": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback HTTP 523",
+  "projects": [
+   "ligne-kitui-wote-132kv"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://x.com/TM_Officiel/status/2116110249975296171": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback URLError",
+  "projects": [
+   "port-tanger-med-3"
+  ],
+  "last_check": "2026-11-01"
+ },
+ "https://x.com/africa_finance/status/2112180048497463486": {
+  "first_seen": "2026-11-01",
+  "http": 200,
+  "state": "en ligne",
+  "wayback": null,
+  "wayback_date": null,
+  "attempts": 1,
+  "error": "Wayback HTTP 523",
+  "projects": [
+   "metro-kinshasa"
+  ],
+  "last_check": "2026-11-01"
+ }
+}
