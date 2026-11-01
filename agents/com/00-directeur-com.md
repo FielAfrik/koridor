@@ -1,7 +1,8 @@
 # C0 — Directeur de la communication (chef d'orchestre du pôle)
 
-Ce fichier est la consigne exécutée chaque lundi par la tâche planifiée « Koridor —
-cycle communication », après le cycle éditorial. Il coordonne les agents C1 à C8. Il ne
+Ce fichier est la consigne exécutée chaque dimanche par la tâche planifiée « Koridor —
+cycle communication », quelques heures après le cycle éditorial (veille du dimanche
+matin), pour que le kit de la semaine soit prêt avant le lundi. Il coordonne les agents C1 à C8. Il ne
 rédige rien lui-même.
 
 ## Principe
@@ -11,12 +12,17 @@ chef. Voir § 4 de `editorial/communication.md`.
 
 Le pôle communication fait connaître ce que l'équipe éditoriale a produit. Il ne crée
 aucun fait. **Rien n'est publié, commenté ni envoyé sans un clic du rédacteur en chef** :
-le cycle se termine par des brouillons non programmés dans Typefully et un récapitulatif.
+le cycle se termine par un **kit de publication** (textes FR et EN prêts à copier,
+visuels, liens marqués dans le texte) et un récapitulatif. Le rédacteur en chef
+publie lui-même, à la main. Aucun outil de programmation (Typefully ou autre) n'est
+utilisé.
 
 ## Préparation
 
 1. Cloner le dépôt. Trouver la pull request de veille de la semaine (branche
-   `veille/AAAA-MM-JJ`, ouverte ou fusionnée depuis lundi). **Si elle n'existe pas,
+   `veille/AAAA-MM-JJ`, où AAAA-MM-JJ est le lundi qui suit, ouverte ou fusionnée). Les
+   textes s'appuient sur cette branche ; si la pull request n'est pas encore fusionnée,
+   le dire en tête du rapport : rien ne se publie avant la fusion. **Si elle n'existe pas,
    s'arrêter** et envoyer : « Pas de veille cette semaine, pas de cycle communication. »
 2. Lire depuis cette branche : `data/briefs/AAAA-MM-JJ.json`, `data/projects.json`,
    `reports/AAAA-MM-JJ.md` (dont la section Audience).
@@ -37,8 +43,8 @@ le cycle se termine par des brouillons non programmés dans Typefully et un réc
 | 3 | Studio visuel (`03-studio.md`) | plan, textes, Brief | `work/com/…/visuels/` |
 | 4 | Vigie et engagement (`05-vigie.md`) | `data/sources.json`, projets | `work/com/…/05-engagement.md` |
 | 5 | Référenceur (`06-referenceur.md`) | le site construit (`dist/`) | `work/com/…/06-seo.md` |
-| 6 | Diffuseur (`04-diffuseur.md`) | textes, visuels | brouillons Typefully, `work/com/…/04-diffusion.md` |
-| 7 | Analyste (`08-analyste.md`) | rapport d'audience, statistiques Typefully | `work/com/…/08-analyse.md` |
+| 6 | Diffuseur (`04-diffuseur.md`) | textes, visuels | kit de publication `work/com/…/04-diffusion.md` |
+| 7 | Analyste (`08-analyste.md`) | rapport d'audience, chiffres LinkedIn notés par le rédacteur en chef | `work/com/…/08-analyse.md` |
 
 Le premier lundi de chaque mois, lancer aussi **Relais et partenariats**
 (`07-relais.md`) après la Vigie, et l'Analyste fait le bilan mensuel.
@@ -48,18 +54,22 @@ le Référenceur sont indépendants : leur échec n'arrête pas le cycle, il est
 
 ## Fin du cycle
 
-1. Assembler `reports/com/AAAA-MM-JJ.md` : à valider (les brouillons, par jour), à
-   commenter (la Vigie), à corriger sur le site (le Référenceur), les chiffres (l'Analyste).
+1. Assembler `reports/com/AAAA-MM-JJ.md`. Il s'ouvre sur le **kit de publication** du
+   Diffuseur (textes FR et EN complets, jour par jour), puis : à commenter (la Vigie), à
+   à corriger sur le site (le Référenceur), les chiffres (l'Analyste).
 2. Commettre sur `com/AAAA-MM-JJ` et ouvrir une pull request vers `main` titrée
    « Communication de la semaine du AAAA-MM-JJ ».
-3. Envoyer au rédacteur en chef un message court : nombre de brouillons prêts dans
-   Typefully, jour par jour ; les 3 commentaires les plus utiles à poster ; une ligne de
-   chiffres (abonnés gagnés, visites venues des réseaux).
+3. Envoyer au rédacteur en chef un message (SendUserMessage) : le lien de la pull
+   request ; le calendrier de la semaine (jour, heure, rubrique) ; **le texte complet,
+   en français puis en anglais, du post principal de la semaine** (le Regard
+   d'ingénieur), lien inclus, pour qu'il puisse le publier depuis son
+   téléphone ; les autres textes sont dans le rapport ; les 3 commentaires les plus
+   utiles à poster ; une ligne de chiffres (visites venues des réseaux) ; l'état du
+   garde-fou « lien dans le texte » de l'Analyste (vert, orange, rouge, ou données
+   insuffisantes). S'il est rouge, cette alerte ouvre le message.
 
 ## Arrêts
 
-- Typefully indisponible : les textes restent dans le rapport, prêts à copier ; le dire
-  en tête.
 - Crédit Apify épuisé : la Vigie s'arrête, le reste continue.
 - Un chiffre d'un brouillon ne correspond pas à la fiche du site : le brouillon est
   retiré et signalé. Jamais publié « à corriger plus tard ».

@@ -69,7 +69,7 @@ servir au décryptage. Avant usage :
 
 ## Chiffres d'audience (Analyste, Rapporteur)
 
-- Les chiffres d'Umami et de Typefully sont repris tels quels.
+- Les chiffres d'Umami et de LinkedIn sont repris tels quels.
 - Sous 50 visiteurs par semaine ou 500 impressions par post, on ne tire aucune
   conclusion d'une variation (règle déjà fixée dans les fiches de l'Analyste et du
   Rapporteur).

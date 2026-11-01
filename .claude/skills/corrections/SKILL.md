@@ -55,8 +55,8 @@ réseaux (vendredi, voir `editorial/communication.md`).
 
 ## Posts déjà publiés
 
-Les agents ne touchent pas aux posts publiés. Le Diffuseur prépare dans Typefully un
-brouillon de commentaire de correction, à poster par le rédacteur en chef sous le post
+Les agents ne touchent pas aux posts publiés. Le Diffuseur prépare dans le kit de publication le
+texte d'un commentaire de correction, à poster par le rédacteur en chef sous le post
 d'origine : ce qui était écrit, ce qui est exact, le lien vers la fiche corrigée
 (commentaire, donc hors corps du post).
 

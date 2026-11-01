@@ -17,7 +17,8 @@ n'est publié sans la validation du rédacteur en chef.
    - si vous voulez une correction, vous laissez un commentaire et elle est faite avant la
      fusion.
 5. Le pôle communication (`agents/com/`) prend ensuite le relais : il prépare les
-   posts de la semaine en brouillons dans Typefully, que vous programmez vous-même.
+   posts de la semaine (français et anglais) dans un kit de publication prêt à copier,
+   que vous publiez vous-même sur LinkedIn.
    Stratégie complète : `editorial/communication.md`.
 
 ## L'équipe
@@ -42,7 +43,7 @@ n'est publié sans la validation du rédacteur en chef.
 | Stratège | `agents/com/01-stratege.md` | Plan de la semaine : quoi dire, où, quand |
 | Plume sociale | `agents/com/02-plume.md` | Textes FR/EN pour LinkedIn, X, WhatsApp, e-mail |
 | Studio visuel | `agents/com/03-studio.md` | Carrousel PDF et visuels aux couleurs Koridor |
-| Diffuseur | `agents/com/04-diffuseur.md` | Brouillons Typefully non programmés, liens marqués |
+| Diffuseur | `agents/com/04-diffuseur.md` | Kit de publication FR/EN prêt à copier, liens marqués |
 | Vigie et engagement | `agents/com/05-vigie.md` | Posts du secteur à commenter, réponses aux commentaires |
 | Référenceur | `agents/com/06-referenceur.md` | Contrôle SEO et aperçus de partage du site |
 | Relais et partenariats | `agents/com/07-relais.md` | Chaque mois, dix relais à approcher avec un message préparé |

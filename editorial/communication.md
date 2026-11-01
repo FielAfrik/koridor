@@ -129,14 +129,19 @@ bons posts qu'à quatre posts faibles.
 
 ## 7. Règles de publication
 
-1. **Rien ne part sans un clic du rédacteur en chef.** Les agents préparent des
-   brouillons dans Typefully, non programmés. Il les relit, les corrige, les programme.
+1. **Rien ne part sans un clic du rédacteur en chef.** Les agents préparent chaque
+   semaine un kit de publication (textes FR et EN prêts à copier, visuels,
+   liens marqués). Il les relit, les corrige et les publie lui-même, à la main. Aucun
+   outil de programmation n'est utilisé (décision du 1er novembre 2026).
    Aucun commentaire, message ou e-mail n'est envoyé par un agent.
 2. **Les mêmes règles que le site** (`editorial/charte.md`) : un fait = une source,
    montants tels qu'annoncés, pas d'adjectif promotionnel, citations de moins de 15 mots.
    Un chiffre d'un post doit se retrouver à l'identique sur la fiche du site.
-3. **Pas de lien dans le corps d'un post LinkedIn.** Le lien va dans la newsletter, la
-   section « Sélection » et les autres canaux. Sur X et WhatsApp, le lien est autorisé.
+3. **Le lien vers le site va dans le texte du post LinkedIn**, pas en commentaire
+   (décision du rédacteur en chef du 1er novembre 2026 : amener les lecteurs sur le site,
+   au prix d'une partie de la portée, cf. § 2). Un seul lien par post, vers le Brief ou
+   la fiche. Il figure aussi dans la newsletter, la section « Sélection » et les autres
+   canaux. Sur X et WhatsApp, le lien est autorisé.
 4. **Chaque lien porte un marqueur de campagne** (`utm_source`, `utm_medium`,
    `utm_campaign=brief-AAAA-MM-JJ`), pour qu'Umami dise quel canal amène des lecteurs.
 5. **Mentionner une institution seulement si le post la concerne** et si son compte
@@ -156,17 +161,17 @@ fait nouveau. Fiches dans `agents/com/`.
 
 | # | Agent | Fréquence | Ce qu'il livre |
 |---|---|---|---|
-| C0 | Directeur de la communication | chaque lundi | Lance le cycle, transmet les fichiers, envoie le récapitulatif |
-| C1 | Stratège | chaque lundi | Le plan de la semaine : angles, jours, canaux |
-| C2 | Plume sociale | chaque lundi | Les textes FR/EN de tous les canaux |
-| C3 | Studio visuel | chaque lundi | Le carrousel PDF et les visuels (`scripts/visuels.py`) |
-| C4 | Diffuseur | chaque lundi | Les brouillons Typefully, liens marqués, la liste de contrôle |
-| C5 | Vigie et engagement | chaque lundi | Les posts du secteur à commenter, avec un brouillon de commentaire |
-| C6 | Référenceur | chaque lundi (contrôle), chaque mois (bilan) | Le contrôle SEO du site, les pistes de fiches à créer |
+| C0 | Directeur de la communication | chaque semaine | Lance le cycle, transmet les fichiers, envoie le récapitulatif |
+| C1 | Stratège | chaque semaine | Le plan de la semaine : angles, jours, canaux |
+| C2 | Plume sociale | chaque semaine | Les textes FR/EN de tous les canaux |
+| C3 | Studio visuel | chaque semaine | Le carrousel PDF et les visuels (`scripts/visuels.py`) |
+| C4 | Diffuseur | chaque semaine | Le kit de publication FR/EN, liens marqués, la liste de contrôle |
+| C5 | Vigie et engagement | chaque semaine | Les posts du secteur à commenter, avec un brouillon de commentaire |
+| C6 | Référenceur | chaque semaine (contrôle), chaque mois (bilan) | Le contrôle SEO du site, les pistes de fiches à créer |
 | C7 | Relais et partenariats | chaque mois | Dix relais à approcher, avec un message préparé |
-| C8 | Analyste | chaque lundi, bilan mensuel | La section « Diffusion » du rapport, trois enseignements au plus, le suivi des seuils de la phase 2 |
+| C8 | Analyste | chaque semaine, bilan mensuel | La section « Diffusion » du rapport, trois enseignements au plus, le suivi des seuils de la phase 2 |
 
-Le cycle de communication tourne le lundi après le cycle éditorial. Il lit la pull
+Le cycle de communication tourne le dimanche, quelques heures après le cycle éditorial. Il lit la pull
 request de la semaine ; si elle n'existe pas, il s'arrête et le signale.
 
 ## 9. Décisions à prendre par le rédacteur en chef
