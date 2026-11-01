@@ -64,7 +64,9 @@ le Référenceur sont indépendants : leur échec n'arrête pas le cycle, il est
    en français puis en anglais, du post principal de la semaine** (le Regard
    d'ingénieur), lien inclus, pour qu'il puisse le publier depuis son
    téléphone ; les autres textes sont dans le rapport ; les 3 commentaires les plus
-   utiles à poster ; une ligne de chiffres (visites venues des réseaux).
+   utiles à poster ; une ligne de chiffres (visites venues des réseaux) ; l'état du
+   garde-fou « lien dans le texte » de l'Analyste (vert, orange, rouge, ou données
+   insuffisantes). S'il est rouge, cette alerte ouvre le message.
 
 ## Arrêts
 
