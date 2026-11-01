@@ -5,34 +5,44 @@
     "country": "CD",
     "sector": "transport",
     "stage": 1,
-    "status": "à vérifier",
-    "summary": {
-      "fr": "MetroKin est un projet de métro urbain de 25 km à Kinshasa, en RDC. En octobre 2026, l'Africa Finance Corporation (AFC) a annoncé avoir signé avec la RDC des accords pour poursuivre son développement. Ces accords portent aussi sur la ligne ferroviaire Kinshasa–Matadi–Banana (463 km). Aucun montant de financement n'est confirmé à ce jour.",
-      "en": "MetroKin is a 25 km urban metro project in Kinshasa, DRC. In October 2026, Africa Finance Corporation (AFC) announced that it had signed agreements with the DRC to take its development forward. The agreements also cover the Kinshasa–Matadi–Banana railway line (463 km). No financing amount has been confirmed to date."
-    },
+    "status": "publié",
+    "summary": {"fr": "MetroKin est un projet de métro urbain à Kinshasa, développé par l'Africa Finance Corporation (AFC) à travers la société de projet MetroKin SA. Sa phase 1, de 25 km, relie la Gare centrale à l'aéroport de N'Djili, première étape d'un réseau de 300 km. En février 2023, l'AFC a signé avec Trans Connexion Congo un accord de développement conjoint, avec un investissement initial de 3 millions de dollars. L'AFC a annoncé des accords avec la RDC en octobre 2026 ; l'ACP chiffre la phase 1 à 877 millions de dollars, montant à confirmer.", "en": "MetroKin is an urban metro project in Kinshasa, developed by Africa Finance Corporation (AFC) through the project company MetroKin SA. Its 25 km phase 1 links Central Station to N'Djili airport, the first stage of a 300 km network. In February 2023, AFC signed a joint development agreement with Trans Connexion Congo, with an initial investment of $3 million. AFC announced agreements with the DRC in October 2026; ACP puts the cost of phase 1 at $877 million, a figure yet to be confirmed."},
     "capacity": null,
-    "cost": {"amount": 877, "currency": null, "unit": "millions", "note": {"fr": "Financement annoncé, devise à confirmer", "en": "Announced financing, currency to be confirmed"}},
-    "owner": [],
+    "cost": {"amount": 877, "currency": "USD", "unit": "millions", "note": {"fr": "Coût de la phase 1 (25 km) selon un document du ministère des Transports cité par l'ACP ; pas un financement acquis. À confirmer.", "en": "Phase 1 cost (25 km) according to a Transport Ministry document quoted by ACP; not secured financing. To be confirmed."}},
+    "owner": ["MetroKin SA", "Trans Connexion Congo (TCC)", "Africa Finance Corporation"],
     "lenders": [],
     "contractors": [],
     "target_date": null,
     "milestones": [
       {
-        "date": "2026-10-14",
-        "type": "financement",
-        "text": {"fr": "Annonce d'un financement de 877 millions pour le projet.", "en": "Financing of 877 million announced for the project."},
-        "confidence": "à confirmer",
-        "sources": [{"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa", "publisher": "Agence Ecofin", "title": "La RDC obtient un financement de 877 millions pour le projet de métro de Kinshasa", "published": "2026-10-14", "tier": "B"}]
+        "date": "2026-10-12",
+        "type": "signature",
+        "text": {"fr": "L'AFC annonce avoir signé avec la RDC des accords sur le métro urbain MetroKin (25 km) et la ligne Kinshasa–Matadi–Banana (463 km). La date du 12 octobre est donnée par l'ACP ; le post de l'AFC ne donne pas de date.", "en": "AFC announces it has signed agreements with the DRC on the MetroKin urban metro (25 km) and the Kinshasa–Matadi–Banana line (463 km). The 12 October date comes from ACP; AFC's post does not give one."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://x.com/africa_finance/status/2112180048497463486", "publisher": "Africa Finance Corporation", "title": "Post X @africa_finance", "published": "2026-10-19", "tier": "A"}, {"url": "https://acp.cd/anglais/drc-afc-877-million-granted-to-launch-the-metrokin-urban-railway/", "publisher": {"fr": "Agence congolaise de presse (ACP)", "en": "Congolese Press Agency (ACP)"}, "title": "DRC-AFC: $877 million granted to launch the Metrokin urban railway", "published": "2026-10-14", "tier": "B"}]
       },
       {
         "date": "2026-10-12",
         "type": "signature",
-        "text": {"fr": "L'AFC annonce avoir signé avec la RDC des accords sur le métro urbain MetroKin (25 km) et la ligne Kinshasa–Matadi–Banana (463 km).", "en": "AFC announces it has signed agreements with the DRC on the MetroKin urban metro (25 km) and the Kinshasa–Matadi–Banana line (463 km)."},
+        "text": {"fr": "Selon l'ACP, qui cite un document du ministère des Transports, l'accord de développement conjoint (JDA) porte sur la phase 1. Cette phase de 25 km relie la Gare centrale à l'aéroport de N'Djili et coûte 877 millions de dollars. Ce montant n'est pas un financement acquis.", "en": "According to ACP, quoting a Transport Ministry document, the joint development agreement (JDA) covers phase 1. This 25 km phase links Central Station to N'Djili airport and costs $877 million. This amount is not secured financing."},
+        "confidence": "à confirmer",
+        "sources": [{"url": "https://acp.cd/anglais/drc-afc-877-million-granted-to-launch-the-metrokin-urban-railway/", "publisher": {"fr": "Agence congolaise de presse (ACP)", "en": "Congolese Press Agency (ACP)"}, "title": "DRC-AFC: $877 million granted to launch the Metrokin urban railway", "published": "2026-10-14", "tier": "B"}, {"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa", "publisher": "Agence Ecofin", "title": "La RDC obtient un financement de 877 millions pour le projet de métro de Kinshasa", "published": "2026-10-14", "tier": "B"}]
+      },
+      {
+        "date": "2023-02-16",
+        "type": "signature",
+        "text": {"fr": "L'AFC et Trans Connexion Congo (TCC) signent un accord de développement conjoint pour un réseau de 300 km en quatre phases, porté par la société de projet MetroKin SA. La phase 1 compte 25 km. L'investissement initial de l'AFC est de 3 millions de dollars ; elle visait alors un bouclage financier dès le quatrième trimestre 2023.", "en": "AFC and Trans Connexion Congo (TCC) sign a joint development agreement for a 300 km network in four phases, carried by the project company MetroKin SA. Phase 1 covers 25 km. AFC's initial investment is $3 million; it was then targeting financial close as early as the fourth quarter of 2023."},
         "confidence": "confirmé",
-        "sources": [{"url": "https://x.com/africa_finance/status/2112180048497463486", "publisher": "Africa Finance Corporation", "title": "Post X @africa_finance", "published": "2026-10-19", "tier": "A"}, {"url": "https://acp.cd/anglais/drc-afc-877-million-granted-to-launch-the-metrokin-urban-railway/", "publisher": {"fr": "Agence congolaise de presse (ACP)", "en": "Congolese Press Agency (ACP)"}, "title": "DRC-AFC: $877 million granted to launch the Metrokin urban railway", "published": "2026-10-14", "tier": "B"}]
+        "sources": [{"url": "https://www.africafc.org/news-and-insights/news/kinshasas-mass-transit-system-to-be-rebuilt-by-africa-finance-corporation-and-trans-connexion-congo", "publisher": "Africa Finance Corporation", "title": "Kinshasa's mass transit system to be rebuilt by Africa Finance Corporation and Trans Connexion Congo", "published": "2023-02-16", "tier": "A"}, {"url": "https://tcc-metrokin.com/fr/about-metrokin/project-sponsors/", "publisher": "MetroKin SA", "title": "Project Sponsors - MetroKin Mass Transit Railway Project", "published": null, "tier": "A"}, {"url": "https://tcc-metrokin.com/fr/about-metrokin/project-overview/", "publisher": "MetroKin SA", "title": "Project Overview - MetroKin Mass Transit Railway Project", "published": null, "tier": "A"}]
       }
     ],
-    "updated": "2026-10-26"
+    "updated": "2026-11-02",
+    "corrections": [
+      {
+        "date": "2026-11-02",
+        "text": {"fr": "Une version précédente indiquait un financement de 877 millions, sans devise. Selon l'ACP, qui cite un document du ministère des Transports, 877 millions de dollars est le coût de la phase 1, pas un financement.", "en": "An earlier version gave financing of 877 million, with no currency. According to ACP, quoting a Transport Ministry document, $877 million is the cost of phase 1, not financing."}
+      }
+    ]
   },
   {
     "id": "reseau-gazier-senegal",
@@ -136,11 +146,11 @@
       "fr": "Le projet solaire de Globeleq à Kafue, en Zambie, comprend deux centrales de 20 MWac et une ligne 33 kV de 4,5 km. Le FMO et British International Investment (BII) ont engagé leur financement en décembre 2025. Le prêt senior décrit par le FMO s'élève à 20,4 millions de dollars.",
       "en": "Globeleq's solar project at Kafue, Zambia, comprises two 20 MWac plants and a 4.5 km 33 kV line. FMO and British International Investment (BII) committed their financing in December 2025. The senior loan described by FMO amounts to $20.4 million."
     },
-    "capacity": "2 × 20 MWac",
+    "capacity": {"fr": "56 MWc (2 × 20 MWac)", "en": "56 MWp (2 × 20 MWac)"},
     "cost": {"amount": 20.4, "currency": "USD", "unit": "millions", "note": {"fr": "Prêt senior décrit par le FMO, pas le coût total du projet. BII annonce 23,7 millions de dollars (23,66 dans ses données) dans un paquet de dette de 50 millions de dollars.", "en": "Senior loan described by FMO, not the total project cost. BII reports $23.7 million (23.66 in its data) within a $50 million debt package."}},
     "owner": ["Globeleq"],
     "lenders": ["FMO", "British International Investment"],
-    "contractors": ["Solarcentury Africa", "Alensy"],
+    "contractors": [],
     "target_date": null,
     "milestones": [
       {
@@ -158,7 +168,13 @@
         "sources": [{"url": "https://www.fmo.nl/project-detail/64121", "publisher": "FMO", "title": "Project detail - Globeleq Kafue Solar Limited (64121)", "published": "2024-10-14", "tier": "A"}, {"url": "https://www.bii.co.uk/en/our-impact/investment/globeleq-kafue-solar-limited-investment-01/", "publisher": "British International Investment", "title": "Globeleq Kafue Solar Limited", "published": "2026-09", "tier": "A"}]
       }
     ],
-    "updated": "2026-10-26"
+    "updated": "2026-11-02",
+    "corrections": [
+      {
+        "date": "2026-11-02",
+        "text": {"fr": "Une version précédente citait Solarcentury Africa et Alensy parmi les entreprises du projet. Leur contrat EPC, rapporté par African Energy seul, reste à confirmer : ils sont retirés de la liste.", "en": "An earlier version listed Solarcentury Africa and Alensy among the project's contractors. Their EPC contract, reported by African Energy alone, is yet to be confirmed: they have been removed from the list."}
+      }
+    ]
   },
   {
     "id": "transguineen",
@@ -486,5 +502,303 @@
       }
     ],
     "updated": "2026-10-26"
+  },
+  {
+    "id": "chemin-de-fer-lobito-zambie",
+    "name": {"fr": "Chemin de fer Zambie–Lobito", "en": "Zambia Lobito Railway"},
+    "country": "ZM,AO",
+    "sector": "transport",
+    "stage": 1,
+    "status": "publié",
+    "summary": {
+      "fr": "Le chemin de fer Zambie–Lobito est une ligne nouvelle de 830 km entre la Zambie et l'Angola. L'Africa Finance Corporation (AFC) en est le promoteur et le développeur principal. Le 27 octobre 2026, elle a retenu deux consortiums comme soumissionnaires préférés des contrats EPC, un par section nationale. Aucun contrat n'est signé : les négociations s'ouvrent en novembre 2026.",
+      "en": "The Zambia Lobito Railway is a new 830 km line between Zambia and Angola. Africa Finance Corporation (AFC) is its promoter and lead developer. On 27 October 2026, AFC selected two consortia as preferred bidders for the EPC contracts, one for each national section. No contract has been signed: negotiations open in November 2026."
+    },
+    "capacity": "830 km",
+    "cost": null,
+    "owner": ["Africa Finance Corporation"],
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-27",
+        "type": "attribution",
+        "text": {"fr": "L'AFC retient deux consortiums comme soumissionnaires préférés pour les contrats EPC. Section zambienne : Webuild, Mota-Engil et IC İçtaş Construction. Section angolaise : Mota-Engil et Odebrecht Engineering and Construction. Les négociations s'ouvrent en novembre 2026, pour des contrats visés sous 8 à 12 semaines.", "en": "AFC selects two consortia as preferred bidders for the EPC contracts. Zambian section: Webuild, Mota-Engil and IC İçtaş Construction. Angolan section: Mota-Engil and Odebrecht Engineering and Construction. Negotiations open in November 2026, with contracts targeted within 8 to 12 weeks."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.africafc.org/news-and-insights/news/afc-announces-preferred-epc-contractors-for-zambia-lobito-railway-advancing-atlantic-trade-corridor-to-project-implementation", "publisher": "Africa Finance Corporation", "title": "AFC Announces Preferred EPC Contractors for Zambia Lobito Railway, Advancing Atlantic Trade Corridor to Project Implementation", "published": "2026-10-27", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "centrale-solaire-tongon",
+    "name": {"fr": "Centrale solaire de Tongon", "en": "Tongon solar plant"},
+    "country": "CI",
+    "sector": "energie",
+    "stage": 1,
+    "status": "publié",
+    "summary": {
+      "fr": "La centrale solaire de Tongon, à M'Bengué, dans le nord de la Côte d'Ivoire, aura une capacité de 52 MWc. Elle est développée par Tongon Solaire SAS, société à capitaux ivoiriens, au titre d'une convention signée avec l'État le 5 août 2025. Son coût est estimé à 33 milliards de francs CFA, selon Agence Ecofin et Afrique-sur7. Le ministre des Mines, du Pétrole et de l'Énergie a posé la première pierre lors d'une tournée du 22 au 24 octobre 2026.",
+      "en": "The Tongon solar plant, at M'Bengué in northern Côte d'Ivoire, will have a capacity of 52 MWp. It is being developed by Tongon Solaire SAS, an Ivorian-owned company, under an agreement signed with the State on 5 August 2025. Its cost is estimated at 33 billion CFA francs, according to Agence Ecofin and Afrique-sur7. The Minister of Mines, Petroleum and Energy laid the foundation stone during a tour from 22 to 24 October 2026."
+    },
+    "capacity": "52 MWc",
+    "cost": {"amount": 33, "currency": "XOF", "unit": "milliards", "note": {"fr": "Coût estimé, selon Agence Ecofin et Afrique-sur7", "en": "Estimated cost, according to Agence Ecofin and Afrique-sur7"}},
+    "owner": ["Tongon Solaire SAS"],
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "annonce",
+        "text": {"fr": "Le ministre des Mines, du Pétrole et de l'Énergie pose la première pierre de la centrale de 52 MWc. La cérémonie a lieu pendant sa tournée du 22 au 24 octobre 2026.", "en": "The Minister of Mines, Petroleum and Energy lays the foundation stone of the 52 MWp plant. The ceremony takes place during his tour of 22 to 24 October 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.linkedin.com/posts/ci-energies_cinergies-construireabrlaabrcaektedivoireabrelectrique-activity-7520540598496464896-1jWC", "publisher": "CI-Énergies", "title": "Énergies renouvelables : le solaire accélère dans le nord de la Côte d'Ivoire (post LinkedIn)", "published": "2026-10-26", "tier": "A"}, {"url": "https://www.afrique-sur7.fr/centrale-solaire-de-tongon-mbengue", "publisher": "Afrique-sur7", "title": "Centrale solaire de Tongon : le chantier glisse vers 2028", "published": "2026-10-25", "tier": "B"}]
+      },
+      {
+        "date": "2025-08-05",
+        "type": "signature",
+        "text": {"fr": "Tongon Solaire SAS, société à capitaux ivoiriens, signe avec l'État une convention pour développer la centrale.", "en": "Tongon Solaire SAS, an Ivorian-owned company, signs an agreement with the State to develop the plant."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.ecofinagency.com/news/0808-48000-cote-d-ivoire-backs-local-firm-for-58-5-mln-solar-plant-to-boost-energy-sovereignty", "publisher": "Agence Ecofin", "title": "Côte d'Ivoire Awards 52MWp Solar Plant to Local Firm in Bid for Greater Energy Control", "published": "2025-08-08", "tier": "B"}, {"url": "https://www.afrique-sur7.fr/centrale-solaire-de-tongon-mbengue", "publisher": "Afrique-sur7", "title": "Centrale solaire de Tongon : le chantier glisse vers 2028", "published": "2026-10-25", "tier": "B"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "centrale-solaire-binguebougou",
+    "name": {"fr": "Centrale solaire de Binguébougou", "en": "Binguébougou solar plant"},
+    "country": "CI",
+    "sector": "energie",
+    "stage": 1,
+    "status": "publié",
+    "summary": {
+      "fr": "La centrale solaire de Binguébougou, près de Korhogo, dans le nord de la Côte d'Ivoire, aura une capacité de 50 MWc. Le ministre des Mines, du Pétrole et de l'Énergie a posé la première pierre lors d'une tournée du 22 au 24 octobre 2026. Le développeur, le coût et la date de mise en service ne sont pas confirmés à ce jour.",
+      "en": "The Binguébougou solar plant, near Korhogo in northern Côte d'Ivoire, will have a capacity of 50 MWp. The Minister of Mines, Petroleum and Energy laid the foundation stone during a tour from 22 to 24 October 2026. The developer, the cost and the commissioning date have not been confirmed to date."
+    },
+    "capacity": "50 MWc",
+    "cost": null,
+    "owner": null,
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "annonce",
+        "text": {"fr": "Le ministre des Mines, du Pétrole et de l'Énergie pose la première pierre de la centrale de 50 MWc, près de Korhogo. La cérémonie a lieu pendant sa tournée du 22 au 24 octobre 2026.", "en": "The Minister of Mines, Petroleum and Energy lays the foundation stone of the 50 MWp plant near Korhogo. The ceremony takes place during his tour of 22 to 24 October 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.linkedin.com/posts/ci-energies_cinergies-construireabrlaabrcaektedivoireabrelectrique-activity-7520540598496464896-1jWC", "publisher": "CI-Énergies", "title": "Énergies renouvelables : le solaire accélère dans le nord de la Côte d'Ivoire (post LinkedIn)", "published": "2026-10-26", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "centrale-solaire-katiola",
+    "name": {"fr": "Centrale solaire de Katiola", "en": "Katiola solar plant"},
+    "country": "CI",
+    "sector": "energie",
+    "stage": 1,
+    "status": "publié",
+    "summary": {
+      "fr": "La centrale solaire de Katiola, en Côte d'Ivoire, aura une capacité de 50 MWc. Le ministre des Mines, du Pétrole et de l'Énergie a posé la première pierre lors d'une tournée du 22 au 24 octobre 2026. Le développeur, le coût et la date de mise en service ne sont pas confirmés à ce jour.",
+      "en": "The Katiola solar plant, in Côte d'Ivoire, will have a capacity of 50 MWp. The Minister of Mines, Petroleum and Energy laid the foundation stone during a tour from 22 to 24 October 2026. The developer, the cost and the commissioning date have not been confirmed to date."
+    },
+    "capacity": "50 MWc",
+    "cost": null,
+    "owner": null,
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10",
+        "type": "annonce",
+        "text": {"fr": "Le ministre des Mines, du Pétrole et de l'Énergie pose la première pierre de la centrale de 50 MWc. La cérémonie a lieu pendant sa tournée du 22 au 24 octobre 2026.", "en": "The Minister of Mines, Petroleum and Energy lays the foundation stone of the 50 MWp plant. The ceremony takes place during his tour of 22 to 24 October 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.linkedin.com/posts/ci-energies_cinergies-construireabrlaabrcaektedivoireabrelectrique-activity-7520540598496464896-1jWC", "publisher": "CI-Énergies", "title": "Énergies renouvelables : le solaire accélère dans le nord de la Côte d'Ivoire (post LinkedIn)", "published": "2026-10-26", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "port-tanger-med-3",
+    "name": {"fr": "Port Tanger Med 3", "en": "Tanger Med 3 port"},
+    "country": "MA",
+    "sector": "transport",
+    "stage": 3,
+    "status": "publié",
+    "summary": {
+      "fr": "Tanger Med 3 est un nouveau port du complexe de Tanger Med, au Maroc. Selon le communiqué du Cabinet royal du 28 octobre 2026, relayé par Tanger Med, sa construction est lancée. Le projet prévoit 1 200 mètres de quais et 4,5 millions de conteneurs par an de capacité supplémentaire, pour 8 milliards de dirhams. Une convention de concession du nouveau terminal à conteneurs a été signée avec Maersk-APM.",
+      "en": "Tanger Med 3 is a new port in the Tanger Med complex, Morocco. According to the Royal Cabinet statement of 28 October 2026, relayed by Tanger Med, its construction has been launched. The project includes 1,200 metres of quays and 4.5 million containers a year of additional capacity, for 8 billion dirhams. A concession agreement for the new container terminal has been signed with Maersk-APM."
+    },
+    "capacity": {"fr": "1 200 m de quais ; 4,5 millions de conteneurs par an de capacité supplémentaire", "en": "1,200 m of quays; 4.5 million containers a year of additional capacity"},
+    "cost": {"amount": 8, "currency": "MAD", "unit": "milliards", "note": {"fr": "Investissement annoncé par le communiqué du Cabinet royal", "en": "Investment announced in the Royal Cabinet statement"}},
+    "owner": ["Tanger Med"],
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-28",
+        "type": "travaux",
+        "text": {"fr": "Selon le communiqué du Cabinet royal du 28 octobre 2026, relayé par Tanger Med, la construction du port Tanger Med 3 est lancée. Il prévoit 1 200 mètres de quais et 4,5 millions de conteneurs par an de capacité supplémentaire, pour 8 milliards de dirhams.", "en": "According to the Royal Cabinet statement of 28 October 2026, relayed by Tanger Med, construction of the Tanger Med 3 port is launched. It includes 1,200 metres of quays and 4.5 million containers a year of additional capacity, for 8 billion dirhams."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://x.com/TM_Officiel/status/2116110249975296171", "publisher": "Tanger Med", "title": "Post X : Royal Cabinet Communiqué | Major Expansion of Tanger Med", "published": "2026-10-30", "tier": "A"}]
+      },
+      {
+        "date": "2026-10-28",
+        "type": "signature",
+        "text": {"fr": "Le même communiqué indique qu'une convention de concession a été signée avec Maersk-APM pour le nouveau terminal à conteneurs. La date de signature n'est pas précisée : le jalon porte la date de l'annonce.", "en": "The same statement says a concession agreement has been signed with Maersk-APM for the new container terminal. The signing date is not given: the milestone carries the date of the announcement."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://x.com/TM_Officiel/status/2116110249975296171", "publisher": "Tanger Med", "title": "Post X : Royal Cabinet Communiqué | Major Expansion of Tanger Med", "published": "2026-10-30", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "solaire-dandara-egypte",
+    "name": {"fr": "Centrale solaire et stockage de Dandara", "en": "Dandara solar and storage plant"},
+    "country": "EG",
+    "sector": "energie",
+    "stage": 2,
+    "status": "publié",
+    "summary": {
+      "fr": "La phase 1 de la centrale de Dandara, gouvernorat de Qena, en Égypte, compte 569 MWc de solaire et 100 MWh de stockage. Le 28 octobre 2026, la BEI a signé pour cette phase un prêt pouvant aller jusqu'à 90 millions de dollars. Le développeur Scatec annonce au total 217 millions de dollars de prêts signés avec la BERD, la BAD et la BEI. L'électricité ira à Misr Aluminium ; la BEI vise une mise en service en avril 2028.",
+      "en": "Phase 1 of the Dandara plant, in Qena governorate, Egypt, comprises 569 MWp of solar and 100 MWh of storage. On 28 October 2026, the EIB signed a loan of up to $90 million for this phase. The developer Scatec reports a total of $217 million in loans signed with the EBRD, the AfDB and the EIB. The power will go to Misr Aluminium; the EIB is targeting commissioning in April 2028."
+    },
+    "capacity": {"fr": "569 MWc et 100 MWh de stockage (phase 1)", "en": "569 MWp and 100 MWh of storage (phase 1)"},
+    "cost": {"amount": 90, "currency": "USD", "unit": "millions", "note": {"fr": "Prêt de la BEI (jusqu'à 90 millions de dollars) pour la phase 1, pas le coût total du projet", "en": "EIB loan (up to $90 million) for phase 1, not the total project cost"}},
+    "owner": ["Scatec", "National Bank of Egypt"],
+    "lenders": [{"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, {"fr": "BERD", "en": "EBRD"}, {"fr": "Banque africaine de développement", "en": "African Development Bank"}],
+    "contractors": ["Scatec"],
+    "target_date": "2028-04",
+    "milestones": [
+      {
+        "date": "2026-10-28",
+        "type": "financement",
+        "text": {"fr": "La BEI signe un prêt pouvant aller jusqu'à 90 millions de dollars, garanti par l'EFSD+, pour la phase 1. Celle-ci compte 569 MWc et 100 MWh de stockage, dans le gouvernorat de Qena. Le même jour, Scatec annonce 217 millions de dollars de prêts signés pour la phase 1 avec la BERD, la BAD et la BEI.", "en": "The EIB signs a loan of up to $90 million, guaranteed under EFSD+, for phase 1. This phase comprises 569 MWp and 100 MWh of storage, in Qena governorate. The same day, Scatec announces $217 million in phase 1 loans signed with the EBRD, the AfDB and the EIB."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eib.org/en/press/all/2026-363-eib-provides-up-to-usd90-million-for-one-of-the-largest-solar-and-battery-projects-in-egypt-and-africa", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "EIB provides up to $90 million for one of the largest solar and battery projects in Egypt and Africa", "published": "2026-10-29", "tier": "A"}, {"url": "https://www.eib.org/en/projects/all/20250695", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "DANDARA SOLAR PV AND BESS (fiche projet 20250695)", "published": null, "tier": "A"}, {"url": "https://www.scatec.com/en/scatec-secures-financing-for-the-first-phase-of-the-dandara-solar-and-bess-project-in-egypt/", "publisher": "Scatec", "title": "Scatec secures financing for the first phase of the Dandara solar and BESS project in Egypt", "published": "2026-10-28", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "ligne-kitui-wote-132kv",
+    "name": {"fr": "Ligne 132 kV Kitui–Wote", "en": "Kitui–Wote 132 kV line"},
+    "country": "KE",
+    "sector": "energie",
+    "stage": 4,
+    "status": "publié",
+    "summary": {
+      "fr": "La ligne de transport d'électricité Kitui–Wote, au Kenya, mesure 66 km et fonctionne en 132 kV. Réalisée par KETRACO, elle relie les lignes Mwingi–Kitui et Wote–Sultan Hamud. Les postes de Kitui et de Wote ont ainsi deux alimentations. Le président William Ruto l'a inaugurée le 26 octobre 2026.",
+      "en": "The Kitui–Wote power transmission line, in Kenya, is 66 km long and operates at 132 kV. Built by KETRACO, it links the Mwingi–Kitui and Wote–Sultan Hamud lines. The Kitui and Wote substations now have a double supply. President William Ruto inaugurated it on 26 October 2026."
+    },
+    "capacity": "132 kV, 66 km",
+    "cost": null,
+    "owner": ["KETRACO"],
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-26",
+        "type": "mise-en-service",
+        "text": {"fr": "Le président William Ruto inaugure la ligne de 132 kV Kitui–Wote (66 km), réalisée par KETRACO. Elle relie les lignes Mwingi–Kitui et Wote–Sultan Hamud et donne aux postes de Kitui et Wote deux alimentations. La date est celle de l'inauguration officielle, pas forcément celle de la mise sous tension.", "en": "President William Ruto inaugurates the 132 kV Kitui–Wote line (66 km), built by KETRACO. It links the Mwingi–Kitui and Wote–Sultan Hamud lines and gives the Kitui and Wote substations a double supply. The date is that of the official inauguration, not necessarily of energisation."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://x.com/KETRACO1/status/2114782007502790830", "publisher": "KETRACO", "title": "Post X", "published": "2026-10-26", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "papc-assainissement-cotonou",
+    "name": {"fr": "Assainissement pluvial de Cotonou (PAPC)", "en": "Cotonou stormwater drainage (PAPC)"},
+    "country": "BJ",
+    "sector": "eau",
+    "stage": 2,
+    "status": "publié",
+    "summary": {
+      "fr": "Le Projet d'appui au programme d'assainissement pluvial de Cotonou (PAPC), au Bénin, est financé par la BAD. Il bénéficie aussi d'un prêt de l'Africa Growing Together Fund (AGTF). Le 30 octobre 2026, la BAD a publié un avis d'appel d'offres pour des travaux à Cotonou. Ils portent sur le curage de l'aval du bassin Pa2 jusqu'au lac Nokoué et sur des garde-corps métalliques autour des bassins Pa2 et QaQc.",
+      "en": "The Cotonou Stormwater Drainage Programme Support Project (PAPC), in Benin, is financed by the AfDB. It also has a loan from the Africa Growing Together Fund (AGTF). On 30 October 2026, the AfDB published an invitation for bids for works in Cotonou. They cover dredging downstream of the Pa2 basin to Lake Nokoué and metal guardrails around the Pa2 and QaQc basins."
+    },
+    "capacity": null,
+    "cost": null,
+    "owner": null,
+    "lenders": [{"fr": "Banque africaine de développement", "en": "African Development Bank"}, "Africa Growing Together Fund"],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-30",
+        "type": "appel-d-offres",
+        "text": {"fr": "La BAD publie l'avis d'appel d'offres du Bénin pour le curage de l'aval du bassin Pa2 jusqu'au lac Nokoué. Le même marché couvre la pose de garde-corps métalliques autour des bassins de rétention Pa2 et QaQc. Le projet est financé par la BAD et un prêt de l'Africa Growing Together Fund (AGTF).", "en": "The AfDB publishes Benin's invitation for bids for dredging downstream of the Pa2 basin to Lake Nokoué. The same contract covers metal guardrails around the Pa2 and QaQc retention basins. The project is financed by the AfDB and a loan from the Africa Growing Together Fund (AGTF)."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/en/documents/aao-benin-travaux-curage-laval-bassin-pa2-jusquau-98107", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "AAO - Bénin - Travaux de curage de l'aval du bassin Pa2 jusqu'au lac Nokoué, de fourniture et pose de garde-métallique autour des bassins de rétention Pa2 et QaQc - PAPC", "published": "2026-10-30", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-02"
+  },
+  {
+    "id": "interconnexion-guinee-mali-225kv",
+    "name": {"fr": "Interconnexion électrique 225 kV Guinée–Mali", "en": "Guinea–Mali 225 kV power interconnection"},
+    "country": "GN,ML",
+    "sector": "energie",
+    "stage": 2,
+    "status": "publié",
+    "summary": {"fr": "Le projet relie en 225 kV le Mali (poste de Sanankoroba) aux interconnecteurs OMVG, à Linsan, et CLSG, à N'Zérékoré, en Guinée. Selon la BEI, il compte environ 1 054 km de lignes, dont 340 km entre Linsan et Fomi, et un volet d'électrification rurale. La BEI a signé 300 millions d'euros de prêts en 2018 et 2021, pour un coût total d'environ 612 millions d'euros. Le Fonds africain de développement a approuvé le 10 décembre 2025 un financement additionnel de 25,79 millions de dollars pour la Guinée.", "en": "The project links Mali (Sanankoroba substation) by 225 kV lines to the OMVG interconnector at Linsan and the CLSG interconnector at N'Zérékoré, in Guinea. According to the EIB, it covers about 1,054 km of lines, including 340 km between Linsan and Fomi, and a rural electrification component. The EIB signed €300 million in loans in 2018 and 2021, against a total cost of about €612 million. On 10 December 2025, the African Development Fund approved $25.79 million in additional financing for Guinea."},
+    "capacity": "225 kV",
+    "cost": {"amount": 612, "currency": "EUR", "unit": "millions", "note": {"fr": "Coût total approximatif selon la base de projets de la BEI. Le coût en Guinée est de 372 millions de dollars selon la BAD (décembre 2025) ; les deux chiffres ne s'additionnent pas.", "en": "Approximate total cost according to the EIB project database. The cost in Guinea is $372 million according to the AfDB (December 2025); the two figures do not add up."}},
+    "owner": null,
+    "lenders": [{"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, {"fr": "Union européenne", "en": "European Union"}, {"fr": "Fonds africain de développement", "en": "African Development Fund"}, {"fr": "Banque mondiale", "en": "World Bank"}, "BOAD", "BIDC"],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-29",
+        "type": "appel-d-offres",
+        "text": {"fr": "La BAD publie le plan de passation des marchés (simplifié, actualisé) du projet d'interconnexion électrique en 225 kV Guinée–Mali (PIEGM).", "en": "The AfDB publishes the updated simplified procurement plan of the Guinea–Mali 225 kV power interconnection project (PIEGM)."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/en/documents/ppm-guinee-projet-interconnexion-electrique-225-kv-98067", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "PPM - Guinée - Projet interconnexion électrique en 225 kV Guinée Mali (simplifié) - PIEGM", "published": "2026-10-29", "tier": "A"}]
+      },
+      {
+        "date": "2025-12-10",
+        "type": "financement",
+        "text": {"fr": "Le conseil du Fonds africain de développement approuve à Abidjan un financement additionnel de 25,79 millions de dollars pour la Guinée : un prêt d'environ 22 millions et un don de 3,79 millions. Le coût du projet en Guinée passe de 346 à 372 millions de dollars. La mise en œuvre est prévue de janvier 2026 à décembre 2028.", "en": "The African Development Fund board approves, in Abidjan, $25.79 million in additional financing for Guinea: a loan of about $22 million and a $3.79 million grant. The project cost in Guinea rises from $346 million to $372 million. Implementation is planned from January 2026 to December 2028."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://afdb.africa-newsroom.com/press/the-african-development-fund-grants-guinea-nearly-26-million-in-additional-funding-to-develop-an-electricity-interconnection-with-mali", "publisher": {"fr": "Groupe de la Banque africaine de développement (diffusion APO)", "en": "African Development Bank Group (APO distribution)"}, "title": "The African Development Fund grants Guinea nearly $26 million in additional funding to develop an electricity interconnection with Mali", "published": "2025-12-12", "tier": "B"}]
+      },
+      {
+        "date": "2021-04-23",
+        "type": "signature",
+        "text": {"fr": "Cérémonie de signature à Conakry du prêt de la BEI de 170 millions d'euros sur 25 ans pour la ligne 225 kV Linsan–Fomi (340 km). L'appui total de la BEI atteint 300 millions d'euros ; l'Union européenne ajoute 30 millions d'euros de dons.", "en": "Signing ceremony in Conakry for the EIB's €170 million, 25-year loan for the 340 km Linsan–Fomi 225 kV line. Total EIB support reaches €300 million; the European Union adds €30 million in grants."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eib.org/en/press/all/2021-138-330-millions-d-eur-de-l-equipe-europe-a-la-construction-de-la-nouvelle-ligne-electrique-de-225-kv-guinee-mali-qui-approvisionnera-en-energie-propre-et-abordable-des-millions-de-personnes-en-afrique-de-l-ouest", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "€330 million Team Europe backing for new Guinea-Mali 225 kV power line to provide clean and affordable energy to millions in West Africa", "published": "2021-04-23", "tier": "A"}]
+      },
+      {
+        "date": "2021-03-04",
+        "type": "financement",
+        "text": {"fr": "La BEI signe le contrat de prêt de 170 millions d'euros, selon sa base de projets.", "en": "The EIB signs the €170 million loan contract, according to its project database."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eib.org/en/projects/all/20160638", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "INTERCONNEXION ELECTRIQUE 225 KV GUINEE-MALI (fiche projet 20160638)", "published": "2017-11-07", "tier": "A"}]
+      },
+      {
+        "date": "2018-11-27",
+        "type": "financement",
+        "text": {"fr": "La BEI signe un premier prêt de 130 millions d'euros pour le projet.", "en": "The EIB signs a first €130 million loan for the project."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eib.org/en/projects/all/20160638", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "INTERCONNEXION ELECTRIQUE 225 KV GUINEE-MALI (fiche projet 20160638)", "published": "2017-11-07", "tier": "A"}]
+      },
+      {
+        "date": "2017-12",
+        "type": "financement",
+        "text": {"fr": "Le Fonds africain de développement accorde un premier financement d'environ 41 millions de dollars, selon le communiqué de la BAD de décembre 2025.", "en": "The African Development Fund provides initial financing of about $41 million, according to the AfDB's December 2025 press release."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://afdb.africa-newsroom.com/press/the-african-development-fund-grants-guinea-nearly-26-million-in-additional-funding-to-develop-an-electricity-interconnection-with-mali", "publisher": {"fr": "Groupe de la Banque africaine de développement (diffusion APO)", "en": "African Development Bank Group (APO distribution)"}, "title": "The African Development Fund grants Guinea nearly $26 million in additional funding to develop an electricity interconnection with Mali", "published": "2025-12-12", "tier": "B"}]
+      }
+    ],
+    "updated": "2026-11-02"
   }
 ]
