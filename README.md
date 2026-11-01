@@ -99,9 +99,10 @@ les clics utiles à la rédaction : sources officielles ouvertes depuis les fich
 qui envoie vers une fiche, filtres, carte, recherches (dont celles sans résultat), lecture
 complète d'une fiche, clics vers le Brief, changement de langue.
 
-Chaque lundi vers 4 h, le workflow « Bilan d'audience » (`.github/workflows/audience.yml`)
-interroge Umami avec `scripts/audience.py` et range le bilan de la semaine sur la branche
-`stats-audience`. Le Rapporteur le reprend dans le rapport de la pull request. Pour tester la
+Chaque dimanche vers 3 h (heure de Paris en hiver, 4 h en été), avant le cycle de veille, le
+workflow « Bilan d'audience » (`.github/workflows/audience.yml`) interroge Umami avec
+`scripts/audience.py` et range sur la branche `stats-audience` le bilan de la semaine écoulée,
+du dimanche au samedi, sous la date du lundi qui suit. Le Rapporteur le reprend dans le rapport de la pull request. Pour tester la
 mise en forme sans compte : `python3 scripts/audience.py --demo --out /tmp/audience`.
 
 ## Réglages (`site/config.json`)
