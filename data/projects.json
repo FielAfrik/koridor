@@ -5,14 +5,11 @@
     "country": "CD",
     "sector": "transport",
     "stage": 1,
-    "status": "à vérifier",
-    "summary": {
-      "fr": "MetroKin est un projet de métro urbain de 25 km à Kinshasa, en RDC. L'Africa Finance Corporation a annoncé en octobre 2026 avoir signé avec la RDC des accords sur le métro et la ligne Kinshasa–Matadi–Banana (463 km). Selon l'Agence congolaise de presse, qui cite un document du ministère des Transports, la phase 1 coûte 877 millions de dollars. Ce montant est un coût, pas un financement acquis, et reste à confirmer.",
-      "en": "MetroKin is a 25 km urban metro project in Kinshasa, DRC. Africa Finance Corporation announced in October 2026 that it had signed agreements with the DRC on the metro and the Kinshasa–Matadi–Banana line (463 km). According to the Congolese Press Agency, quoting a Transport Ministry document, phase 1 costs $877 million. This amount is a cost, not secured financing, and is yet to be confirmed."
-    },
+    "status": "publié",
+    "summary": {"fr": "MetroKin est un projet de métro urbain à Kinshasa, développé par l'Africa Finance Corporation (AFC) à travers la société de projet MetroKin SA. Sa phase 1, de 25 km, relie la Gare centrale à l'aéroport de N'Djili, première étape d'un réseau de 300 km. En février 2023, l'AFC a signé avec Trans Connexion Congo un accord de développement conjoint, avec un investissement initial de 3 millions de dollars. L'AFC a annoncé des accords avec la RDC en octobre 2026 ; l'ACP chiffre la phase 1 à 877 millions de dollars, montant à confirmer.", "en": "MetroKin is an urban metro project in Kinshasa, developed by Africa Finance Corporation (AFC) through the project company MetroKin SA. Its 25 km phase 1 links Central Station to N'Djili airport, the first stage of a 300 km network. In February 2023, AFC signed a joint development agreement with Trans Connexion Congo, with an initial investment of $3 million. AFC announced agreements with the DRC in October 2026; ACP puts the cost of phase 1 at $877 million, a figure yet to be confirmed."},
     "capacity": null,
     "cost": {"amount": 877, "currency": "USD", "unit": "millions", "note": {"fr": "Coût de la phase 1 (25 km) selon un document du ministère des Transports cité par l'ACP ; pas un financement acquis. À confirmer.", "en": "Phase 1 cost (25 km) according to a Transport Ministry document quoted by ACP; not secured financing. To be confirmed."}},
-    "owner": [],
+    "owner": ["MetroKin SA", "Trans Connexion Congo (TCC)", "Africa Finance Corporation"],
     "lenders": [],
     "contractors": [],
     "target_date": null,
@@ -30,6 +27,13 @@
         "text": {"fr": "Selon l'ACP, qui cite un document du ministère des Transports, l'accord de développement conjoint (JDA) porte sur la phase 1. Cette phase de 25 km relie la Gare centrale à l'aéroport de N'Djili et coûte 877 millions de dollars. Ce montant n'est pas un financement acquis.", "en": "According to ACP, quoting a Transport Ministry document, the joint development agreement (JDA) covers phase 1. This 25 km phase links Central Station to N'Djili airport and costs $877 million. This amount is not secured financing."},
         "confidence": "à confirmer",
         "sources": [{"url": "https://acp.cd/anglais/drc-afc-877-million-granted-to-launch-the-metrokin-urban-railway/", "publisher": {"fr": "Agence congolaise de presse (ACP)", "en": "Congolese Press Agency (ACP)"}, "title": "DRC-AFC: $877 million granted to launch the Metrokin urban railway", "published": "2026-10-14", "tier": "B"}, {"url": "https://www.agenceecofin.com/actualites-infrastructures/1410-142397-la-rdc-obtient-un-financement-de-877-millions-pour-le-projet-de-metro-de-kinshasa", "publisher": "Agence Ecofin", "title": "La RDC obtient un financement de 877 millions pour le projet de métro de Kinshasa", "published": "2026-10-14", "tier": "B"}]
+      },
+      {
+        "date": "2023-02-16",
+        "type": "signature",
+        "text": {"fr": "L'AFC et Trans Connexion Congo (TCC) signent un accord de développement conjoint pour un réseau de 300 km en quatre phases, porté par la société de projet MetroKin SA. La phase 1 compte 25 km. L'investissement initial de l'AFC est de 3 millions de dollars ; elle visait alors un bouclage financier dès le quatrième trimestre 2023.", "en": "AFC and Trans Connexion Congo (TCC) sign a joint development agreement for a 300 km network in four phases, carried by the project company MetroKin SA. Phase 1 covers 25 km. AFC's initial investment is $3 million; it was then targeting financial close as early as the fourth quarter of 2023."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.africafc.org/news-and-insights/news/kinshasas-mass-transit-system-to-be-rebuilt-by-africa-finance-corporation-and-trans-connexion-congo", "publisher": "Africa Finance Corporation", "title": "Kinshasa's mass transit system to be rebuilt by Africa Finance Corporation and Trans Connexion Congo", "published": "2023-02-16", "tier": "A"}, {"url": "https://tcc-metrokin.com/fr/about-metrokin/project-sponsors/", "publisher": "MetroKin SA", "title": "Project Sponsors - MetroKin Mass Transit Railway Project", "published": null, "tier": "A"}, {"url": "https://tcc-metrokin.com/fr/about-metrokin/project-overview/", "publisher": "MetroKin SA", "title": "Project Overview - MetroKin Mass Transit Railway Project", "published": null, "tier": "A"}]
       }
     ],
     "updated": "2026-11-02",
@@ -742,12 +746,13 @@
     "name": {"fr": "Interconnexion électrique 225 kV Guinée–Mali", "en": "Guinea–Mali 225 kV power interconnection"},
     "country": "GN,ML",
     "sector": "energie",
-    "stage": 1,
-    "status": "brouillon",
+    "stage": 2,
+    "status": "publié",
+    "summary": {"fr": "Le projet relie en 225 kV le Mali (poste de Sanankoroba) aux interconnecteurs OMVG, à Linsan, et CLSG, à N'Zérékoré, en Guinée. Selon la BEI, il compte environ 1 054 km de lignes, dont 340 km entre Linsan et Fomi, et un volet d'électrification rurale. La BEI a signé 300 millions d'euros de prêts en 2018 et 2021, pour un coût total d'environ 612 millions d'euros. Le Fonds africain de développement a approuvé le 10 décembre 2025 un financement additionnel de 25,79 millions de dollars pour la Guinée.", "en": "The project links Mali (Sanankoroba substation) by 225 kV lines to the OMVG interconnector at Linsan and the CLSG interconnector at N'Zérékoré, in Guinea. According to the EIB, it covers about 1,054 km of lines, including 340 km between Linsan and Fomi, and a rural electrification component. The EIB signed €300 million in loans in 2018 and 2021, against a total cost of about €612 million. On 10 December 2025, the African Development Fund approved $25.79 million in additional financing for Guinea."},
     "capacity": "225 kV",
-    "cost": null,
+    "cost": {"amount": 612, "currency": "EUR", "unit": "millions", "note": {"fr": "Coût total approximatif selon la base de projets de la BEI. Le coût en Guinée est de 372 millions de dollars selon la BAD (décembre 2025) ; les deux chiffres ne s'additionnent pas.", "en": "Approximate total cost according to the EIB project database. The cost in Guinea is $372 million according to the AfDB (December 2025); the two figures do not add up."}},
     "owner": null,
-    "lenders": null,
+    "lenders": [{"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, {"fr": "Union européenne", "en": "European Union"}, {"fr": "Fonds africain de développement", "en": "African Development Fund"}, {"fr": "Banque mondiale", "en": "World Bank"}, "BOAD", "BIDC"],
     "contractors": null,
     "target_date": null,
     "milestones": [
@@ -757,6 +762,41 @@
         "text": {"fr": "La BAD publie le plan de passation des marchés (simplifié, actualisé) du projet d'interconnexion électrique en 225 kV Guinée–Mali (PIEGM).", "en": "The AfDB publishes the updated simplified procurement plan of the Guinea–Mali 225 kV power interconnection project (PIEGM)."},
         "confidence": "confirmé",
         "sources": [{"url": "https://www.afdb.org/en/documents/ppm-guinee-projet-interconnexion-electrique-225-kv-98067", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "PPM - Guinée - Projet interconnexion électrique en 225 kV Guinée Mali (simplifié) - PIEGM", "published": "2026-10-29", "tier": "A"}]
+      },
+      {
+        "date": "2025-12-10",
+        "type": "financement",
+        "text": {"fr": "Le conseil du Fonds africain de développement approuve à Abidjan un financement additionnel de 25,79 millions de dollars pour la Guinée : un prêt d'environ 22 millions et un don de 3,79 millions. Le coût du projet en Guinée passe de 346 à 372 millions de dollars. La mise en œuvre est prévue de janvier 2026 à décembre 2028.", "en": "The African Development Fund board approves, in Abidjan, $25.79 million in additional financing for Guinea: a loan of about $22 million and a $3.79 million grant. The project cost in Guinea rises from $346 million to $372 million. Implementation is planned from January 2026 to December 2028."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://afdb.africa-newsroom.com/press/the-african-development-fund-grants-guinea-nearly-26-million-in-additional-funding-to-develop-an-electricity-interconnection-with-mali", "publisher": {"fr": "Groupe de la Banque africaine de développement (diffusion APO)", "en": "African Development Bank Group (APO distribution)"}, "title": "The African Development Fund grants Guinea nearly $26 million in additional funding to develop an electricity interconnection with Mali", "published": "2025-12-12", "tier": "B"}]
+      },
+      {
+        "date": "2021-04-23",
+        "type": "signature",
+        "text": {"fr": "Cérémonie de signature à Conakry du prêt de la BEI de 170 millions d'euros sur 25 ans pour la ligne 225 kV Linsan–Fomi (340 km). L'appui total de la BEI atteint 300 millions d'euros ; l'Union européenne ajoute 30 millions d'euros de dons.", "en": "Signing ceremony in Conakry for the EIB's €170 million, 25-year loan for the 340 km Linsan–Fomi 225 kV line. Total EIB support reaches €300 million; the European Union adds €30 million in grants."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eib.org/en/press/all/2021-138-330-millions-d-eur-de-l-equipe-europe-a-la-construction-de-la-nouvelle-ligne-electrique-de-225-kv-guinee-mali-qui-approvisionnera-en-energie-propre-et-abordable-des-millions-de-personnes-en-afrique-de-l-ouest", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "€330 million Team Europe backing for new Guinea-Mali 225 kV power line to provide clean and affordable energy to millions in West Africa", "published": "2021-04-23", "tier": "A"}]
+      },
+      {
+        "date": "2021-03-04",
+        "type": "financement",
+        "text": {"fr": "La BEI signe le contrat de prêt de 170 millions d'euros, selon sa base de projets.", "en": "The EIB signs the €170 million loan contract, according to its project database."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eib.org/en/projects/all/20160638", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "INTERCONNEXION ELECTRIQUE 225 KV GUINEE-MALI (fiche projet 20160638)", "published": "2017-11-07", "tier": "A"}]
+      },
+      {
+        "date": "2018-11-27",
+        "type": "financement",
+        "text": {"fr": "La BEI signe un premier prêt de 130 millions d'euros pour le projet.", "en": "The EIB signs a first €130 million loan for the project."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.eib.org/en/projects/all/20160638", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "INTERCONNEXION ELECTRIQUE 225 KV GUINEE-MALI (fiche projet 20160638)", "published": "2017-11-07", "tier": "A"}]
+      },
+      {
+        "date": "2017-12",
+        "type": "financement",
+        "text": {"fr": "Le Fonds africain de développement accorde un premier financement d'environ 41 millions de dollars, selon le communiqué de la BAD de décembre 2025.", "en": "The African Development Fund provides initial financing of about $41 million, according to the AfDB's December 2025 press release."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://afdb.africa-newsroom.com/press/the-african-development-fund-grants-guinea-nearly-26-million-in-additional-funding-to-develop-an-electricity-interconnection-with-mali", "publisher": {"fr": "Groupe de la Banque africaine de développement (diffusion APO)", "en": "African Development Bank Group (APO distribution)"}, "title": "The African Development Fund grants Guinea nearly $26 million in additional funding to develop an electricity interconnection with Mali", "published": "2025-12-12", "tier": "B"}]
       }
     ],
     "updated": "2026-11-02"
