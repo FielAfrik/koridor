@@ -1,6 +1,6 @@
 """Bilan d'audience hebdomadaire de Koridor (Umami Cloud).
 
-Récupère les chiffres de la semaine écoulée (lundi 00:00 → dimanche 24:00, heure de Paris),
+Récupère les chiffres de la semaine écoulée (dimanche 00:00 → samedi 24:00, heure de Paris),
 les compare à la semaine précédente et écrit :
   audience/AAAA-MM-JJ.json   données brutes et agrégées (AAAA-MM-JJ = lundi du rapport)
   audience/AAAA-MM-JJ.md     synthèse lisible, reprise par le Rapporteur
@@ -165,8 +165,10 @@ def group_events(rows):
 
 
 def build(monday_report, fetch):
-    """monday_report : lundi du rapport ; la semaine mesurée est celle qui le précède."""
-    week = monday_report - timedelta(days=7)
+    """monday_report : lundi du rapport. La semaine mesurée va du dimanche au samedi qui le
+    précèdent (le bilan tourne le dimanche matin, avant le cycle de veille : le dimanche en
+    cours n'est pas encore écoulé, il est compté dans la semaine suivante)."""
+    week = monday_report - timedelta(days=8)
     prev = week - timedelta(days=7)
     cur, before = fetch["stats"](week), fetch["stats"](prev)
     trend = []
@@ -298,12 +300,17 @@ def demo_fetch():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--date", help="lundi du rapport (par défaut : lundi de cette semaine)")
+    ap.add_argument("--date", help="lundi du rapport (par défaut : demain si on est dimanche, sinon lundi de cette semaine)")
     ap.add_argument("--out", default=str(ROOT / "audience"))
     ap.add_argument("--demo", action="store_true")
     a = ap.parse_args()
     today = datetime.now(TZ).date()
-    monday = date.fromisoformat(a.date) if a.date else today - timedelta(days=today.weekday())
+    if a.date:
+        monday = date.fromisoformat(a.date)
+    elif today.weekday() == 6:   # dimanche : le bilan prépare le cycle du lendemain
+        monday = today + timedelta(days=1)
+    else:
+        monday = today - timedelta(days=today.weekday())
     if a.demo:
         fetch = demo_fetch()
     else:

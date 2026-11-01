@@ -1,15 +1,15 @@
 name: Bilan d'audience
 
-# Chaque lundi, avant le cycle de veille (4 h 56), récupère les chiffres de la semaine
-# écoulée auprès d'Umami et les range sur la branche « stats-audience ». Le Rapporteur les y lit.
+# Chaque dimanche, avant le cycle de veille (4 h 56, heure de Paris), récupère les chiffres de
+# la semaine écoulée (dimanche → samedi) auprès d'Umami et les range sur la branche « stats-audience ». Le Rapporteur les y lit.
 # Cette branche ne contient que des chiffres : elle ne touche ni main ni le site publié.
 on:
   schedule:
-    - cron: "10 2 * * 1"   # 4 h 10 à Paris l'été, 3 h 10 l'hiver
+    - cron: "10 2 * * 0"   # dimanche, 4 h 10 à Paris l'été, 3 h 10 l'hiver
   workflow_dispatch:
     inputs:
       date:
-        description: "Lundi du rapport (AAAA-MM-JJ), vide = cette semaine"
+        description: "Lundi du rapport (AAAA-MM-JJ), vide = demain si dimanche, sinon cette semaine"
         required: false
 
 permissions:
@@ -38,7 +38,7 @@ jobs:
           else
             git checkout --orphan stats-audience
             git rm -rf --quiet .
-            printf "# Audience de Koridor\n\nUn bilan par semaine, écrit chaque lundi par le workflow « Bilan d'audience ».\n" > README.md
+            printf "# Audience de Koridor\n\nUn bilan par semaine, écrit chaque dimanche par le workflow « Bilan d'audience ».\n" > README.md
           fi
           mkdir -p audience
           cp "$RUNNER_TEMP"/audience/* audience/
