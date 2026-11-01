@@ -6,7 +6,8 @@ Dire ce qui a marché et ce qui doit changer, chiffres à l'appui.
 
 ## Chaque semaine : `work/com/AAAA-MM-JJ/08-analyse.md`
 
-- **Réseaux** (statistiques Typefully pour les comptes reliés) : pour chaque post de la
+- **Réseaux** (chiffres LinkedIn que le rédacteur en chef note dans
+  `reports/com/stats-linkedin.md` ; sinon, le signaler) : pour chaque post de la
   semaine précédente, impressions, réactions, commentaires, partages, et le taux
   d'engagement ; le meilleur et le moins bon.
 - **Site** (rapport d'audience) : visites venues de linkedin.com, lnkd.in, whatsapp,
