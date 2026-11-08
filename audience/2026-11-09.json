@@ -1,0 +1,300 @@
+{
+  "rapport_du": "2026-11-09",
+  "periode": {
+    "debut": "2026-11-01",
+    "fin": "2026-11-07"
+  },
+  "semaine": {
+    "visiteurs": 157,
+    "visites": 185,
+    "pages_vues": 289,
+    "pages_par_visite": 1.6,
+    "duree_moyenne_s": 13,
+    "taux_rebond": 59
+  },
+  "semaine_precedente": {
+    "visiteurs": 67,
+    "visites": 68,
+    "pages_vues": 95,
+    "pages_par_visite": 1.4,
+    "duree_moyenne_s": 25,
+    "taux_rebond": 60
+  },
+  "tendance_8_semaines": [
+    {
+      "semaine_du": "2026-09-13",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-20",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-09-27",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-04",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-11",
+      "visiteurs": 0,
+      "pages_vues": 0
+    },
+    {
+      "semaine_du": "2026-10-18",
+      "visiteurs": 29,
+      "pages_vues": 61
+    },
+    {
+      "semaine_du": "2026-10-25",
+      "visiteurs": 67,
+      "pages_vues": 95
+    },
+    {
+      "semaine_du": "2026-11-01",
+      "visiteurs": 157,
+      "pages_vues": 289
+    }
+  ],
+  "fiches_les_plus_lues": [
+    {
+      "id": "solaire-dandara-egypte",
+      "nom": "Centrale solaire et stockage de Dandara",
+      "vues": 27
+    },
+    {
+      "id": "step-tubatse",
+      "nom": "STEP de Tubatse",
+      "vues": 24
+    },
+    {
+      "id": "chemin-de-fer-lobito-zambie",
+      "nom": "Chemin de fer Zambie–Lobito",
+      "vues": 23
+    },
+    {
+      "id": "interconnexion-guinee-mali-225kv",
+      "nom": "Interconnexion électrique 225 kV Guinée–Mali",
+      "vues": 14
+    },
+    {
+      "id": "barrage-kariba",
+      "nom": "Réhabilitation du barrage de Kariba",
+      "vues": 13
+    },
+    {
+      "id": "centrale-solaire-binguebougou",
+      "nom": "Centrale solaire de Binguébougou",
+      "vues": 13
+    },
+    {
+      "id": "transguineen",
+      "nom": "Transguinéen",
+      "vues": 12
+    },
+    {
+      "id": "centrale-solaire-katiola",
+      "nom": "Centrale solaire de Katiola",
+      "vues": 11
+    },
+    {
+      "id": "port-tanger-med-3",
+      "nom": "Port Tanger Med 3",
+      "vues": 10
+    },
+    {
+      "id": "papc-assainissement-cotonou",
+      "nom": "Assainissement pluvial de Cotonou (PAPC)",
+      "vues": 10
+    }
+  ],
+  "fiches_sans_visite": [
+    "Centrale solaire de Kafue",
+    "Dragage du chenal du port de Maputo",
+    "Déploiement de la fibre optique"
+  ],
+  "pages_brief": 35,
+  "langue_pages_vues": {
+    "fr": 178,
+    "en": 93
+  },
+  "provenance": [
+    {
+      "site": "bing.com",
+      "visites": 45
+    },
+    {
+      "site": "linkedin.com",
+      "visites": 2
+    },
+    {
+      "site": "com.linkedin.android",
+      "visites": 2
+    }
+  ],
+  "pays": [
+    {
+      "pays": "États-Unis",
+      "code": "US",
+      "visiteurs": 148
+    },
+    {
+      "pays": "Sénégal",
+      "code": "SN",
+      "visiteurs": 2
+    },
+    {
+      "pays": "BR",
+      "code": "BR",
+      "visiteurs": 2
+    },
+    {
+      "pays": "France",
+      "code": "FR",
+      "visiteurs": 2
+    },
+    {
+      "pays": "Algérie",
+      "code": "DZ",
+      "visiteurs": 1
+    },
+    {
+      "pays": "Côte d'Ivoire",
+      "code": "CI",
+      "visiteurs": 1
+    },
+    {
+      "pays": "AR",
+      "code": "AR",
+      "visiteurs": 1
+    }
+  ],
+  "appareils": [
+    {
+      "type": "laptop",
+      "visiteurs": 118
+    },
+    {
+      "type": "mobile",
+      "visiteurs": 39
+    }
+  ],
+  "clics": {
+    "Lecture complète": [
+      {
+        "detail": "chemin-de-fer-lobito-zambie",
+        "n": 14
+      },
+      {
+        "detail": "centrale-solaire-binguebougou",
+        "n": 13
+      },
+      {
+        "detail": "centrale-solaire-katiola",
+        "n": 11
+      },
+      {
+        "detail": "step-tubatse",
+        "n": 10
+      },
+      {
+        "detail": "papc-assainissement-cotonou",
+        "n": 5
+      },
+      {
+        "detail": "raine-assainissement-lome",
+        "n": 3
+      },
+      {
+        "detail": "ligne-kitui-wote-132kv",
+        "n": 3
+      },
+      {
+        "detail": "transguineen",
+        "n": 3
+      },
+      {
+        "detail": "centrale-gaz-togo",
+        "n": 2
+      },
+      {
+        "detail": "waca-littoral-togo",
+        "n": 1
+      },
+      {
+        "detail": "terminal-point-durban",
+        "n": 1
+      },
+      {
+        "detail": "interconnexion-guinee-mali-225k",
+        "n": 1
+      },
+      {
+        "detail": "route-zuenoula-mankono",
+        "n": 1
+      },
+      {
+        "detail": "reseau-gazier-senegal",
+        "n": 1
+      },
+      {
+        "detail": "solaire-dandara-egypte",
+        "n": 1
+      },
+      {
+        "detail": "route-godomey-ouidah-hillacondj",
+        "n": 1
+      },
+      {
+        "detail": "route-douala-bafoussam",
+        "n": 1
+      }
+    ],
+    "Langue": [
+      {
+        "detail": "en",
+        "n": 3
+      },
+      {
+        "detail": "fr",
+        "n": 1
+      }
+    ],
+    "Clic fiche": [
+      {
+        "detail": "Même secteur",
+        "n": 3
+      },
+      {
+        "detail": "Liste des projets",
+        "n": 3
+      },
+      {
+        "detail": "Autre",
+        "n": 1
+      },
+      {
+        "detail": "À la une",
+        "n": 1
+      }
+    ],
+    "Source": [
+      {
+        "detail": "africafc.org",
+        "n": 2
+      }
+    ],
+    "Brief": [
+      {
+        "detail": "clic abonnement",
+        "n": 1
+      }
+    ]
+  }
+}
