@@ -511,8 +511,8 @@
     "stage": 1,
     "status": "publié",
     "summary": {
-      "fr": "Le chemin de fer Zambie–Lobito est une ligne nouvelle de 830 km entre la Zambie et l'Angola. L'Africa Finance Corporation (AFC) en est le promoteur et le développeur principal. Le 27 octobre 2026, elle a retenu deux consortiums comme soumissionnaires préférés des contrats EPC, un par section nationale. Aucun contrat n'est signé : les négociations s'ouvrent en novembre 2026.",
-      "en": "The Zambia Lobito Railway is a new 830 km line between Zambia and Angola. Africa Finance Corporation (AFC) is its promoter and lead developer. On 27 October 2026, AFC selected two consortia as preferred bidders for the EPC contracts, one for each national section. No contract has been signed: negotiations open in November 2026."
+      "fr": "Le chemin de fer Zambie–Lobito est une ligne nouvelle de 830 km entre la Zambie et l'Angola. L'Africa Finance Corporation (AFC) en est le promoteur et le développeur principal. Le 27 octobre 2026, elle a retenu deux consortiums comme soumissionnaires préférés des contrats EPC, un par section nationale. Aucun contrat n'est signé : les négociations s'ouvrent en novembre 2026, et l'AFC vise le bouclage financier en 2027.",
+      "en": "The Zambia Lobito Railway is a new 830 km line between Zambia and Angola. Africa Finance Corporation (AFC) is its promoter and lead developer. On 27 October 2026, AFC selected two consortia as preferred bidders for the EPC contracts, one for each national section. No contract has been signed: negotiations open in November 2026, and AFC is targeting financial close in 2027."
     },
     "capacity": "830 km",
     "cost": null,
@@ -522,6 +522,13 @@
     "target_date": null,
     "milestones": [
       {
+        "date": "2026-11-03",
+        "type": "annonce",
+        "text": {"fr": "À Lusaka, l'AFC fait le point avec le président Hichilema sur la ligne de 830 km. Des lettres d'intention et protocoles d'accord couvrent environ 2 millions de tonnes de fret par an. Le bouclage financier est visé en 2027 ; aucun nouveau contrat n'est annoncé.", "en": "In Lusaka, AFC briefs President Hichilema on progress on the 830 km line. Letters of intent and memoranda of understanding cover about 2 million tonnes of freight a year. Financial close is targeted for 2027; no new contract is announced."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.africafc.org/news-and-insights/news/zambia-lobito-railway-moves-towards-financial-close-as-president-hichilema-meets-afc-leadership", "publisher": "Africa Finance Corporation", "title": "Zambia–Lobito Railway Moves Towards Financial Close as President Hichilema Meets AFC Leadership", "published": "2026-11-06", "tier": "A"}]
+      },
+      {
         "date": "2026-10-27",
         "type": "attribution",
         "text": {"fr": "L'AFC retient deux consortiums comme soumissionnaires préférés pour les contrats EPC. Section zambienne : Webuild, Mota-Engil et IC İçtaş Construction. Section angolaise : Mota-Engil et Odebrecht Engineering and Construction. Les négociations s'ouvrent en novembre 2026, pour des contrats visés sous 8 à 12 semaines.", "en": "AFC selects two consortia as preferred bidders for the EPC contracts. Zambian section: Webuild, Mota-Engil and IC İçtaş Construction. Angolan section: Mota-Engil and Odebrecht Engineering and Construction. Negotiations open in November 2026, with contracts targeted within 8 to 12 weeks."},
@@ -529,7 +536,7 @@
         "sources": [{"url": "https://www.africafc.org/news-and-insights/news/afc-announces-preferred-epc-contractors-for-zambia-lobito-railway-advancing-atlantic-trade-corridor-to-project-implementation", "publisher": "Africa Finance Corporation", "title": "AFC Announces Preferred EPC Contractors for Zambia Lobito Railway, Advancing Atlantic Trade Corridor to Project Implementation", "published": "2026-10-27", "tier": "A"}]
       }
     ],
-    "updated": "2026-11-02"
+    "updated": "2026-11-09"
   },
   {
     "id": "centrale-solaire-tongon",
@@ -676,6 +683,13 @@
     "target_date": "2028-04",
     "milestones": [
       {
+        "date": "2026-11-02",
+        "type": "financement",
+        "text": {"fr": "La BAD signe avec Dandara Solar Power S.A.E. un accord de financement de 66 millions de dollars pour la phase 1. Il comprend 46 millions de dollars sur ses ressources ordinaires et 20 millions du Fonds pour les technologies propres. Le communiqué ne date pas la signature : le jalon porte la date de publication.", "en": "The AfDB signs a $66 million financing agreement with Dandara Solar Power S.A.E. for phase 1. It comprises $46 million from the Bank's ordinary resources and $20 million from the Clean Technology Fund. The statement does not date the signing: the milestone carries the publication date."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/fr/news-and-events/press-releases/egypte-banque-africaine-developpement-investit-66-98134", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "Égypte : la Banque africaine de développement investit 66 millions de dollars dans le projet d'énergie solaire de Dandara", "published": "2026-11-02", "tier": "A"}]
+      },
+      {
         "date": "2026-10-28",
         "type": "financement",
         "text": {"fr": "La BEI signe un prêt pouvant aller jusqu'à 90 millions de dollars, garanti par l'EFSD+, pour la phase 1. Celle-ci compte 569 MWc et 100 MWh de stockage, dans le gouvernorat de Qena. Le même jour, Scatec annonce 217 millions de dollars de prêts signés pour la phase 1 avec la BERD, la BAD et la BEI.", "en": "The EIB signs a loan of up to $90 million, guaranteed under EFSD+, for phase 1. This phase comprises 569 MWp and 100 MWh of storage, in Qena governorate. The same day, Scatec announces $217 million in phase 1 loans signed with the EBRD, the AfDB and the EIB."},
@@ -683,7 +697,7 @@
         "sources": [{"url": "https://www.eib.org/en/press/all/2026-363-eib-provides-up-to-usd90-million-for-one-of-the-largest-solar-and-battery-projects-in-egypt-and-africa", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "EIB provides up to $90 million for one of the largest solar and battery projects in Egypt and Africa", "published": "2026-10-29", "tier": "A"}, {"url": "https://www.eib.org/en/projects/all/20250695", "publisher": {"fr": "Banque européenne d'investissement", "en": "European Investment Bank"}, "title": "DANDARA SOLAR PV AND BESS (fiche projet 20250695)", "published": null, "tier": "A"}, {"url": "https://www.scatec.com/en/scatec-secures-financing-for-the-first-phase-of-the-dandara-solar-and-bess-project-in-egypt/", "publisher": "Scatec", "title": "Scatec secures financing for the first phase of the Dandara solar and BESS project in Egypt", "published": "2026-10-28", "tier": "A"}]
       }
     ],
-    "updated": "2026-11-02"
+    "updated": "2026-11-09"
   },
   {
     "id": "ligne-kitui-wote-132kv",
@@ -800,5 +814,105 @@
       }
     ],
     "updated": "2026-11-02"
+  },
+  {
+    "id": "centrales-solaires-axian-sika-benin",
+    "name": {"fr": "Quatre centrales solaires AXIAN Energy Green et Sika Capital (62 MWc)", "en": "Four AXIAN Energy Green and Sika Capital solar plants (62 MWp)"},
+    "country": "BJ",
+    "sector": "energie",
+    "stage": 2,
+    "status": "publié",
+    "summary": {"fr": "AXIAN Energy Green et Sika Capital développent au Bénin quatre centrales solaires photovoltaïques d'un total de 62 MWc. Proparco et IFC y apportent chacune environ 14 millions d'euros, selon un communiqué de Proparco du 2 novembre 2026. Sagemcom est l'entreprise EPC des quatre centrales et en assurera la maintenance pendant les deux premières années. Selon Proparco, ces 62 MWc équivalent à environ 10 % de la capacité électrique installée du pays.", "en": "AXIAN Energy Green and Sika Capital are developing four solar photovoltaic plants in Benin with a combined 62 MWp. Proparco and IFC are each providing about €14 million, according to a Proparco statement of 2 November 2026. Sagemcom is the EPC contractor for the four plants and will maintain them for the first two years. According to Proparco, the 62 MWp equals about 10% of the country's installed power capacity."},
+    "capacity": {"fr": "62 MWc", "en": "62 MWp"},
+    "cost": {"amount": 14, "currency": "EUR", "unit": "millions", "note": {"fr": "Environ 14 millions d'euros apportés par Proparco, et autant par IFC ; pas le coût total du projet, non publié.", "en": "About €14 million from Proparco, and the same amount from IFC; not the total project cost, which has not been published."}},
+    "owner": ["AXIAN Energy Green", "Sika Capital"],
+    "lenders": ["Proparco", "IFC"],
+    "contractors": ["Sagemcom"],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-02",
+        "type": "financement",
+        "text": {"fr": "Proparco et IFC apportent chacune environ 14 millions d'euros pour quatre centrales solaires d'un total de 62 MWc. AXIAN Energy Green et Sika Capital les développent ; Sagemcom en est l'entreprise EPC et en assurera la maintenance pendant les deux premières années. Proparco ne date pas la signature : le jalon porte la date de publication.", "en": "Proparco and IFC each provide about €14 million for four solar plants with a combined 62 MWp. AXIAN Energy Green and Sika Capital are developing them; Sagemcom is the EPC contractor and will maintain them for the first two years. Proparco does not date the signing: the milestone carries the publication date."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.proparco.fr/fr/actualites/benin-proparco-et-ifc-soutiennent-axian-et-sika-pour-financer-62-mwc-de-nouvelles", "publisher": "Proparco", "title": "Bénin : Proparco et IFC soutiennent Axian et Sika pour financer 62 MWc de nouvelles capacités solaires", "published": "2026-11-02", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-09"
+  },
+  {
+    "id": "sgr-tanzanie-tabora-kigoma",
+    "name": {"fr": "Chemin de fer à écartement standard de Tanzanie, lot 6 Tabora–Kigoma", "en": "Tanzania standard gauge railway, lot 6 Tabora–Kigoma"},
+    "country": "TZ",
+    "sector": "transport",
+    "stage": 2,
+    "status": "publié",
+    "summary": {"fr": "Le lot 6 du chemin de fer à écartement standard de Tanzanie couvre les 411 km de ligne électrifiée entre Tabora et Kigoma. La Tanzanie a signé pour ce lot un crédit commercial de 1,2 milliard de dollars, annoncé par la BAD le 4 novembre 2026. Neuf banques, coarrangées par la Deutsche Bank et la Société Générale, le fournissent ; la BAD le garantit jusqu'à 800 millions de dollars. Ce crédit fait partie d'un montage de 2,3 milliards de dollars ; le communiqué ne nomme pas l'entreprise de construction.", "en": "Lot 6 of Tanzania's standard gauge railway covers the 411 km of electrified line between Tabora and Kigoma. Tanzania has signed a $1.2 billion commercial loan for this lot, announced by the AfDB on 4 November 2026. Nine banks, co-arranged by Deutsche Bank and Société Générale, provide the loan; the AfDB guarantees it up to $800 million. The loan is part of a $2.3 billion financing package; the statement does not name the construction contractor."},
+    "capacity": "411 km",
+    "cost": {"amount": 1.2, "currency": "USD", "unit": "milliards", "note": {"fr": "Crédit commercial signé, garanti en partie par la BAD ; il fait partie d'un montage de 2,3 milliards de dollars. Pas le coût total du lot.", "en": "Signed commercial loan, partly guaranteed by the AfDB; it is part of a $2.3 billion financing package. Not the total cost of the lot."}},
+    "owner": null,
+    "lenders": ["Deutsche Bank", "Société Générale", "HSBC", "Commerzbank", "Nedbank", "Stanbic Bank Tanzania", "First Abu Dhabi Bank", "FirstBank UK", "Bank of Africa United Kingdom", {"fr": "Banque africaine de développement (garantie partielle de crédit)", "en": "African Development Bank (partial credit guarantee)"}],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-04",
+        "type": "financement",
+        "text": {"fr": "La Tanzanie signe un crédit commercial de 1,2 milliard de dollars pour le lot 6 de son chemin de fer à écartement standard. Ce lot couvre les 411 km entre Tabora et Kigoma. La BAD apporte une garantie partielle de crédit pouvant atteindre 800 millions de dollars. Neuf banques, coarrangées par la Deutsche Bank et la Société Générale, apportent 720 millions de dollars garantis et 480 millions sur risque souverain. Le communiqué ne date pas la signature : le jalon porte la date de publication.", "en": "Tanzania signs a $1.2 billion commercial loan for lot 6 of its standard gauge railway. This lot covers the 411 km between Tabora and Kigoma. The AfDB provides a partial credit guarantee of up to $800 million. Nine banks, co-arranged by Deutsche Bank and Société Générale, provide $720 million under the guarantee and $480 million on sovereign risk. The statement does not date the signing: the milestone carries the publication date."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/fr/news-and-events/press-releases/tanzanie-banque-africaine-developpement-signent-98247", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "La Tanzanie et la Banque africaine de développement signent un accord historique de 1,2 milliard de dollars pour le chemin de fer à écartement standard", "published": "2026-11-04", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-09"
+  },
+  {
+    "id": "centrale-gaz-atinkou",
+    "name": {"fr": "Centrale à cycle combiné d'Atinkou", "en": "Atinkou combined-cycle power plant"},
+    "country": "CI",
+    "sector": "energie",
+    "stage": 4,
+    "status": "publié",
+    "summary": {"fr": "Le Premier ministre Robert Beugré Mambé a inauguré le 6 novembre 2026 la centrale à cycle combiné d'Atinkou, à Jacqueville (Côte d'Ivoire). Sa capacité dépasse 390 MW selon le gouvernement ; la BAD donne 390 MW. Le gouvernement chiffre l'investissement à 265 milliards de francs CFA et la production attendue à 2 875 GWh par an. La BAD donne un coût total de 404 millions d'euros, dont 81 millions apportés par son groupe.", "en": "Prime Minister Robert Beugré Mambé inaugurated the Atinkou combined-cycle power plant in Jacqueville (Côte d'Ivoire) on 6 November 2026. Its capacity exceeds 390 MW according to the government; the AfDB gives 390 MW. The government puts the investment at 265 billion CFA francs and expected output at 2,875 GWh a year. The AfDB gives a total cost of €404 million, of which €81 million came from its group."},
+    "capacity": {"fr": "plus de 390 MW selon le gouvernement ; 390 MW selon la BAD", "en": "more than 390 MW according to the government; 390 MW according to the AfDB"},
+    "cost": {"amount": 265, "currency": "XOF", "unit": "milliards", "note": {"fr": "Investissement selon le gouvernement ivoirien. La BAD donne un coût total de 404 millions d'euros.", "en": "Investment according to the Ivorian government. The AfDB gives a total cost of €404 million."}},
+    "owner": null,
+    "lenders": [{"fr": "Banque africaine de développement", "en": "African Development Bank"}, "IFC", "DEG", "FMO", "Proparco", "EAIF", {"fr": "Fonds OPEP", "en": "OPEC Fund"}],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-06",
+        "type": "mise-en-service",
+        "text": {"fr": "Le Premier ministre Robert Beugré Mambé inaugure officiellement la centrale à cycle combiné d'Atinkou, à Jacqueville. Selon le gouvernement, elle compte plus de 390 MW, pour un investissement de 265 milliards de francs CFA. La BAD annonce 390 MW et un coût total de 404 millions d'euros, dont 81 millions apportés par son groupe. La date est celle de l'inauguration officielle, pas celle de la mise en exploitation.", "en": "Prime Minister Robert Beugré Mambé officially inaugurates the Atinkou combined-cycle power plant in Jacqueville. According to the government, it has more than 390 MW, for an investment of 265 billion CFA francs. The AfDB reports 390 MW and a total cost of €404 million, of which €81 million came from its group. The date is that of the official inauguration, not the start of operations."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.gouv.ci/actualite/energie-le-premier-ministre-robert-beugre-mambe-met-officiellement-en-service-la-centrale-thermique-datinkou-0319", "publisher": {"fr": "Gouvernement de Côte d'Ivoire", "en": "Government of Côte d'Ivoire"}, "title": "Énergie : le Premier ministre Robert Beugré Mambé met officiellement en service la centrale thermique d'Atinkou", "published": "2026-11-06", "tier": "A"}, {"url": "https://www.linkedin.com/posts/african-development-bank_westafrica-activity-7524140364451078144-IEhj", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "Post LinkedIn", "published": "2026-11-05", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-09"
+  },
+  {
+    "id": "autoroute-abidjan-lagos",
+    "name": {"fr": "Autoroute du corridor Abidjan–Lagos", "en": "Abidjan–Lagos corridor highway"},
+    "country": "CI,GH,TG,BJ,NG",
+    "sector": "transport",
+    "stage": 1,
+    "status": "brouillon",
+    "summary": {"fr": "L'autoroute à six voies du corridor Abidjan–Lagos doit traverser cinq pays sur environ 1 028 km, de la Côte d'Ivoire au Nigeria. Selon le portail officiel togolais, son coût estimatif de 15 milliards de dollars pourrait passer à 13, voire 10 milliards selon les options de financement. Le 30 octobre 2026, à Lomé, le Togo a proposé des mesures d'accélération au comité ministériel de pilotage. Aucune décision de financement n'est annoncée.", "en": "The six-lane Abidjan–Lagos corridor highway is planned to run about 1,028 km through five countries, from Côte d'Ivoire to Nigeria. According to Togo's official portal, its estimated cost of $15 billion could be reduced to $13 billion or even $10 billion depending on financing options. On 30 October 2026, in Lomé, Togo put forward measures to speed up the project at the ministerial steering committee. No financing decision has been announced."},
+    "capacity": {"fr": "environ 1 028 km, six voies", "en": "about 1,028 km, six lanes"},
+    "cost": {"amount": 15, "currency": "USD", "unit": "milliards", "note": {"fr": "Coût estimatif initial selon le portail officiel togolais. Il pourrait être ramené à 13, voire 10 milliards de dollars selon les options de financement examinées.", "en": "Initial cost estimate according to Togo's official portal. It could be reduced to $13 billion or even $10 billion depending on the financing options under review."}},
+    "owner": null,
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-30",
+        "type": "etude",
+        "text": {"fr": "À Lomé, la 23e réunion du comité ministériel de pilotage examine l'autoroute du corridor Abidjan–Lagos. Le coût estimatif de 15 milliards de dollars pourrait être ramené à 13, voire 10 milliards selon les options de financement. Le Togo propose trois mesures : recruter le directeur général de l'ALCoMA, centraliser la libération des emprises, créer un mécanisme commun de péréquation. Aucune décision de financement n'est annoncée.", "en": "In Lomé, the 23rd meeting of the ministerial steering committee reviews the Abidjan–Lagos corridor highway. The estimated cost of $15 billion could be reduced to $13 billion or even $10 billion depending on financing options. Togo proposes three measures: recruiting the director general of ALCoMA, centralising right-of-way clearance and creating a joint equalisation mechanism. No financing decision is announced."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.republiquetogolaise.tg/gestion-publique/0211-12452-corridor-abidjan-lagos-le-togo-propose-des-mesures-d-acceleration", "publisher": "République togolaise – Togo Officiel", "title": "Corridor Abidjan-Lagos : le Togo propose des mesures d'accélération", "published": "2026-11-02", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-09"
   }
 ]

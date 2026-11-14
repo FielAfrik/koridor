@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "number": 4,
+  "moved": [
+    {
+      "project_id": "sgr-tanzanie-tabora-kigoma",
+      "line": {
+        "fr": "La Tanzanie signe un crédit commercial de 1,2 milliard de dollars pour le lot 6 Tabora–Kigoma, garanti en partie par la BAD (4 novembre).",
+        "en": "Tanzania signed a $1.2 billion commercial loan for lot 6, Tabora–Kigoma, partly guaranteed by the AfDB (4 November)."
+      }
+    },
+    {
+      "project_id": "centrale-gaz-atinkou",
+      "line": {
+        "fr": "Le Premier ministre ivoirien inaugure le 6 novembre la centrale d'Atinkou, à Jacqueville. Plus de 390 MW selon le gouvernement, 390 MW selon la BAD.",
+        "en": "Côte d'Ivoire's prime minister inaugurated the Atinkou plant in Jacqueville on 6 November. More than 390 MW according to the government, 390 MW according to the AfDB."
+      }
+    },
+    {
+      "project_id": "centrales-solaires-axian-sika-benin",
+      "line": {
+        "fr": "Proparco et IFC apportent chacune environ 14 millions d'euros à quatre centrales solaires béninoises de 62 MWc au total (2 novembre).",
+        "en": "Proparco and IFC are each providing about €14 million for four solar plants in Benin with a combined 62 MWp (2 November)."
+      }
+    },
+    {
+      "project_id": "solaire-dandara-egypte",
+      "line": {
+        "fr": "La BAD publie le 2 novembre un accord de financement de 66 millions de dollars signé pour la phase 1.",
+        "en": "On 2 November the AfDB published a $66 million financing agreement signed for phase 1."
+      }
+    },
+    {
+      "project_id": "chemin-de-fer-lobito-zambie",
+      "line": {
+        "fr": "L'AFC vise le bouclage financier en 2027 (point du 3 novembre). Des lettres d'intention et protocoles d'accord couvrent environ 2 millions de tonnes de fret par an.",
+        "en": "AFC is targeting financial close in 2027 (update of 3 November). Letters of intent and memoranda of understanding cover about 2 million tonnes of freight a year."
+      }
+    }
+  ],
+  "deal": {
+    "project_id": "sgr-tanzanie-tabora-kigoma",
+    "title": {
+      "fr": "La Tanzanie signe un crédit de 1,2 milliard de dollars pour la ligne Tabora–Kigoma",
+      "en": "Tanzania signs $1.2 billion loan for the Tabora–Kigoma line"
+    },
+    "body": {
+      "fr": "La Tanzanie a signé un crédit commercial de 1,2 milliard de dollars pour le lot 6 de son chemin de fer à écartement standard. Ce lot couvre 411 km de ligne électrifiée entre Tabora et Kigoma. La Banque africaine de développement (BAD) l'a annoncé le 4 novembre 2026, sans dater la signature.\n\nNeuf banques, coarrangées par la Deutsche Bank et la Société Générale, fournissent le crédit. La BAD le garantit en partie, jusqu'à 800 millions de dollars. Il se répartit en 720 millions de dollars de prêts garantis et 480 millions sur le seul risque souverain.\n\nCe crédit fait partie d'un montage de 2,3 milliards de dollars. Le communiqué ne donne pas le coût du lot.",
+      "en": "Tanzania has signed a $1.2 billion commercial loan for lot 6 of its standard gauge railway. The lot covers 411 km of electrified line between Tabora and Kigoma. The African Development Bank (AfDB) announced it on 4 November 2026, without dating the signing.\n\nNine banks, co-arranged by Deutsche Bank and Société Générale, provide the loan. The AfDB guarantees part of it, up to $800 million. It is split into $720 million of guaranteed loans and $480 million on sovereign risk alone.\n\nThe loan is part of a $2.3 billion financing package. The statement does not give the cost of the lot."
+    }
+  },
+  "analysis": {
+    "title": {
+      "fr": "La centrale d'Atinkou porte la capacité installée ivoirienne à 3 337 MW",
+      "en": "Atinkou plant takes Côte d'Ivoire's installed capacity to 3,337 MW"
+    },
+    "body": {
+      "fr": "Le Premier ministre ivoirien, Robert Beugré Mambé, a inauguré le 6 novembre 2026 la centrale à cycle combiné d'Atinkou, à Jacqueville. Le gouvernement annonce plus de 390 MW, la Banque africaine de développement (BAD) 390 MW. Selon le gouvernement, la capacité installée du pays atteint désormais 3 337 MW.\n\nUne centrale à cycle combiné associe une ou plusieurs turbines à gaz et une turbine à vapeur. La chaleur des gaz d'échappement produit la vapeur : la centrale tire plus d'électricité du même combustible. La fiche Koridor ne renseigne pas encore la configuration des turbines ni l'approvisionnement en gaz.\n\nLe gouvernement estime la production à 2 875 GWh par an. Rapporté à 390 MW, cela fait au plus environ 7 370 heures à pleine puissance, soit environ 84 % de l'année (calcul Koridor). Ce profil de centrale de base suppose un gaz livré sans interruption et peu d'arrêts non programmés.\n\nLa BAD donne un coût total de 404 millions d'euros pour 390 MW. Cela fait environ 1,04 million d'euros par MW (calcul Koridor sur les chiffres de la BAD). Le gouvernement chiffre l'investissement à 265 milliards de francs CFA.\n\nSelon la BAD, un consortium d'institutions de développement a financé la centrale, dont elle-même, IFC, DEG, FMO, Proparco, EAIF et le Fonds OPEP. Le Groupe de la BAD y a apporté 81 millions d'euros. Les sources de la fiche ne donnent ni la part des autres bailleurs ni le partage entre dette et fonds propres.\n\nL'électricité part sur des lignes de 400 kV, selon le gouvernement. Avec plus de 390 MW, Atinkou pèse plus de 11 % des 3 337 MW installés (calcul Koridor). Un arrêt imprévu de la centrale doit donc être couvert par la réserve des autres groupes du réseau.\n\nLes actionnaires ne figurent pas encore dans la fiche : la seule source officielle qui les nomme n'est pas inscrite au registre de Koridor.\n\nÀ suivre : les premiers chiffres de production publiés par le gouvernement ou l'exploitant, à comparer aux 2 875 GWh par an annoncés.",
+      "en": "Côte d'Ivoire's prime minister, Robert Beugré Mambé, inaugurated the Atinkou combined-cycle power plant in Jacqueville on 6 November 2026. The government reports more than 390 MW, the African Development Bank (AfDB) 390 MW. According to the government, the country's installed capacity now stands at 3,337 MW.\n\nA combined-cycle plant pairs one or more gas turbines with a steam turbine. Heat from the exhaust gases produces the steam, so the plant gets more electricity from the same fuel. The Koridor project page does not yet record the turbine configuration or the gas supply.\n\nThe government estimates output at 2,875 GWh a year. Based on 390 MW, that is at most about 7,370 hours at full load, or about 84% of the year (Koridor calculation). This baseload profile requires uninterrupted gas deliveries and few unplanned outages.\n\nThe AfDB gives a total cost of €404 million for 390 MW. That is about €1.04 million per MW (Koridor calculation based on AfDB figures). The government puts the investment at 265 billion CFA francs.\n\nThe AfDB says a consortium of development finance institutions financed the plant, including itself, IFC, DEG, FMO, Proparco, EAIF and the OPEC Fund. The AfDB Group contributed €81 million. The project page's sources give neither the other lenders' shares nor the split between debt and equity.\n\nPower leaves the plant on 400 kV lines, according to the government. With more than 390 MW, Atinkou accounts for more than 11% of the 3,337 MW installed (Koridor calculation). An unplanned outage at the plant must therefore be covered by reserves from other units on the grid.\n\nThe shareholders are not yet on the project page: the only official source that names them is not listed in the Koridor register.\n\nTo watch: the first production figures published by the government or the operator, to compare with the announced 2,875 GWh a year."
+    }
+  }
+}
