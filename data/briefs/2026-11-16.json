@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-16",
+  "number": 5,
+  "moved": [
+    {
+      "project_id": "chantier-naval-shiprite-takoradi",
+      "line": {
+        "fr": "Le chantier naval de Takoradi boucle le 21 octobre un crédit syndiqué de 94 millions de dollars. Afreximbank l'annonce le 13 novembre.",
+        "en": "The Takoradi ship repair yard reached financial close on a $94 million syndicated loan on 21 October. Afreximbank announced it on 13 November."
+      }
+    },
+    {
+      "project_id": "centrale-biomasse-biovea",
+      "line": {
+        "fr": "La centrale à biomasse Biovéa (46 MW) est inaugurée le 5 novembre à Ayébo (Aboisso). CI-Énergies chiffre l'investissement à plus de 150 milliards de francs CFA.",
+        "en": "The 46 MW Biovéa biomass power plant was inaugurated in Ayébo (Aboisso) on 5 November. CI-Énergies puts the investment at more than 150 billion CFA francs."
+      }
+    },
+    {
+      "project_id": "route-banfora-frontiere-ci",
+      "line": {
+        "fr": "Le Burkina Faso lance le 12 novembre l'appel d'offres pour les 71,3 km de la route Banfora – frontière ivoirienne. Offres attendues le 31 décembre.",
+        "en": "Burkina Faso launched the tender for the 71.3 km Banfora – Côte d'Ivoire border road on 12 November. Bids are due on 31 December."
+      }
+    }
+  ],
+  "deal": {
+    "project_id": "chantier-naval-shiprite-takoradi",
+    "title": {
+      "fr": "Afreximbank boucle un crédit de 94 millions de dollars pour le chantier naval de Takoradi",
+      "en": "Afreximbank closes $94 million loan for Takoradi ship repair yard"
+    },
+    "body": {
+      "fr": "Le crédit syndiqué de 94 millions de dollars du chantier naval de Takoradi, au Ghana, a atteint son bouclage financier le 21 octobre 2026. Afreximbank l'a annoncé le 13 novembre sur son compte X. Le bouclage a été célébré le 10 novembre à Accra et à Takoradi.\n\nAfreximbank arrange le crédit et y apporte 50 millions de dollars. La BAD, la TDB et Petra Trust Company Limited–Ghana complètent le tour de table. Leurs parts ne sont pas publiées.\n\nLe projet, appelé Project Shiprite, est un chantier de réparation navale bâti autour d'un dock flottant. Afreximbank chiffre son coût à environ 137 millions de dollars. Le début des travaux n'est pas confirmé par une source officielle.",
+      "en": "The $94 million syndicated loan for the Takoradi ship repair yard in Ghana reached financial close on 21 October 2026. Afreximbank announced it on its X account on 13 November. Financial close was celebrated in Accra and Takoradi on 10 November.\n\nAfreximbank arranged the loan and is contributing $50 million. The AfDB, TDB and Petra Trust Company Limited–Ghana make up the rest of the syndicate. Their shares have not been published.\n\nThe project, known as Project Shiprite, is a ship repair facility built around a floating dock. Afreximbank puts its cost at about $137 million. The start of construction has not been confirmed by an official source."
+    }
+  },
+  "analysis": {
+    "title": {
+      "fr": "Le crédit de Takoradi couvre environ 69 % du coût annoncé du chantier naval",
+      "en": "Takoradi loan covers about 69% of the ship repair yard's announced cost"
+    },
+    "body": {
+      "fr": "Le chantier de réparation navale de Takoradi, au Ghana, a bouclé le 21 octobre 2026 un crédit syndiqué de 94 millions de dollars. Afreximbank chiffre le projet à environ 137 millions de dollars. Le crédit couvre donc environ 69 % du coût annoncé (calcul Koridor sur les chiffres d'Afreximbank).\n\nLe projet repose sur un dock flottant. Ce type d'ouvrage est un caisson que l'on remplit d'eau pour l'enfoncer sous le navire. On le vide ensuite par pompage pour soulever la coque hors de l'eau.\n\nUn dock flottant évite de creuser une forme de radoub dans le quai. Il demande en revanche un plan d'eau abrité, assez profond pour l'immersion, et un amarrage dimensionné pour la houle. Le dock est lui-même un flotteur, avec ses propres inspections de coque et son entretien.\n\nLa fiche Koridor ne renseigne ni la capacité de levage du dock, ni la longueur des navires admis, ni son constructeur. Ces données fixent le marché visé et le calendrier. Si le dock est construit dans un autre chantier puis remorqué, le transport et la mise en place deviennent des postes de risque.\n\nAfreximbank arrange le crédit et y apporte 50 millions de dollars, soit environ 53 % de l'enveloppe (calcul Koridor). La BAD, la TDB et Petra Trust Company Limited–Ghana se partagent donc 44 millions de dollars. Leurs parts respectives ne sont pas publiées.\n\nEntre le coût annoncé et le crédit, il reste environ 43 millions de dollars (calcul Koridor). Afreximbank ne dit pas comment ils sont financés : fonds propres, autre dette ou subvention. Ce calcul reste approché, car le coût de 137 millions de dollars est lui-même donné comme approximatif.\n\nLa durée du crédit, son taux et sa garantie ne sont pas publiés. Si le crédit est remboursé sur les recettes du chantier, le risque porte sur le nombre de navires qui passeront au dock. Aucun carnet de clients n'est rendu public à ce jour.\n\nLe porteur du projet ne figure pas encore dans la fiche : seule une source de rang C le nomme.\n\nÀ suivre : l'annonce officielle du début des travaux, qui ferait passer le projet au stade 3 (construction).",
+      "en": "The Takoradi ship repair yard in Ghana reached financial close on a $94 million syndicated loan on 21 October 2026. Afreximbank puts the project cost at about $137 million. The loan therefore covers about 69% of the announced cost (Koridor calculation based on Afreximbank figures).\n\nThe project is built around a floating dock. This type of structure is a hollow pontoon that is flooded to sink it beneath the vessel. It is then pumped out to lift the hull clear of the water.\n\nA floating dock avoids cutting a graving dock into the quay. However, it needs a sheltered stretch of water deep enough for submersion, and moorings designed for the swell. The dock is itself a floating structure, with its own hull inspections and maintenance.\n\nThe Koridor profile does not give the dock's lifting capacity, the length of vessels it can take or its builder. These figures determine the target market and the schedule. If the dock is built at another yard and then towed, transport and installation become risk items.\n\nAfreximbank arranged the loan and is contributing $50 million, about 53% of the facility (Koridor calculation). The AfDB, TDB and Petra Trust Company Limited–Ghana therefore share $44 million. Their individual shares have not been published.\n\nThat leaves about $43 million between the announced cost and the loan (Koridor calculation). Afreximbank does not say how this is funded: equity, other debt or grants. The calculation is approximate, as the $137 million cost is itself given as an approximation.\n\nThe loan's tenor, interest rate and security have not been published. If the loan is repaid from the yard's revenue, the risk lies in the number of vessels that use the dock. No customer order book has been made public to date.\n\nThe project sponsor is not yet listed in the profile: only a tier C source names it.\n\nTo watch: the official announcement of the start of works, which would move the project to stage 3 (construction)."
+    }
+  }
+}
