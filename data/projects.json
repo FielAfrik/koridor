@@ -885,10 +885,10 @@
         "type": "mise-en-service",
         "text": {"fr": "Le Premier ministre Robert Beugré Mambé inaugure officiellement la centrale à cycle combiné d'Atinkou, à Jacqueville. Selon le gouvernement, elle compte plus de 390 MW, pour un investissement de 265 milliards de francs CFA. La BAD annonce 390 MW et un coût total de 404 millions d'euros, dont 81 millions apportés par son groupe. La date est celle de l'inauguration officielle, pas celle de la mise en exploitation.", "en": "Prime Minister Robert Beugré Mambé officially inaugurates the Atinkou combined-cycle power plant in Jacqueville. According to the government, it has more than 390 MW, for an investment of 265 billion CFA francs. The AfDB reports 390 MW and a total cost of €404 million, of which €81 million came from its group. The date is that of the official inauguration, not the start of operations."},
         "confidence": "confirmé",
-        "sources": [{"url": "https://www.gouv.ci/actualite/energie-le-premier-ministre-robert-beugre-mambe-met-officiellement-en-service-la-centrale-thermique-datinkou-0319", "publisher": {"fr": "Gouvernement de Côte d'Ivoire", "en": "Government of Côte d'Ivoire"}, "title": "Énergie : le Premier ministre Robert Beugré Mambé met officiellement en service la centrale thermique d'Atinkou", "published": "2026-11-06", "tier": "A"}, {"url": "https://www.linkedin.com/posts/african-development-bank_westafrica-activity-7524140364451078144-IEhj", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "Post LinkedIn", "published": "2026-11-05", "tier": "A"}]
+        "sources": [{"url": "https://www.gouv.ci/actualite/energie-le-premier-ministre-robert-beugre-mambe-met-officiellement-en-service-la-centrale-thermique-datinkou-0319", "publisher": {"fr": "Gouvernement de Côte d'Ivoire", "en": "Government of Côte d'Ivoire"}, "title": "Énergie : le Premier ministre Robert Beugré Mambé met officiellement en service la centrale thermique d'Atinkou", "published": "2026-11-06", "tier": "A"}, {"url": "https://www.afdb.org/fr/news-and-events/press-releases/nous-avons-reve-projet-sest-realise-centrale-98394", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "« Nous avons rêvé et le projet s'est réalisé » : la centrale d'Atinkou inaugurée en Côte d'Ivoire", "published": "2026-11-09", "tier": "A"}]
       }
     ],
-    "updated": "2026-11-09"
+    "updated": "2026-11-16"
   },
   {
     "id": "autoroute-abidjan-lagos",
@@ -911,8 +911,140 @@
         "text": {"fr": "À Lomé, la 23e réunion du comité ministériel de pilotage examine l'autoroute du corridor Abidjan–Lagos. Le coût estimatif de 15 milliards de dollars pourrait être ramené à 13, voire 10 milliards selon les options de financement. Le Togo propose trois mesures : recruter le directeur général de l'ALCoMA, centraliser la libération des emprises, créer un mécanisme commun de péréquation. Aucune décision de financement n'est annoncée.", "en": "In Lomé, the 23rd meeting of the ministerial steering committee reviews the Abidjan–Lagos corridor highway. The estimated cost of $15 billion could be reduced to $13 billion or even $10 billion depending on financing options. Togo proposes three measures: recruiting the director general of ALCoMA, centralising right-of-way clearance and creating a joint equalisation mechanism. No financing decision is announced."},
         "confidence": "confirmé",
         "sources": [{"url": "https://www.republiquetogolaise.tg/gestion-publique/0211-12452-corridor-abidjan-lagos-le-togo-propose-des-mesures-d-acceleration", "publisher": "République togolaise – Togo Officiel", "title": "Corridor Abidjan-Lagos : le Togo propose des mesures d'accélération", "published": "2026-11-02", "tier": "A"}]
+      },
+      {
+        "date": "2025-07",
+        "type": "etude",
+        "text": {"fr": "Selon la BAD, les études de faisabilité et d'exécution de l'autoroute sont achevées, et leurs rapports validés en juillet 2025. La Commission de la CEDEAO confirme la fin des études économiques et techniques. La BAD indique que le conseil en transaction pour un partenariat public-privé est en cours.", "en": "According to the AfDB, the feasibility and detailed design studies for the highway are complete, and their reports were validated in July 2025. The ECOWAS Commission confirms that the economic and technical studies have been completed. The AfDB says transaction advisory work for a public-private partnership is under way."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/sites/default/files/documents/projects-and-operations/p-z1-db0-234.doc.pdf", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "Implementation Progress and Results Report – Supplementary Grant – Study for the Abidjan–Lagos Corridor Highway Development Project (P-Z1-DB0-234)", "published": "2026-10-26", "tier": "A"}, {"url": "https://www.ecowas.int/?p=129695", "publisher": {"fr": "Commission de la CEDEAO", "en": "ECOWAS Commission"}, "title": "African Development Bank and ECOWAS commences joint identification missions to corridor member states to engage initiate financing discussions for the construction of the 1028km 6-lane Abidjan-Lagos highway", "published": "2026-05-05", "tier": "A"}]
       }
     ],
-    "updated": "2026-11-09"
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "centrale-biomasse-biovea",
+    "name": {"fr": "Centrale à biomasse Biovéa", "en": "Biovéa biomass power plant"},
+    "country": "CI",
+    "sector": "energie",
+    "stage": 4,
+    "status": "publié",
+    "summary": {"fr": "La centrale à biomasse Biovéa, de 46 MW, se trouve à Ayébo (Aboisso), en Côte d'Ivoire. Elle a été inaugurée le 5 novembre 2026, la veille de l'inauguration de la centrale d'Atinkou. CI-Énergies chiffre l'investissement à plus de 150 milliards de francs CFA. Les actionnaires et les bailleurs ne sont pas encore renseignés dans la fiche.", "en": "The 46 MW Biovéa biomass power plant is located in Ayébo (Aboisso), Côte d'Ivoire. It was inaugurated on 5 November 2026, the day before the inauguration of the Atinkou power plant. CI-Énergies puts the investment at more than 150 billion CFA francs. The plant's shareholders and lenders are not yet listed in this profile."},
+    "capacity": "46 MW",
+    "cost": {"amount": 150, "currency": "XOF", "unit": "milliards", "note": {"fr": "« Plus de 150 milliards » de francs CFA selon CI-Énergies : un minimum, pas un montant exact.", "en": "\"More than 150 billion\" CFA francs according to CI-Énergies: a minimum, not an exact figure."}},
+    "owner": null,
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-05",
+        "type": "mise-en-service",
+        "text": {"fr": "La centrale à biomasse Biovéa (46 MW) est inaugurée le 5 novembre 2026 à Ayébo (Aboisso). CI-Énergies chiffre l'investissement à plus de 150 milliards de francs CFA.", "en": "The 46 MW Biovéa biomass power plant is inaugurated on 5 November 2026 in Ayébo (Aboisso). CI-Énergies puts the investment at more than 150 billion CFA francs."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.linkedin.com/posts/ci-energies_cinergies-construireabrlaabrcaektedivoireabrelectrique-activity-7525456746799382529-C7RN", "publisher": "CI-Énergies", "title": "Électricité : plus de 415 milliards FCFA investis pour renforcer les capacités de production nationales (post LinkedIn)", "published": "2026-11-09", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "chantier-naval-shiprite-takoradi",
+    "name": {"fr": "Chantier de réparation navale de Takoradi (Project Shiprite)", "en": "Takoradi ship repair facility (Project Shiprite)"},
+    "country": "GH",
+    "sector": "transport",
+    "stage": 2,
+    "status": "publié",
+    "summary": {"fr": "Project Shiprite est un chantier de réparation navale bâti autour d'un dock flottant, au port de Takoradi, au Ghana. Afreximbank chiffre le projet à environ 137 millions de dollars. Le crédit syndiqué de 94 millions de dollars qu'elle a arrangé a atteint son bouclage financier le 21 octobre 2026. Le début des travaux n'est pas encore confirmé par une source officielle.", "en": "Project Shiprite is a ship repair facility built around a floating dock at the port of Takoradi, Ghana. Afreximbank puts the project cost at about $137 million. The $94 million syndicated loan it arranged reached financial close on 21 October 2026. The start of construction has not yet been confirmed by an official source."},
+    "capacity": null,
+    "cost": {"amount": 137, "currency": "USD", "unit": "millions", "note": {"fr": "Coût approximatif du projet selon Afreximbank.", "en": "Approximate project cost according to Afreximbank."}},
+    "owner": null,
+    "lenders": ["Afreximbank", {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "TDB", "Petra Trust Company Limited–Ghana"],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-10-21",
+        "type": "financement",
+        "text": {"fr": "Le crédit syndiqué de 94 millions de dollars arrangé par Afreximbank atteint son bouclage financier le 21 octobre 2026. Afreximbank y apporte 50 millions de dollars, aux côtés de la BAD, de la TDB et de Petra Trust Company Limited–Ghana. Le bouclage est célébré à Accra et à Takoradi le 10 novembre 2026.", "en": "The $94 million syndicated loan arranged by Afreximbank reaches financial close on 21 October 2026. Afreximbank contributes $50 million, alongside the AfDB, TDB and Petra Trust Company Limited–Ghana. Financial close is celebrated in Accra and Takoradi on 10 November 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://x.com/afreximbank/status/2121223762200691150", "publisher": "Afreximbank", "title": "Post X @afreximbank (Project Shiprite)", "published": "2026-11-13", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "mini-reseaux-solaires-at2er-togo",
+    "name": {"fr": "Mini-réseaux solaires de l'AT2ER", "en": "AT2ER solar mini-grids"},
+    "country": "TG",
+    "sector": "energie",
+    "stage": 0,
+    "status": "brouillon",
+    "summary": {"fr": "L'Agence togolaise d'électrification rurale et des énergies renouvelables (AT2ER) prévoit 56 mini-réseaux solaires au Togo. Le projet de budget-programme 2027 inscrit le début de leurs travaux en 2027. Les mini-réseaux visent près de 19 000 ménages potentiels. Aucun montant, aucun bailleur ni aucune date de mise en service n'est publié.", "en": "The Togolese Agency for Rural Electrification and Renewable Energy (AT2ER) plans 56 solar mini-grids in Togo. The draft 2027 programme budget schedules the start of construction for 2027. The mini-grids are intended for nearly 19,000 potential households. No amount, lender or commissioning date has been published."},
+    "capacity": {"fr": "56 mini-réseaux solaires, près de 19 000 ménages potentiels", "en": "56 solar mini-grids, nearly 19,000 potential households"},
+    "cost": null,
+    "owner": ["AT2ER"],
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-10",
+        "type": "annonce",
+        "text": {"fr": "Le 10 novembre 2026, le portail officiel du Togo indique que 56 mini-réseaux solaires de l'AT2ER sont inscrits au projet de budget-programme 2027. Leurs travaux doivent commencer en 2027, pour près de 19 000 ménages potentiels. Aucun montant ni bailleur n'est indiqué.", "en": "On 10 November 2026, Togo's official portal lists 56 AT2ER solar mini-grids in the draft 2027 programme budget. Construction is due to start in 2027, for nearly 19,000 potential households. No amount or lender is given."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.republiquetogolaise.tg/energies/1011-12479-togo-les-travaux-de-construction-de-56-mini-reseaux-solaires-programmes-en-2027", "publisher": "République togolaise – Togo Officiel", "title": "Togo : les travaux de construction de 56 mini-réseaux solaires programmés en 2027", "published": "2026-11-10", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "route-banfora-frontiere-ci",
+    "name": {"fr": "Route Banfora – frontière ivoirienne", "en": "Banfora – Côte d'Ivoire border road"},
+    "country": "BF",
+    "sector": "transport",
+    "stage": 1,
+    "status": "publié",
+    "summary": {"fr": "Le 12 novembre 2026, le Burkina Faso a lancé un appel d'offres international pour réhabiliter et renforcer la route Banfora – frontière ivoirienne. La route mesure 71,3 km et les travaux comptent deux lots de 18 mois chacun. Un prêt du Fonds africain de développement et un don de l'Union européenne les financent, dans le cadre du PIRCoFaT. Les offres sont attendues le 31 décembre 2026 ; le coût des travaux n'est pas publié.", "en": "On 12 November 2026, Burkina Faso launched an international tender to rehabilitate and strengthen the Banfora – Côte d'Ivoire border road. The road is 71.3 km long and the works are split into two lots of 18 months each. They are financed by an African Development Fund loan and a European Union grant, under the PIRCoFaT programme. Bids are due on 31 December 2026; the cost of the works has not been published."},
+    "capacity": {"fr": "71,3 km, deux lots", "en": "71.3 km, two lots"},
+    "cost": null,
+    "owner": null,
+    "lenders": [{"fr": "Fonds africain de développement", "en": "African Development Fund"}, {"fr": "Union européenne", "en": "European Union"}],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-12",
+        "type": "appel-d-offres",
+        "text": {"fr": "Le Burkina Faso émet l'avis d'appel d'offres international pour réhabiliter et renforcer la route Banfora – frontière ivoirienne (71,3 km). Les travaux comptent deux lots de 18 mois, financés par un prêt du FAD et un don de l'UE. Les offres sont attendues le 31 décembre 2026.", "en": "Burkina Faso issues the international tender notice to rehabilitate and strengthen the Banfora – Côte d'Ivoire border road (71.3 km). The works comprise two 18-month lots, financed by an ADF loan and an EU grant. Bids are due on 31 December 2026."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://www.afdb.org/sites/default/files/documents/project-related-procurement/avis_aoi_-_trvx_banfora_frt_rci_-version_finale.pdf", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "Avis d'appel d'offres international ouvert n° 011 – Travaux Banfora – Frontière Côte d'Ivoire", "published": "2026-11-12", "tier": "A"}, {"url": "https://www.afdb.org/en/documents/aoi-burkina-faso-travaux-rehabilitation-98555", "publisher": {"fr": "Banque africaine de développement", "en": "African Development Bank"}, "title": "AOI - Burkina Faso - Travaux de réhabilitation et de renforcement de la route Banfora – Frontière Côte d'Ivoire (71,3 km) « en deux lots (02) distincts» - PIRCoFaT", "published": "2026-11-13", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-16"
+  },
+  {
+    "id": "stockage-glp-asharami-mombasa",
+    "name": {"fr": "Dépôt de GPL d'Asharami à Mombasa", "en": "Asharami LPG storage facility in Mombasa"},
+    "country": "KE",
+    "sector": "energie",
+    "stage": 3,
+    "status": "brouillon",
+    "summary": {"fr": "Asharami prévoit un dépôt de gaz de pétrole liquéfié (GPL) de 30 000 tonnes à Mombasa, au Kenya. Le dépôt est implanté sur le site de Kenya Petroleum Refineries Limited (KPRL). Selon le régulateur kényan de l'énergie, l'EPRA, la première pierre a été posée le 10 novembre 2026. Aucun montant ni calendrier de mise en service n'est publié.", "en": "Asharami plans a 30,000-tonne liquefied petroleum gas (LPG) storage facility in Mombasa, Kenya. The facility is on the site of Kenya Petroleum Refineries Limited (KPRL). According to Kenya's energy regulator, EPRA, the foundation stone was laid on 10 November 2026. No amount or commissioning schedule has been published."},
+    "capacity": {"fr": "30 000 tonnes de GPL", "en": "30,000 tonnes of LPG"},
+    "cost": null,
+    "owner": ["Asharami"],
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-10",
+        "type": "travaux",
+        "text": {"fr": "Le régulateur EPRA rend compte de la cérémonie de première pierre du dépôt de GPL de 30 000 tonnes d'Asharami, le 10 novembre 2026. Le dépôt est implanté sur le site de KPRL, à Mombasa. Aucun montant n'est publié.", "en": "The regulator EPRA reports on the foundation stone ceremony for Asharami's 30,000-tonne LPG storage facility on 10 November 2026. The facility is on the KPRL site in Mombasa. No amount has been published."},
+        "confidence": "confirmé",
+        "sources": [{"url": "https://x.com/EPRA_KE/status/2120141468509642994", "publisher": "EPRA (Kenya)", "title": "Post X @EPRA_KE (première pierre Asharami)", "published": "2026-11-10", "tier": "A"}]
+      }
+    ],
+    "updated": "2026-11-16"
   }
 ]
