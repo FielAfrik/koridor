@@ -1046,5 +1046,225 @@
       }
     ],
     "updated": "2026-11-16"
+  },
+  {
+    "id": "usine-dessalement-mamelles",
+    "name": {
+      "fr": "Usine de dessalement d'eau de mer des Mamelles",
+      "en": "Mamelles seawater desalination plant"
+    },
+    "country": "SN",
+    "sector": "eau",
+    "stage": 3,
+    "status": "publié",
+    "summary": {"fr": "L'usine de dessalement d'eau de mer des Mamelles, au Sénégal, sera inaugurée par le président de la République le 3 décembre 2026. Le communiqué du Conseil des ministres du 18 novembre 2026 annonce cette date. Il ne donne ni la capacité de l'usine, ni son coût, ni ses bailleurs.", "en": "The Mamelles seawater desalination plant in Senegal will be inaugurated by the President on 3 December 2026. The Council of Ministers statement of 18 November 2026 announces this date. It gives no capacity, cost or lenders for the plant."},
+    "capacity": null,
+    "cost": null,
+    "owner": null,
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-18",
+        "type": "annonce",
+        "text": {
+          "fr": "Le président de la République inaugurera l'usine de dessalement d'eau de mer des Mamelles le 3 décembre 2026, selon le communiqué du Conseil des ministres. Ce texte ne donne ni capacité, ni coût, ni bailleur.",
+          "en": "The President will inaugurate the Mamelles seawater desalination plant on 3 December 2026, according to the Council of Ministers statement. The statement gives no capacity, cost or lender."
+        },
+        "confidence": "confirmé",
+        "sources": [
+          {
+            "url": "https://primature.sn/publications/conseil-des-ministres/conseil-des-ministres-du-18-novembre-2026",
+            "publisher": {
+              "fr": "Primature du Sénégal",
+              "en": "Prime Minister's Office (Senegal)"
+            },
+            "title": "Conseil des ministres du 18 novembre 2026",
+            "published": "2026-11-18",
+            "tier": "A"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-23"
+  },
+  {
+    "id": "port-ndayane",
+    "name": {
+      "fr": "Port de Ndayane",
+      "en": "Port of Ndayane"
+    },
+    "country": "SN",
+    "sector": "transport",
+    "stage": 0,
+    "status": "publié",
+    "summary": {"fr": "Le 18 novembre 2026, en Conseil des ministres, le Premier ministre du Sénégal situe les essais du port de Ndayane au cours de l'année 2027. Il insiste sur le financement de l'indemnisation et de la libération des emprises. Il insiste aussi sur un raccordement au réseau de la Senelec dans des délais compatibles avec ces essais. Le communiqué ne nomme ni le porteur du projet, ni son coût, ni ses financeurs.", "en": "On 18 November 2026, at the Council of Ministers, Senegal's Prime Minister placed the trials of the Port of Ndayane in the course of 2027. He stressed the need to secure funding for compensation and for clearing the project land. He also stressed the need for a connection to the Senelec grid on a timetable compatible with these trials. The statement does not name the project sponsor, its cost or its financiers."},
+    "capacity": null,
+    "cost": null,
+    "owner": null,
+    "lenders": null,
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-18",
+        "type": "annonce",
+        "text": {
+          "fr": "En Conseil des ministres, le Premier ministre situe les essais du port de Ndayane au cours de l'année 2027. Il insiste sur le financement de l'indemnisation et de la libération des emprises. Il insiste aussi sur un raccordement au réseau de la Senelec dans des délais compatibles avec ces essais.",
+          "en": "At the Council of Ministers, the Prime Minister places the trials of the Port of Ndayane in the course of 2027. He stresses the need to secure funding for compensation and for clearing the project land. He also stresses the need for a connection to the Senelec grid on a timetable compatible with these trials."
+        },
+        "confidence": "confirmé",
+        "sources": [
+          {
+            "url": "https://primature.sn/publications/conseil-des-ministres/conseil-des-ministres-du-18-novembre-2026",
+            "publisher": {
+              "fr": "Primature du Sénégal",
+              "en": "Prime Minister's Office (Senegal)"
+            },
+            "title": "Conseil des ministres du 18 novembre 2026",
+            "published": "2026-11-18",
+            "tier": "A"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-23"
+  },
+  {
+    "id": "centrale-mobile-sonelgaz-ci-40mw",
+    "name": {
+      "fr": "Centrale à turbines à gaz mobiles de 2 × 20 MW de CI-Énergies",
+      "en": "CI-Énergies 2 × 20 MW mobile gas turbine power plant"
+    },
+    "country": "CI",
+    "sector": "energie",
+    "stage": 1,
+    "status": "publié",
+    "summary": {"fr": "Sonelgaz International et CI-Énergies ont signé un contrat de réalisation d'une centrale de 2 × 20 MW à turbines à gaz mobiles en Côte d'Ivoire. Le communiqué de Sonelgaz, daté du 16 novembre 2026, le range parmi trois accords signés lors de la visite du ministre algérien de l'Énergie. Il ne donne ni montant, ni site, ni date de mise en service.", "en": "Sonelgaz International and CI-Énergies have signed a contract to build a 2 × 20 MW mobile gas turbine power plant in Côte d'Ivoire. Sonelgaz's statement, dated 16 November 2026, lists it among three agreements signed during the visit of Algeria's energy minister. It gives no amount, site or commissioning date."},
+    "capacity": "2 × 20 MW",
+    "cost": null,
+    "owner": [
+      "CI-Énergies"
+    ],
+    "lenders": null,
+    "contractors": [
+      "Sonelgaz International"
+    ],
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-16",
+        "type": "signature",
+        "text": {
+          "fr": "Sonelgaz International et CI-Énergies signent un contrat de réalisation d'une centrale électrique de 2 × 20 MW à turbines à gaz mobiles en Côte d'Ivoire. Ce contrat fait partie de trois accords signés lors de la visite du ministre algérien de l'Énergie. Le communiqué de Sonelgaz ne donne ni montant, ni site, ni échéance.",
+          "en": "Sonelgaz International and CI-Énergies sign a contract to build a 2 × 20 MW mobile gas turbine power plant in Côte d'Ivoire. The contract is one of three agreements signed during the visit of Algeria's energy minister. The Sonelgaz statement gives no amount, site or timetable."
+        },
+        "confidence": "confirmé",
+        "sources": [
+          {
+            "url": "https://www.sonelgaz.dz/media/file/11234/communiquen30_6afdab6d799205.00945322.pdf",
+            "publisher": "Sonelgaz",
+            "title": "Communiqué n° 30 : signature de trois contrats entre Sonelgaz International et CI-Énergies",
+            "published": "2026-11-16",
+            "tier": "A"
+          },
+          {
+            "url": "https://www.sonelgaz.dz/fr/7327/lalgerie-et-la-cte-divoire-renforcent-leur-cooperation-dans-le-domaine-de-lenergie-travers-la-signature-de-trois-contrats-strategiques-entre-sonelgaz-international-et-la-societe-ivoirienne-denergie-ci-energie",
+            "publisher": "Sonelgaz",
+            "title": "L'Algérie et la Côte d'Ivoire renforcent leur coopération dans le domaine de l'énergie à travers la signature de trois contrats stratégiques entre Sonelgaz International et la société ivoirienne d'énergie CI-Énergie",
+            "published": "2026-11-16",
+            "tier": "A"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-23"
+  },
+  {
+    "id": "paqee-rcc-tunisie",
+    "name": {
+      "fr": "Programme PAQEE-RCC d'épuration des eaux usées (Tunisie)",
+      "en": "PAQEE-RCC wastewater treatment programme (Tunisia)"
+    },
+    "country": "TN",
+    "sector": "eau",
+    "stage": 2,
+    "status": "publié",
+    "summary": {"fr": "Le PAQEE-RCC est un programme de l'Office national de l'assainissement (ONAS) qui porte sur 19 stations d'épuration dans 11 gouvernorats tunisiens. La BAD a approuvé le 6 décembre 2023 un prêt de 81,9 millions d'euros pour ce programme, prévu de 2024 à 2028. Le 18 novembre 2026, l'ONAS a lancé un appel d'offres international pour renouveler les équipements électromécaniques de trois stations du gouvernorat de Béja. Les offres sont attendues le 7 janvier 2027.", "en": "PAQEE-RCC is a programme of the National Sanitation Office (ONAS) covering 19 wastewater treatment plants in 11 Tunisian governorates. On 6 December 2023 the AfDB approved a €81.9 million loan for the programme, which is scheduled to run from 2024 to 2028. On 18 November 2026, ONAS launched an international tender to renew the electromechanical equipment of three plants in Béja governorate. Bids are due on 7 January 2027."},
+    "capacity": {
+      "fr": "19 stations d'épuration dans 11 gouvernorats",
+      "en": "19 wastewater treatment plants in 11 governorates"
+    },
+    "cost": null,
+    "owner": [
+      {
+        "fr": "Office national de l'assainissement (ONAS)",
+        "en": "National Sanitation Office (ONAS)"
+      }
+    ],
+    "lenders": [
+      {
+        "fr": "Banque africaine de développement",
+        "en": "African Development Bank"
+      }
+    ],
+    "contractors": null,
+    "target_date": null,
+    "milestones": [
+      {
+        "date": "2026-11-18",
+        "type": "appel-d-offres",
+        "text": {
+          "fr": "L'ONAS lance l'appel d'offres international n° 68/2026 pour renouveler les équipements électromécaniques des stations d'épuration de Testour, Teboursouk et Nefza, dans le gouvernorat de Béja. Le marché est financé par la BAD. Les offres sont attendues le 7 janvier 2027.",
+          "en": "ONAS launches international tender No. 68/2026 to renew the electromechanical equipment of the Testour, Teboursouk and Nefza wastewater treatment plants in Béja governorate. The contract is financed by the AfDB. Bids are due on 7 January 2027."
+        },
+        "confidence": "confirmé",
+        "sources": [
+          {
+            "url": "https://www.afdb.org/en/documents/aoi-tunisie-renouvellement-equipements-98722",
+            "publisher": {
+              "fr": "Banque africaine de développement",
+              "en": "African Development Bank"
+            },
+            "title": "AOI - Tunisie - Renouvellement des équipements électromécaniques des stations d'épuration de Testour, Teboursouk et Nefza dans le gouvernorat de Béja - PAQEE-RCC",
+            "published": "2026-11-18",
+            "tier": "A"
+          },
+          {
+            "url": "https://www.afdb.org/sites/default/files/documents/project-related-procurement/avis26fr_68-2026.pdf",
+            "publisher": {
+              "fr": "Office national de l'assainissement (ONAS)",
+              "en": "National Sanitation Office (ONAS)"
+            },
+            "title": "Avis d'appel d'offres international ouvert n° 68/2026",
+            "published": "2026-11-18",
+            "tier": "A"
+          }
+        ]
+      },
+      {
+        "date": "2023-12-06",
+        "type": "financement",
+        "text": {
+          "fr": "La BAD approuve un prêt de 81,9 millions d'euros pour le PAQEE-RCC, au profit de l'ONAS. Le programme couvre 19 stations d'épuration dans 11 gouvernorats et doit être mis en œuvre de 2024 à 2028.",
+          "en": "The AfDB approves a €81.9 million loan for PAQEE-RCC, for the benefit of ONAS. The programme covers 19 wastewater treatment plants in 11 governorates and is to be implemented from 2024 to 2028."
+        },
+        "confidence": "confirmé",
+        "sources": [
+          {
+            "url": "https://www.afdb.org/fr/news-and-events/press-releases/tunisie-la-banque-africaine-de-developpement-accorde-un-financement-denviron-82-millions-deuros-pour-mieux-traiter-les-eaux-usees-reutiliser-dans-lagriculture-et-renforcer-la-resilience-climatique-67010",
+            "publisher": {
+              "fr": "Banque africaine de développement",
+              "en": "African Development Bank"
+            },
+            "title": "Tunisie : la Banque africaine de développement accorde un financement d'environ 82 millions d'euros pour mieux traiter les eaux usées à réutiliser dans l'agriculture et renforcer la résilience climatique",
+            "published": "2023-12-12",
+            "tier": "A"
+          }
+        ]
+      }
+    ],
+    "updated": "2026-11-23"
   }
 ]

@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-23",
+  "number": 6,
+  "moved": [
+    {
+      "project_id": "centrale-mobile-sonelgaz-ci-40mw",
+      "line": {
+        "fr": "Sonelgaz International et CI-Énergies signent un contrat de réalisation d'une centrale de 2 × 20 MW à turbines à gaz mobiles. Communiqué de Sonelgaz du 16 novembre.",
+        "en": "Sonelgaz International and CI-Énergies signed a contract to build a 2 × 20 MW mobile gas turbine power plant. Sonelgaz statement of 16 November."
+      }
+    },
+    {
+      "project_id": "paqee-rcc-tunisie",
+      "line": {
+        "fr": "L'ONAS lance le 18 novembre l'appel d'offres pour rééquiper trois stations d'épuration de Béja, sur financement de la BAD. Offres attendues le 7 janvier 2027.",
+        "en": "ONAS launched the tender to re-equip three wastewater treatment plants in Béja on 18 November, with AfDB financing. Bids are due on 7 January 2027."
+      }
+    },
+    {
+      "project_id": "usine-dessalement-mamelles",
+      "line": {
+        "fr": "Le Conseil des ministres du 18 novembre annonce l'inauguration de l'usine de dessalement des Mamelles le 3 décembre 2026.",
+        "en": "The Council of Ministers of 18 November announced that the Mamelles desalination plant will be inaugurated on 3 December 2026."
+      }
+    },
+    {
+      "project_id": "port-ndayane",
+      "line": {
+        "fr": "Le Premier ministre du Sénégal situe les essais du port de Ndayane au cours de l'année 2027 (Conseil des ministres du 18 novembre).",
+        "en": "Senegal's Prime Minister placed the Port of Ndayane trials in the course of 2027 (Council of Ministers of 18 November)."
+      }
+    }
+  ],
+  "deal": {
+    "project_id": "centrale-mobile-sonelgaz-ci-40mw",
+    "title": {
+      "fr": "Sonelgaz International et CI-Énergies signent pour une centrale mobile de 2 × 20 MW",
+      "en": "Sonelgaz International signs 2 × 20 MW mobile power plant contract with CI-Énergies"
+    },
+    "body": {
+      "fr": "Aucun financement nouveau n'a été confirmé cette semaine. Le seul prêt entré dans la base, celui de la BAD au PAQEE-RCC, date de décembre 2023. Le fait retenu ici est un contrat de réalisation, pas un financement.\n\nSonelgaz International et CI-Énergies ont signé un contrat pour une centrale électrique de 2 × 20 MW à turbines à gaz mobiles en Côte d'Ivoire. CI-Énergies est le maître d'ouvrage. Le contrat fait partie de trois accords signés lors de la visite du ministre algérien de l'Énergie.\n\nSonelgaz l'annonce dans un communiqué daté du 16 novembre 2026. Ce texte ne donne ni montant, ni site, ni date de mise en service. Le financement de la centrale n'est pas publié.",
+      "en": "No new financing was confirmed this week. The only loan added to the database, the AfDB's loan to PAQEE-RCC, dates from December 2023. The deal featured here is a construction contract, not a financing.\n\nSonelgaz International and CI-Énergies have signed a contract for a 2 × 20 MW mobile gas turbine power plant in Côte d'Ivoire. CI-Énergies is the project owner. The contract is one of three agreements signed during the visit of Algeria's energy minister.\n\nSonelgaz announced it in a statement dated 16 November 2026. The statement gives no amount, site or commissioning date. The plant's financing has not been published."
+    }
+  },
+  "analysis": {
+    "title": {
+      "fr": "L'ONAS lance le rééquipement de trois stations d'épuration de Béja, financé par la BAD",
+      "en": "ONAS opens AfDB-financed tender to re-equip three wastewater treatment plants in Béja"
+    },
+    "body": {
+      "fr": "Cette semaine, la base Koridor compte quatre fiches nouvelles et aucune fiche existante modifiée. Une seule des quatre associe un montant, un bailleur et une échéance : le PAQEE-RCC, en Tunisie.\n\nL'Office national de l'assainissement (ONAS) a lancé le 18 novembre 2026 l'appel d'offres international n° 68/2026. Il vise le renouvellement des équipements électromécaniques de trois stations d'épuration : Testour, Teboursouk et Nefza, dans le gouvernorat de Béja. Les offres sont attendues le 7 janvier 2027.\n\nLe marché est financé par la BAD, qui a approuvé le 6 décembre 2023 un prêt de 81,9 millions d'euros pour le programme. Ce prêt couvre 19 stations d'épuration dans 11 gouvernorats. Le montant du marché de Béja n'est pas publié : on ne peut pas en tirer une part du prêt.\n\nDans une station d'épuration, l'électromécanique regroupe en général les pompes de relevage, l'aération, les ponts racleurs, le traitement des boues et les armoires électriques. Ces équipements s'usent plus vite que les bassins en béton qui les portent. Les remplacer remet une station à niveau sans reconstruire le génie civil.\n\nLe premier risque d'exécution est le chantier en site occupé. Les trois stations continuent de traiter les eaux usées pendant les travaux. Le remplacement doit donc se faire par tranches ou avec une dérivation provisoire, sans dégrader la qualité du rejet.\n\nLa fiche Koridor ne dit pas comment ce phasage est prévu. Elle ne dit pas non plus si les trois stations forment un seul lot ou plusieurs.\n\nLe second risque est le calendrier. Le programme doit être mis en œuvre de 2024 à 2028. Entre la remise des offres, le 7 janvier 2027, et la fin de 2028, il reste moins de deux ans (calcul Koridor).\n\nCe délai doit couvrir l'évaluation des offres, l'accord du bailleur, la signature, la fabrication et la livraison des équipements, puis le montage et les essais.\n\nL'avis de Béja paraît près de trois ans après l'approbation du prêt (calcul Koridor, du 6 décembre 2023 au 18 novembre 2026). La base ne contient pas l'état des autres marchés du programme. Elle ne permet donc pas de dire si le PAQEE-RCC est en retard.\n\nLa BAD présente le programme comme un moyen de mieux traiter les eaux usées pour les réutiliser dans l'agriculture. La durée du prêt et son taux ne figurent pas dans la fiche.\n\nÀ suivre : l'ouverture des offres le 7 janvier 2027, puis l'attribution du marché.",
+      "en": "This week the Koridor database gained four new profiles and updated no existing one. Only one of the four combines an amount, a lender and a deadline: PAQEE-RCC, in Tunisia.\n\nThe National Sanitation Office (ONAS) launched international tender No. 68/2026 on 18 November 2026. It covers the renewal of electromechanical equipment at three wastewater treatment plants: Testour, Teboursouk and Nefza, in Béja governorate. Bids are due on 7 January 2027.\n\nThe contract is financed by the AfDB, which approved a €81.9 million loan for the programme on 6 December 2023. The loan covers 19 wastewater treatment plants in 11 governorates. The value of the Béja contract has not been published, so its share of the loan cannot be worked out.\n\nIn a wastewater treatment plant, the electromechanical equipment generally includes lift pumps, aeration, scraper bridges, sludge treatment and electrical panels. This equipment wears out faster than the concrete tanks that hold it. Replacing it brings a plant back up to standard without rebuilding the civil works.\n\nThe first execution risk is working on a site that stays in operation. The three plants keep treating wastewater during the works. Replacement must therefore be done in phases or with a temporary bypass, without degrading effluent quality.\n\nThe Koridor profile does not say how this phasing is planned. Nor does it say whether the three plants form a single lot or several.\n\nThe second risk is the schedule. The programme is to be implemented from 2024 to 2028. Between bid submission on 7 January 2027 and the end of 2028, less than two years remain (Koridor calculation).\n\nThat window has to cover bid evaluation, the lender's approval, contract signature, manufacture and delivery of the equipment, then installation and testing.\n\nThe Béja notice comes almost three years after the loan was approved (Koridor calculation, from 6 December 2023 to 18 November 2026). The database does not hold the status of the programme's other contracts. It therefore cannot show whether PAQEE-RCC is behind schedule.\n\nThe AfDB presents the programme as a way to improve wastewater treatment so that the water can be reused in agriculture. The loan's tenor and interest rate are not in the profile.\n\nTo watch: the opening of bids on 7 January 2027, then the contract award."
+    }
+  }
+}
